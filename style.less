@@ -32,25 +32,36 @@
 }
 
 .colors-body {
-    &:hover {
-        .developers {
+    a:hover {
+        transition-property: all;
+        transition-duration: 0.6s;
+        transition-timing-function: ease-out;
+
+        &.developers {
             background-color: @developers-color;
+            color: #fff;
+            border-bottom: solid 3px darken(@developers-color,10%);
         }
 
-        .biologists {
+        &.biologists {
             background-color: @biologists-color;
+            border-bottom: solid 3px darken(@biologists-color,10%);
+            color: #fff;
         }
 
-        .contact {
+        &.contact {
+            border-bottom: solid 3px darken(@contact-color,10%);
             background-color: @contact-color;
         }
 
-        .resources {
+        &.resources {
+            border-bottom: solid 3px darken(@resources-color,10%);
             background-color: @resources-color;
         }
 
-        .affiliations {
+        &.affiliations {
             background-color: @affiliations-color;
+            border-bottom: solid 3px darken(@affiliations-color,10%);
         }
     }
 }
@@ -132,16 +143,17 @@ header {
             border-top: 0;
             text-decoration: none;
             color: #333;
-            .colors-body;
         }
+        .colors-body;
     }
 }
 
 main {
     margin: 0 @spacer;
     flex-grow: 1;
+
     h2 {
-      margin: @spacer/2 0 @spacer/2 0;
+        margin: @spacer/2 0;
     }
 }
 
@@ -152,7 +164,6 @@ main {
     flex-direction: column;
     border-bottom: solid darken(@seriously-pale-grey,10%) 1px;
     .shadowed-box(1px);
-
 
     &:nth-child(2) {
         background-color: darken(@seriously-pale-grey,5%);
@@ -195,7 +206,7 @@ main {
 
 #showcase-content {
     display: flex;
-    margin: 0 -@spacer @spacer -@spacer;
+    margin: 0 -@spacer @spacer;
 }
 
 .showcase-item {
@@ -277,17 +288,15 @@ footer {
             padding: 0;
             list-style-type: none;
         }
-    }
-}
 
-.fakeimage {
-    background-color: #999;
-    border: solid 2px #333;
-    .border-radius;
-    padding: @spacer;
-    margin: @spacer @spacer @spacer -@spacer;
-    font-size: 0.8em;
-    text-align: center;
-    display: flex;
-    align-items: center;
+        a {
+            text-decoration: none;
+            color: lighten(@dark-font,10%);
+
+            background-color:@seriously-pale-grey;
+             &:visited {
+                color: @dark-font;
+            }
+        }
+    }
 }
