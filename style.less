@@ -1,5 +1,14 @@
 @intermine-color: #bed73b;
+@seriously-pale-grey: #f4f4f4;
 @spacer: 0.8em;
+
+.shadowed-box(@shadow) {
+    box-shadow: @shadow @shadow @shadow @shadow rgba(0,0,0,0.05);
+}
+
+.border-radius {
+    border-radius: 2px;
+}
 
 html {
     min-height: 100%;
@@ -24,10 +33,11 @@ header {
     box-sizing: border-box;
 
     nav ul {
+        .shadowed-box(1px);
         display: flex;
         list-style-type: none;
         color: @intermine-color;
-        background-color: #e8e8e8;
+        background-color: @seriously-pale-grey;
         flex-grow: 1;
         margin: 0;
         padding: 0 @spacer;
@@ -52,12 +62,72 @@ main {
     flex-grow: 1;
 }
 
+.tagline {
+    margin: 0 -@spacer;
+    padding: @spacer;
+
+    &:nth-child(2) {
+        background-color: darken(@seriously-pale-grey,5%);
+    }
+
+    .details {
+        display: flex;
+        font-size: 1.8em;
+        max-width: 1200px;
+        padding: 0 @spacer;
+
+        .supporting-text {
+            font-size: 0.6em;
+        }
+    }
+}
+
 #showcase-content {
     display: flex;
+    margin: 0 -@spacer;
 }
 
 .showcase-item {
+    .shadowed-box(1px);
+    .border-radius;
     flex-grow: 1;
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-out;
+    min-width: 200px;
+    min-height: 200px;
+    background-color: @seriously-pale-grey;
+    margin: @spacer;
+    padding: @spacer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:hover {
+        flex-grow: 4;
+    }
+
+    h3 {
+        margin: 0;
+    }
+}
+
+.showcase-details {
+    display: flex;
+
+    p {
+        max-width: 10em;
+    }
+
+    .more-details {
+      .border-radius;
+
+        text-align: right;
+        display: block;
+        padding: @spacer/2;
+        &:after {content:">>"}
+    }
 }
 
 footer {
@@ -65,12 +135,16 @@ footer {
     width: 100%;
     padding: @spacer;
     box-sizing: border-box;
-    border-top: solid 1px @intermine-color;
+    border-top: solid 3px @intermine-color;
+    background-color: @seriously-pale-grey;
+    justify-content: space-around;
 
     .sitemap-link-group {
         padding: 0 @spacer;
+
         .subheading {
-          margin:0; padding:0;
+            margin: 0;
+            padding: 0;
         }
 
         ul {
