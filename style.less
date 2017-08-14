@@ -3,11 +3,12 @@
 @spacer: 1em;
 @dark-font: #111;
 @border-radius: 2px;
-@biologists-color: #673AB7;
-@developers-color: #03A9F4;
+@bioinformaticians-color: #673AB7;
+@biologists-color: #03A9F4;
+@developers-color: #E91E63;
 @contact-color: @intermine-color;
 @resources-color: #FFC107;
-@affiliations-color: #E91E63;
+@affiliations-color: #FF5722;
 
 .colors {
     .developers {
@@ -16,6 +17,10 @@
 
     .biologists {
         border: solid 3px @biologists-color;
+    }
+
+    .bioinformaticians {
+        border: solid 3px @bioinformaticians-color;
     }
 
     .contact {
@@ -30,6 +35,33 @@
         border: solid 3px @affiliations-color;
     }
 }
+
+.colors-hover-border {
+    .developers li a:hover  {
+        border-bottom: solid 3px @developers-color;
+    }
+
+    .biologists li a:hover {
+        border-bottom: solid 3px @biologists-color;
+    }
+
+    .bioinformaticians li a:hover{
+        border-bottom: solid 3px @bioinformaticians-color;
+    }
+
+    .contact li a:hover{
+        border-bottom: solid 3px @contact-color;
+    }
+
+    .resources li a:hover{
+        border-bottom: solid 3px @resources-color;
+    }
+
+    .affiliations  footer li a:hover{
+        border-bottom: solid 3px @affiliations-color;
+    }
+}
+
 
 .colors-body {
     a:hover {
@@ -289,14 +321,36 @@ footer {
             list-style-type: none;
         }
 
-        a {
+        li a {
             text-decoration: none;
             color: lighten(@dark-font,10%);
-
+            display:flex;
+            align-items:center;
+            .icon {margin-right:@spacer/2;}
             background-color:@seriously-pale-grey;
+            border-bottom:solid @seriously-pale-grey 3px;
              &:visited {
                 color: @dark-font;
             }
+            &:hover {
+              background-color:lighten(@seriously-pale-grey,100%);
+            }
         }
     }
+    .colors-hover-border;
+    .funders, .affiliation-logos {
+      display:flex;
+      flex-wrap:wrap;
+      align-items:center;
+      a {flex-grow:1;}
+    }
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
