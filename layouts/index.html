@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="utf-8">
-    <title>InterMine</title>
-    <link rel="stylesheet" href="{{.Site.BaseURL}}/style.css">
-</head>
+{{partial "head.html" . }}
 
 <body>
   {{ partial "header.html" .}}
@@ -42,12 +38,12 @@
               <div class="showcase-item">
                   <h3>Mobile InterMine apps</h3>
                   <div class="showcase-details">
-                      <a href="/mobile-apps">
+                      <a href="{{.Site.BaseURL}}/mobile-apps">
                           <img src="{{.Site.BaseURL}}/images/intermine-android-app.png" width="114" height="220" alt="review screenshot of mobile application"></a>
                   </div>
                   <div>
                       <p>Search across all InterMines on <a href="https://play.google.com/store/apps/details?id=org.intermine.app">Android</a> or <a href="nope">iOS</a>.</p>
-                      <a href="/mobile-apps" class="more-details">Mobile app home</a>
+                      <a href="{{.Site.BaseURL}}/mobile-apps" class="more-details">Mobile app home</a>
 
                   </div>
               </div>
