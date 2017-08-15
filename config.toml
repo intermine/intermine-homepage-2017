@@ -1,4 +1,4 @@
-baseurl = "http://yochannah.github.io/"
+baseurl = "http://yochannah.github.io/intermine-homepage-mocks"
 languageCode = "en-gb"
 title = "InterMine - data integration, analysis, and warehousing"
 publishDir = "docs"
