@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://yochannah.github.io/intermine-homepage-mocks/</loc>
+    <loc>http://yochannah.github.io/mobile-apps/</loc>
+  </url>
+  
+  <url>
+    <loc>http://yochannah.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://yochannah.github.io/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://yochannah.github.io/mobile-apps/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://yochannah.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
