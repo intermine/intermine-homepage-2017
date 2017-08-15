@@ -298,6 +298,16 @@ main {
     p {
         max-width: 10em;
     }
+
+    img {
+        margin-right: @spacer
+    }
+
+    .googleplay {
+        max-width: 200px;
+        //offsets that annoying clear spacing built into the image
+        margin-left: -10px;
+    }
 }
 
 footer {
@@ -357,6 +367,10 @@ footer {
 
         a {
             flex-grow: 1;
+        }
+
+        img {
+            opacity: 0.8;
         }
     }
 }
