@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contributors on InterMine - data integration, analysis, and warehousing</title>
+    <link>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/</link>
+    <description>Recent content in Contributors on InterMine - data integration, analysis, and warehousing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    
+	<atom:link href="https://yochannah.github.io/intermine-homepage-mocks/about/contributors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

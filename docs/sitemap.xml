@@ -3,11 +3,79 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/gos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/julie/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/daniela/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/josh/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/justin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/rachel/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/sergio/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/yo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/projects/</loc>
+  </url>
+  
+  <url>
     <loc>https://yochannah.github.io/intermine-homepage-mocks/mobile-apps/</loc>
   </url>
   
   <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/"
+                />
+  </url>
+  
+  <url>
     <loc>https://yochannah.github.io/intermine-homepage-mocks/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/</loc>
     <priority>0</priority>
   </url>
   
