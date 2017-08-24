@@ -1,3 +1,7 @@
+//quick note: there is no pipeline set up to build this. You'll have to compile it yourself after you update it.
+//find a less compiler that suits you: http://lesscss.org/#using-less
+//Yo likes prepros: https://prepros.io/.
+
 @intermine-color: #bed73b;
 @seriously-pale-grey: #f0f0f0;
 @spacer: 1em;
@@ -386,15 +390,34 @@ footer {
 
 .team-member {
     display: flex;
-    &:nth-of-type(2n) {background-color: @seriously-pale-grey}
-    img {
-        align-self: center;
-        margin-right:@spacer;
+
+    &:nth-of-type(2n) {
+        background-color: @seriously-pale-grey
     }
-    .icon {margin-right:@spacer/2}
-    ul {display:flex;
-    list-style-type:none;
-  justify-content:flex-start;
-li, li a {margin-right:@spacer; display:flex;align-items:center;
-  text-decoration:none}}
+
+    img, .placeholder {
+        align-self: center;
+        margin-right: @spacer;
+        min-width:113px;
+        min-height:136px;
+        background-color:darken(@seriously-pale-grey,10%);
+    }
+
+    .icon {
+        margin-right: @spacer/2
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-start;
+
+        li,
+        li a {
+            margin-right: @spacer;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+    }
 }
