@@ -1,7 +1,6 @@
 //quick note: there is no pipeline set up to build this. You'll have to compile it yourself after you update it.
 //find a less compiler that suits you: http://lesscss.org/#using-less
 //Yo likes prepros: https://prepros.io/.
-
 @intermine-color: #bed73b;
 @seriously-pale-grey: #f0f0f0;
 @spacer: 1em;
@@ -13,6 +12,14 @@
 @contact-color: @intermine-color;
 @resources-color: #FFC107;
 @affiliations-color: #FF5722;
+@smaller-screen: 1060px;
+@itsy-bitsy-screen: 760px;
+
+.transition {
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 0.6s;
+}
 
 .colors {
     .developers {
@@ -140,7 +147,7 @@ header {
     padding-left: @spacer;
     display: flex;
     width: 100%;
-    height: 4em;
+    height: @spacer*4;
     justify-content: space-between;
     align-items: stretch;
     border-bottom: solid darken(@seriously-pale-grey,5%) 1px;
@@ -151,6 +158,10 @@ header {
     .logo {
         display: flex;
         align-items: center;
+
+        .icon-homepage {
+            display: none;
+        }
     }
     .colors;
 
@@ -165,7 +176,6 @@ header {
         height: 100%;
         align-items: stretch;
         box-sizing: border-box;
-        border-bottom-left-radius: @border-radius;
 
         li {
             margin: 0;
@@ -174,7 +184,7 @@ header {
 
         .categories {
             box-sizing: border-box;
-            height: 4em;
+            height: @spacer*4;
             display: flex;
             align-items: center;
             padding: @spacer*1.2 @spacer*2;
@@ -186,6 +196,81 @@ header {
             color: #333;
         }
         .colors-body;
+    }
+
+    .navigation-menu-link {
+        display: none;
+    }
+    @media (max-width:@smaller-screen) {
+        .transition;
+        height: @spacer*2;
+
+        .logo img {
+            .transition;
+            height: 18px;
+            width: 150px;
+        }
+
+        nav ul .categories {
+            .transition;
+            height: @spacer*2;
+            padding: @spacer/4 @spacer
+        }
+    }
+    @media (max-width:@itsy-bitsy-screen) {
+        .icon {
+            width: @spacer*1.5;
+            height: @spacer*1.5
+        }
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: @spacer*2;
+
+        .icon-homepage {
+            display: block;
+        }
+
+        img {
+            display: none;
+        }
+    }
+
+    nav {
+        width: 100%;
+        z-index: 1;
+
+        ul {
+            flex-direction: column;
+            flex-grow: 1;
+
+            .categories {
+                display: none;
+
+                &:focus {
+                    display: block;
+                }
+                width: 100%;
+            }
+        }
+
+        .navigation-menu-link {
+            display: block;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: @spacer*3;
+        }
+
+        &:focus {
+            ul .categories {
+                background-color: @seriously-pale-grey
+            }
+        }
     }
 }
 
@@ -254,10 +339,7 @@ main {
     .shadowed-box(1px);
     .border-radius;
     flex-grow: 1;
-    transition-property: all;
-    transition-delay: 0.5s;
-    transition-duration: 0.6s;
-    transition-timing-function: ease-out;
+    .transition;
     min-width: 200px;
     min-height: 200px;
     background-color: @seriously-pale-grey;
@@ -321,8 +403,10 @@ footer {
     background-color: @seriously-pale-grey;
     justify-content: space-around;
     .colors;
+    margin-top: @spacer;
 
     .sitemap-link-group {
+        box-sizing: border-box;
         padding: 0 @spacer;
         flex-grow: 1;
         border-left: 0;
@@ -377,6 +461,11 @@ footer {
             opacity: 0.8;
         }
     }
+    @media (max-width:@smaller-screen) {
+        .transition;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
 }
 
 .icon {
@@ -390,17 +479,19 @@ footer {
 
 .team-member {
     display: flex;
+    padding-right: @spacer;
 
     &:nth-of-type(2n) {
         background-color: @seriously-pale-grey
     }
 
-    img, .placeholder {
+    .placeholder,
+    img {
         align-self: center;
         margin-right: @spacer;
-        min-width:113px;
-        min-height:136px;
-        background-color:darken(@seriously-pale-grey,10%);
+        min-width: 113px;
+        min-height: 136px;
+        background-color: darken(@seriously-pale-grey,10%);
     }
 
     .icon {
@@ -418,6 +509,10 @@ footer {
             display: flex;
             align-items: center;
             text-decoration: none;
+        }
+        @media (max-width:@smaller-screen) {
+            .transition;
+            flex-wrap: wrap;
         }
     }
 }
