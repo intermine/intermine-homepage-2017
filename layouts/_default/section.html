@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main>
+  <div>
+   <h1>TODO, FIX THIS TEMPLATE{{ .Title }}</h1>
+   <!-- ranges through each of the content files associated with a particular taxonomy term and renders the summary.html content view -->
+    {{ range .Data.Pages }}
+        {{ .Render }}
+    {{ end }}
+  </div>
+</main>
+{{ end }}

@@ -377,9 +377,24 @@ footer {
 
 .icon {
     display: inline-block;
-    width: 1em;
-    height: 1em;
+    width: @spacer;
+    height: @spacer;
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
+}
+
+.team-member {
+    display: flex;
+    &:nth-of-type(2n) {background-color: @seriously-pale-grey}
+    img {
+        align-self: center;
+        margin-right:@spacer;
+    }
+    .icon {margin-right:@spacer/2}
+    ul {display:flex;
+    list-style-type:none;
+  justify-content:flex-start;
+li, li a {margin-right:@spacer; display:flex;align-items:center;
+  text-decoration:none}}
 }

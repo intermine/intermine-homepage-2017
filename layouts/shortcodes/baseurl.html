@@ -1,3 +1,6 @@
 <!-- Reason for this shortcode existing: can't use variables in content pages,
-but I need to. This is the solution: https://github.com/gohugoio/hugo/issues/442 -->
+but I need to. This is the solution: https://github.com/gohugoio/hugo/issues/442
+Call it like so:
+{{<baseurl>}}
+-->
 {{ .Page.Site.BaseURL }}
