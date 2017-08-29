@@ -12,6 +12,7 @@
 @contact-color: @intermine-color;
 @resources-color: #FFC107;
 @affiliations-color: #FF5722;
+@largest-sane-screen: 1400px;
 @smaller-screen: 1060px;
 @itsy-bitsy-screen: 760px;
 
@@ -296,6 +297,8 @@ main {
     margin: 0 @spacer;
     flex-grow: 1;
     box-sizing: border-box;
+    max-width:@largest-sane-screen;
+    align-self:center;
     @media (max-width:@itsy-bitsy-screen) {
         margin: 0;
     }
