@@ -21,6 +21,11 @@
     transition-duration: 0.6s;
 }
 
+.transition-faster {
+    .transition;
+    transition-delay: 0s;
+}
+
 .colors {
     .developers {
         border: solid 3px @developers-color;
@@ -146,6 +151,21 @@ body {
     color: @dark-font;
 }
 
+a {
+    color: @biologists-color;
+    .transition-faster;
+
+    &:hover {
+        color: darken(@biologists-color, 20%);
+        .transition-faster;
+    }
+
+    &:visited {
+        color: @bioinformaticians-color;
+        .transition-faster;
+    }
+}
+
 header {
     padding-left: @spacer;
     display: flex;
@@ -225,50 +245,51 @@ header {
             width: @spacer*1.5;
             height: @spacer*1.5
         }
+
         .logo {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-        }
-
-        nav {
-          width: 100%;
-          z-index: 1;
-
-          ul {
-            flex-direction: column;
-            flex-grow: 1;
-
-            .categories {
-              display: none;
-
-              &:focus {
-                display: block;
-                width: 100%;
-              }
-            }
-          }
-          li {align-self:flex-end}
-          .navigation-menu-link {
-            display: block;
-            height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            width: @spacer*3;
-          }
+        }
 
-          &:focus {
-            ul .categories {
-              background-color: @seriously-pale-grey
+        nav {
+            width: 100%;
+            z-index: 1;
+
+            ul {
+                flex-direction: column;
+                flex-grow: 1;
+
+                .categories {
+                    display: none;
+
+                    &:focus {
+                        display: block;
+                        width: 100%;
+                    }
+                }
             }
-          }
+
+            li {
+                align-self: flex-end;
+            }
+
+            .navigation-menu-link {
+                display: block;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: @spacer*3;
+            }
+
+            &:focus {
+                ul .categories {
+                    background-color: @seriously-pale-grey
+                }
+            }
         }
     }
-
-
-
 }
 
 main {
@@ -329,7 +350,6 @@ main {
                 max-width: 90vw;
             }
             //todo make this not be an image.
-
             .explanation {
                 margin: 0;
             }
@@ -338,9 +358,9 @@ main {
 }
 
 #showcase {
-  @media (max-width:@smaller-screen) {
-      margin: @spacer/2;
-  }
+    @media (max-width:@smaller-screen) {
+        margin: @spacer/2;
+    }
 }
 
 #showcase-content {
@@ -348,7 +368,7 @@ main {
     margin: 0 -@spacer @spacer;
     @media (max-width:@smaller-screen) {
         flex-wrap: wrap;
-        margin:0;
+        margin: 0;
     }
 }
 
