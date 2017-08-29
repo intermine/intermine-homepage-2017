@@ -225,56 +225,50 @@ header {
             width: @spacer*1.5;
             height: @spacer*1.5
         }
-    }
+        .logo {
+          display: flex;
+          justify-content: center;
+          align-items: center;
 
-    .logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: @spacer*2;
-
-        .icon-homepage {
-            display: block;
         }
 
-        img {
-            display: none;
-        }
-    }
+        nav {
+          width: 100%;
+          z-index: 1;
 
-    nav {
-        width: 100%;
-        z-index: 1;
-
-        ul {
+          ul {
             flex-direction: column;
             flex-grow: 1;
 
             .categories {
-                display: none;
+              display: none;
 
-                &:focus {
-                    display: block;
-                }
+              &:focus {
+                display: block;
                 width: 100%;
+              }
             }
-        }
-
-        .navigation-menu-link {
+          }
+          li {align-self:flex-end}
+          .navigation-menu-link {
             display: block;
             height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
             width: @spacer*3;
-        }
+          }
 
-        &:focus {
+          &:focus {
             ul .categories {
-                background-color: @seriously-pale-grey
+              background-color: @seriously-pale-grey
             }
+          }
         }
     }
+
+
+
 }
 
 main {
