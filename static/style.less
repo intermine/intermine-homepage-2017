@@ -577,7 +577,7 @@ footer {
 
     .resource-link {
         width: 25vw;
-        max-width: 25vw;
+        max-width: 430px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -595,7 +595,6 @@ footer {
         }
         .transition-faster;
 
-
         a {
             color: @dark-font
         }
@@ -611,28 +610,54 @@ footer {
         p {
             text-align: justify;
             font-size: 90%;
-            margin:@spacer/4 0 0 0;
+            margin: @spacer/4 0 0;
+
             a {
                 text-decoration: none;
             }
         }
-        .more-details {align-self:flex-end;
-          .transition-faster;
-          &:hover {
-              background-color: @seriously-pale-grey
-          }
-}
+
+        .more-details {
+            align-self: flex-end;
+            .transition-faster;
+
+            &:hover {
+                background-color: @seriously-pale-grey
+            }
+        }
+
         &.inline-links a {
-          text-decoration:underline;
+            text-decoration: underline;
         }
     }
 }
 
+.single-resource {
+    display: flex;
+    justify-content: center;
+    padding-top: @spacer;
+    .colors;
+
+    h2.colors {
+        border-width: 0 0 3px 0;
+    }
+
+    img {
+        width: 20vw;
+        height: 20vw;
+        margin-right: @spacer *2;
+    }
+}
 // blackfriday, hugo's markdown engine, generates so many goshdarn empty <p> tags
+// that we have to hackily hide them using the p:empty below.
+// you should
 // also be wary of whitespace-filled <p> tags, which this won't hide, since
 // they're technically not empty.
 // <p> {{Something}}</p> could be enough to generate a whitespace <p> tag.
 // Fix it by removing that first whitespace, like this:
 // <p>{{Something}}</p>
 //argh.  I'm sorry.
-p:empty {display:none;}
+
+p:empty {
+    display: none;
+}
