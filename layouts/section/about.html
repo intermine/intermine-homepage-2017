@@ -16,12 +16,11 @@
               {{if isset .Params "picture"}}
                 <img src="{{ .Params.picture }}" />
               {{else}}
-              {{if isset .Params "localpicture"}}
-
-              <img src="{{.Site.BaseURL}}/images/{{ .Params.localpicture }}" width="113px" />
-              {{else}}
-              <div class="placeholder"></div>
-              {{end}}
+                {{if isset .Params "localpicture"}}
+                  <img src="{{.Site.BaseURL}}/images/{{ .Params.localpicture }}" width="113px" />
+                {{else}}
+                  <div class="placeholder"></div>
+                {{end}}
               {{end}}
                 <div class="details">
                   <h3>{{ .Params.name }}</h3> {{.Content}}
