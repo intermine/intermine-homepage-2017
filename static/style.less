@@ -611,7 +611,7 @@ footer {
         p {
             text-align: justify;
             font-size: 90%;
-
+            margin:@spacer/4 0 0 0;
             a {
                 text-decoration: none;
             }
@@ -622,8 +622,17 @@ footer {
               background-color: @seriously-pale-grey
           }
 }
-        &.inline-links p a a {
+        &.inline-links a {
           text-decoration:underline;
         }
     }
 }
+
+// blackfriday, hugo's markdown engine, generates so many goshdarn empty <p> tags
+// also be wary of whitespace-filled <p> tags, which this won't hide, since
+// they're technically not empty.
+// <p> {{Something}}</p> could be enough to generate a whitespace <p> tag.
+// Fix it by removing that first whitespace, like this:
+// <p>{{Something}}</p>
+//argh.  I'm sorry.
+p:empty {display:none;}
