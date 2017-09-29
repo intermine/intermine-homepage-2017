@@ -13,7 +13,10 @@
             </h2>
 
         {{.Content}}
-        <a href="{{ .Site.BaseURL }}{{.Section}}">Back to all content for {{.Section}}</a>
+
+        <a class="more-details" href="{{.Params.link}}">Learn more</a>
+
+        <a class="back" href="{{ .Site.BaseURL }}{{.Section}}">Back to all content for {{.Section}}</a>
       </div>
     </main>
 
