@@ -7,17 +7,18 @@
     {{ partial "header.html" .}}
     <main>
         <h2>
-      {{.Title}}
+          {{.Title}}
         </h2>
+        <div>{{.Content}}</div>
         <div>
 
             {{ range .Data.Pages }}
             <div class="team-member">
               {{if isset .Params "picture"}}
-                <img src="{{ .Params.picture }}" />
+                <img src="{{ .Params.picture }}" width="113"/>
               {{else}}
                 {{if isset .Params "localpicture"}}
-                  <img src="{{.Site.BaseURL}}/images/{{ .Params.localpicture }}" width="113px" />
+                  <img src="{{.Site.BaseURL}}/images/{{ .Params.localpicture }}" width="113" />
                 {{else}}
                   <div class="placeholder"></div>
                 {{end}}
