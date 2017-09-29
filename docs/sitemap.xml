@@ -11,15 +11,6 @@
   </url>
   
   <url>
-    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/"
-                />
-  </url>
-  
-  <url>
     <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/daniela/</loc>
   </url>
   
@@ -56,17 +47,20 @@
   </url>
   
   <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/developers/apiclients/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/developers/apidocumentation/</loc>
+  </url>
+  
+  <url>
     <loc>https://yochannah.github.io/intermine-homepage-mocks/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/"
-                />
   </url>
   
   <url>
@@ -80,8 +74,28 @@
   </url>
   
   <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/developers/developerdocs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/developers/developeremaillist/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/developers/</loc>
+  </url>
+  
+  <url>
     <loc>https://yochannah.github.io/intermine-homepage-mocks/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/developers/supportchat/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/developers/registry/</loc>
   </url>
   
   <url>
