@@ -3,35 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/gos/</loc>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/team/gos/</loc>
   </url>
   
   <url>
-    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/julie/</loc>
-  </url>
-  
-  <url>
-    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/daniela/</loc>
-  </url>
-  
-  <url>
-    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/josh/</loc>
-  </url>
-  
-  <url>
-    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/justin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/rachel/</loc>
-  </url>
-  
-  <url>
-    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/sergio/</loc>
-  </url>
-  
-  <url>
-    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/yo/</loc>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/team/julie/</loc>
   </url>
   
   <url>
@@ -39,11 +15,31 @@
   </url>
   
   <url>
-    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/projects/</loc>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/mobile-apps/</loc>
   </url>
   
   <url>
-    <loc>https://yochannah.github.io/intermine-homepage-mocks/mobile-apps/</loc>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/team/daniela/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/team/josh/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/team/justin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/team/rachel/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/team/sergio/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/team/yo/</loc>
   </url>
   
   <url>
@@ -60,16 +56,11 @@
   </url>
   
   <url>
-    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/</loc>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/team/</loc>
   </url>
   
   <url>
     <loc>https://yochannah.github.io/intermine-homepage-mocks/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/</loc>
     <priority>0</priority>
   </url>
   
@@ -86,6 +77,10 @@
   </url>
   
   <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/projects/isa-intermine/</loc>
+  </url>
+  
+  <url>
     <loc>https://yochannah.github.io/intermine-homepage-mocks/</loc>
     <priority>0</priority>
   </url>
@@ -96,6 +91,10 @@
   
   <url>
     <loc>https://yochannah.github.io/intermine-homepage-mocks/developers/registry/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/projects/fair-bbsrc/</loc>
   </url>
   
   <url>

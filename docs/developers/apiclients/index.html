@@ -6,23 +6,43 @@
     <title>InterMine</title>
     <link rel="stylesheet" href="https://yochannah.github.io/intermine-homepage-mocks/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <script src="https://yochannah.github.io/intermine-homepage-mocks/js/menu.js"></script>
 </head>
 
 
 <body>
-  <header>
+    <header>
     <div class="logo"><a href="https://yochannah.github.io/intermine-homepage-mocks">
       <img src="https://cdn.rawgit.com/intermine/design-materials/ff1ec6bf/logos/intermine/intermine-300x37.png" width="300" height="37" alt="InterMine Home" /></a></div>
     <nav tabindex="1">
-        <ul>
+        <ul class="header-collapsible-nav">
           <li class="navigation-menu-link">
             <svg class="icon icon-homepage">
           <use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-menu"></use></svg>
         </li>
         
-            <li><a href="https://yochannah.github.io/intermine-homepage-mocks/developers" class="categories developers" tabindex="2">Developers</a></li>
-            <li><a href="https://yochannah.github.io/intermine-homepage-mocks/bioinformaticians" class="categories bioinformaticians" tabindex="3">Bioinformaticians</a></li>
+            <li>
+                <a href="https://yochannah.github.io/intermine-homepage-mocks/developers" class="categories developers" tabindex="2">
+    <h4>Developers</h4>
+</a>
+    <ul>
+        <li><a href="http://intermine.readthedocs.io/en/latest/">Developer docs &amp; getting started</a></li>
+        <li><a href="http://iodocs.apps.intermine.org/">API Docs</a></li>
+        <li><a href="http://registry.intermine.org/">InterMine Registry</a></li>
+        <li><a href="http://intermine.readthedocs.io/en/latest/web-services/#api-and-client-libraries">API Clients</a></li>
+        <li><a href="https://lists.intermine.org/pipermail/dev/">Developer email list</a></li>
+        <li><a href="http://chat.intermine.org">Support chat</a></li>
+    </ul>
+
+            </li>
+            <li>
+              <a href="https://yochannah.github.io/intermine-homepage-mocks/bioinformaticians" class="categories bioinformaticians" tabindex="3"><h4>Bioinformatician</h4></a>
+<ul>
+        <li>API documentation</li>
+        <li>API clients (includes R &amp; Python)</li>
+    </ul>
+
+            </li>
             <li><a tabindex="4" href="https://yochannah.github.io/intermine-homepage-mocks/biologists" class="categories biologists">Biologists</a></li>
             <li><a href="https://yochannah.github.io/intermine-homepage-mocks/contact" class="categories contact">Contact&nbsp;us</a></li>
             <li><a href="https://yochannah.github.io/intermine-homepage-mocks/resources" class="categories resources">Resources</a></li>
@@ -30,11 +50,20 @@
     </nav>
 </header>
 
-    <main>
+    <main class="single-resource">
+          <img src="https://yochannah.github.io/intermine-homepage-mocks/images/paper_plane.svg" width="100" height="100" alt="Link to API Clients" />
+          <div class="content">
+            <h2 class="colors developers">
+              API Clients
+            </h2>
 
-      <p>We have client libraries to make querying InterMine super-easy! There&rsquo;s one for each of <a href="https://github.com/intermine/interminer">R</a>, <a href="https://pypi.python.org/pypi/intermine">Python</a>, <a href="http://search.cpan.org/~intermine/Webservice-InterMine-1.0405/lib/Webservice/InterMine.pm">Perl</a>, <a href="https://www.npmjs.com/package/imjs">JavaScript (node or browser)</a>, <a href="http://www.rubygems.org/gems/intermine">Ruby</a>, and <a href="http://intermine.readthedocs.io/en/latest/web-services/#java">Java</a></p>
+        <p>We have client libraries to make querying InterMine super-easy! There&rsquo;s one for each of <a href="https://github.com/intermine/interminer">R</a>, <a href="https://pypi.python.org/pypi/intermine">Python</a>, <a href="http://search.cpan.org/~intermine/Webservice-InterMine-1.0405/lib/Webservice/InterMine.pm">Perl</a>, <a href="https://www.npmjs.com/package/imjs">JavaScript (node or browser)</a>, <a href="http://www.rubygems.org/gems/intermine">Ruby</a>, and <a href="http://intermine.readthedocs.io/en/latest/web-services/#java">Java</a></p>
 
 
+        <a class="more-details" href="http://intermine.readthedocs.io/en/latest/web-services/#api-and-client-libraries">Learn more</a>
+
+        <a class="back" href="https://yochannah.github.io/intermine-homepage-mocksdevelopers">Back to all content for developers</a>
+      </div>
     </main>
 
     <footer>
@@ -58,31 +87,32 @@
         </ul>
     </div>
     <div class="sitemap-link-group biologists">
-        <h4>Biologists / Bioinformaticians</h4>
-        <ul>
-            
-            <li><a href="/TODO">Search all InterMines</a></li>
-            
-            <li><a href="/todo">Which InterMine for my organism?</a></li>
-            
-            <li><a href="https://yochannah.github.io/intermine-homepage-mocks/help">Tutorials and Videos</a></li>
-            <li><a href="http://flymine.readthedocs.io/en/latest/">User help documentation</a></li>
-            
-            <li><a href="https://yochannah.github.io/intermine-homepage-mocks/mobile-apps">Mobile Apps</a></li>
-            <li><a href="http://intermine.readthedocs.io/en/latest/web-services/#api-and-client-libraries">API Clients</a></li>
-        </ul>
+        <h4>Biologists</h4>
+<ul>
+    
+    <li><a href="http://registry.intermine.org/">Which InterMine for my organism?</a></li>
+    
+    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/help">Tutorials and Videos</a></li>
+    <li><a href="http://flymine.readthedocs.io/en/latest/">User help documentation</a></li>
+    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/mobile-apps">Mobile Apps</a></li>
+    <li><a href="http://intermine.readthedocs.io/en/latest/web-services/#api-and-client-libraries">API Clients</a></li>
+</ul>
+        
     </div>
 
     <div class="sitemap-link-group developers">
-        <h4>Developers</h4>
-        <ul>
-            <li><a href="http://intermine.readthedocs.io/en/latest/">Developer docs &amp; getting started</a></li>
-            <li><a href="http://iodocs.apps.intermine.org/">API Docs</a></li>
-            <li><a href="http://registry.intermine.org/">InterMine Registry</a></li>
-            <li><a href="http://intermine.readthedocs.io/en/latest/web-services/#api-and-client-libraries">API Clients</a></li>
-            <li><a href="https://lists.intermine.org/pipermail/dev/">Developer email list</a></li>
-            <li><a href="http://chat.intermine.org">Support chat</a></li>
-        </ul>
+        <a href="https://yochannah.github.io/intermine-homepage-mocks/developers" class="categories developers" tabindex="2">
+    <h4>Developers</h4>
+</a>
+    <ul>
+        <li><a href="http://intermine.readthedocs.io/en/latest/">Developer docs &amp; getting started</a></li>
+        <li><a href="http://iodocs.apps.intermine.org/">API Docs</a></li>
+        <li><a href="http://registry.intermine.org/">InterMine Registry</a></li>
+        <li><a href="http://intermine.readthedocs.io/en/latest/web-services/#api-and-client-libraries">API Clients</a></li>
+        <li><a href="https://lists.intermine.org/pipermail/dev/">Developer email list</a></li>
+        <li><a href="http://chat.intermine.org">Support chat</a></li>
+    </ul>
+
     </div>
 
     <div class="sitemap-link-group contact">

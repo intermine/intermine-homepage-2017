@@ -12,75 +12,20 @@
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/gos/</link>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/team/gos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/gos/</guid>
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/gos/</guid>
       <description>InterMine is part of the Micklem Lab, led by Gos Micklem. Gos is also director of the Cambridge Computational Biology Institute. Gos can often be found writing grants and winning Department of Genetics awards for enthusiastic lecturing.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/julie/</link>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/team/julie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/julie/</guid>
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/julie/</guid>
       <description>Julie joined the InterMine team immediately after graduating with a Computer Science (hons) degree from Bristol University in 2006. She specialises in the InterMine build system and writing meeting agendas.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/daniela/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/daniela/</guid>
-      <description>Software Engineer with 15+ years of experience in web applications development in a variety of industries. Experienced in J2EE open source frameworks, servers, libraries and web services.
-She joined the InterMine team in 2010, working for 3 years, primarily in the backend development, then she moved away to the game industry but she changed ideas very soon and came back thinking that genes and proteins are more fun than treasures and crowns!</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/josh/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/josh/</guid>
-      <description>Software engineer with a soft spot for Clojurescript, immutable data, and functional programming in general. Josh can often be spotted working late into the night, feverishly implementing the next exciting features in BlueGenes. Previously worked at Xerox.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/justin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/justin/</guid>
-      <description>Software engineer looking to accelerate the life sciences with user-oriented data, semantic and compute infrastructure. Particular interests include scientific data integration, disease, aging and synthetic biology. Developer of the SynBioMine synthetic biology data warehouse (synbiomine.org) and a member of ELIXIR FAIR initiatives such as Bioschemas. Previously a core developer and maintainer of open-source virtual worlds (working with Intel and the US Department of Energy, amongst others) and even more previously IBM.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/rachel/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/rachel/</guid>
-      <description>Biologist/bioinformatician with over 10 years experience working with InterMine and complex biological data, she forms the liaison between the biology and the software development. Rachel also runs training workshops for InterMine users and provides help-desk support.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/sergio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/sergio/</guid>
-      <description>With InterMine since 2007, has worked mostly in the production of modMine (modENCODE project) and ThaleMine (Araport project). Likes databases and data visualization, has produced a music album of his compositions.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/yo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/about/contributors/team/yo/</guid>
-      <description>Software engineer with a focus on front-end technologies such as Javascript, ClojureScript, and User Interfaces. May be spotted blogging, tweeting from her own account, @intermineorg, @gmodproject, or updating the InterMine homepage. Loves interacting with open source communities. Previously, Yo worked at Capital One and K-Now, a spin-off from the University of Sheffield. In her spare time you can find her running, cycling, or reading speculative fiction.</description>
     </item>
     
     <item>
@@ -89,21 +34,7 @@ She joined the InterMine team in 2010, working for 3 years, primarily in the bac
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yochannah.github.io/intermine-homepage-mocks/about/</guid>
-      <description>About InterMine InterMine was formed in 2002 at the University of Cambridge, originally as a Drosophila-dedicated resource, before expanding to become organism-agnostic, enabling a large range of organisations around the world to create their own InterMines. The InterMine team is part of Micklem lab, headed by Gos Micklem.
-Meet the team Publications and citations Cite us Projects </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/about/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/about/projects/</guid>
-      <description>Projects ISA-InterMine: accelerating and rewarding data sharing TODO - description!!!
-The ISA-InterMine grant is funded by the Wellcome trust. Its start date is April 2018 and it runs for three years.
-ISA-InterMine homepage  Making data FAIR using InterMine Decription TODO!!
-This grant is funded by the BBSRC, and runs for three years starting July 2017.
- </description>
+      <description>About InterMine InterMine was formed in 2002 at the University of Cambridge, originally as a Drosophila-dedicated resource, before expanding to become organism-agnostic, enabling a large range of organisations around the world to create their own InterMines. The InterMine team is part of Micklem lab, headed by Gos Micklem.</description>
     </item>
     
     <item>
@@ -114,6 +45,61 @@ This grant is funded by the BBSRC, and runs for three years starting July 2017.
       <guid>https://yochannah.github.io/intermine-homepage-mocks/mobile-apps/</guid>
       <description>InterMine Android and iOS Apps InterMine&#39;s mobile apps allow you to carry the power of multiple InterMines in your pocket. They include a cross-InterMine search tool, as well as alowing you to browse lists, templates, and to create a selection of &#34;favourites&#34; - perhaps a set of publications to review or a collection of interesting genes.
 Android  Search genes across multiple InterMines, as well as viewing lists, templates, and creating favourites.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/team/daniela/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/daniela/</guid>
+      <description>Software Engineer with 15+ years of experience in web applications development in a variety of industries. Experienced in J2EE open source frameworks, servers, libraries and web services.
+She joined the InterMine team in 2010, working for 3 years, primarily in the backend development, then she moved away to the game industry but she changed ideas very soon and came back thinking that genes and proteins are more fun than treasures and crowns!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/team/josh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/josh/</guid>
+      <description>Software engineer with a soft spot for Clojurescript, immutable data, and functional programming in general. Josh can often be spotted working late into the night, feverishly implementing the next exciting features in BlueGenes. Previously worked at Xerox.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/team/justin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/justin/</guid>
+      <description>Software engineer looking to accelerate the life sciences with user-oriented data, semantic and compute infrastructure. Particular interests include scientific data integration, disease, aging and synthetic biology. Developer of the SynBioMine synthetic biology data warehouse (synbiomine.org) and a member of ELIXIR FAIR initiatives such as Bioschemas. Previously a core developer and maintainer of open-source virtual worlds (working with Intel and the US Department of Energy, amongst others) and even more previously IBM.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/team/rachel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/rachel/</guid>
+      <description>Biologist/bioinformatician with over 10 years experience working with InterMine and complex biological data, she forms the liaison between the biology and the software development. Rachel also runs training workshops for InterMine users and provides help-desk support.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/team/sergio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/sergio/</guid>
+      <description>With InterMine since 2007, has worked mostly in the production of modMine (modENCODE project) and ThaleMine (Araport project). Likes databases and data visualization, has produced a music album of his compositions.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/team/yo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/yo/</guid>
+      <description>Software engineer with a focus on front-end technologies such as Javascript, ClojureScript, and User Interfaces. May be spotted blogging, tweeting from her own account, @intermineorg, @gmodproject, or updating the InterMine homepage. Loves interacting with open source communities. Previously, Yo worked at Capital One and K-Now, a spin-off from the University of Sheffield. In her spare time you can find her running, cycling, or reading speculative fiction.</description>
     </item>
     
     <item>
@@ -153,6 +139,15 @@ Android  Search genes across multiple InterMines, as well as viewing lists, temp
     </item>
     
     <item>
+      <title>ISA-InterMine: accelerating and rewarding data sharing</title>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/about/projects/isa-intermine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/about/projects/isa-intermine/</guid>
+      <description>The ISA-InterMine grant is funded by the Wellcome trust. Its start date is April 2018 and it runs for three years.</description>
+    </item>
+    
+    <item>
       <title>InterMine Chat (Discord)</title>
       <link>https://yochannah.github.io/intermine-homepage-mocks/developers/supportchat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -168,6 +163,15 @@ Android  Search genes across multiple InterMines, as well as viewing lists, temp
       
       <guid>https://yochannah.github.io/intermine-homepage-mocks/developers/registry/</guid>
       <description>Need a list of InterMines programmatically? Our Registry Swagger API gives you interactive API documentation, or you can browse a list of InterMines if you prefer.</description>
+    </item>
+    
+    <item>
+      <title>Making data FAIR using InterMine</title>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/about/projects/fair-bbsrc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/about/projects/fair-bbsrc/</guid>
+      <description>This grant is funded by the BBSRC, and runs for three years starting July 2017.</description>
     </item>
     
   </channel>
