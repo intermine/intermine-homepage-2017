@@ -19,31 +19,11 @@
         </ul>
     </div>
     <div class="sitemap-link-group biologists">
-        <h4>Biologists / Bioinformaticians</h4>
-        <ul>
-            <!-- TODO TODO TODO TODO TODO -->
-            <li><a href="/TODO">Search all InterMines</a></li>
-            <!-- TODO TODO TODO TODO TODO -->
-            <li><a href="/todo">Which InterMine for my organism?</a></li>
-            <!-- TODO TODO TODO TODO TODO -->
-            <li><a href="{{.Site.BaseURL}}/help">Tutorials and Videos</a></li>
-            <li><a href="http://flymine.readthedocs.io/en/latest/">User help documentation</a></li>
-            <!-- TODO TODO TODO TODO TODO -->
-            <li><a href="{{.Site.BaseURL}}/mobile-apps">Mobile Apps</a></li>
-            <li><a href="http://intermine.readthedocs.io/en/latest/web-services/#api-and-client-libraries">API Clients</a></li>
-        </ul>
+        {{partial "linksbiologists.html" .}}        
     </div>
 
     <div class="sitemap-link-group developers">
-        <h4>Developers</h4>
-        <ul>
-            <li><a href="http://intermine.readthedocs.io/en/latest/">Developer docs &amp; getting started</a></li>
-            <li><a href="http://iodocs.apps.intermine.org/">API Docs</a></li>
-            <li><a href="http://registry.intermine.org/">InterMine Registry</a></li>
-            <li><a href="http://intermine.readthedocs.io/en/latest/web-services/#api-and-client-libraries">API Clients</a></li>
-            <li><a href="https://lists.intermine.org/pipermail/dev/">Developer email list</a></li>
-            <li><a href="http://chat.intermine.org">Support chat</a></li>
-        </ul>
+        {{partial "linksdevelopers.html" .}}
     </div>
 
     <div class="sitemap-link-group contact">
