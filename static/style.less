@@ -229,9 +229,13 @@ header {
             z-index: 1;
             ul {
                 flex-direction: column;
+                align-items: stretch;
                 flex-grow: 1;
                 .categories {
                     display: none;
+                    &.show {
+                        display: flex;
+                    }
                     &:focus {
                         display: block;
                         width: 100%;
@@ -252,6 +256,30 @@ header {
             &:focus {
                 ul .categories {
                     background-color: @seriously-pale-grey
+                }
+            }
+        }
+        &.menu-open {
+            padding-left: 0;
+            nav {
+                width: 100vw;
+                ul .categories {
+                    width: 100vw;
+                    background-color: #eee;
+                    padding: 1.5em 2em;
+                }            }
+            .logo {
+                display: none;
+            }
+            .header-collapsible-nav .show {
+                position: static;
+                h4 {
+                    font-weight: bold;
+                }
+                li a {
+                    width: 100vw;
+                    box-sizing: border-box;
+                    padding-left: 2em
                 }
             }
         }
@@ -600,20 +628,20 @@ p:empty {
     }
     ul {
         .transition-faster;
-        display:none;
+        display: none;
         position: absolute;
         flex-direction: column;
         li a {
             .shadowed-box(2px);
-            
             .transition-faster;
             background-color: @seriously-pale-grey;
-            padding:@spacer*0.75;
+            padding: @spacer*0.75;
             min-width: 20vw;
-            display:block;
-            color:@dark-font;
-
-            &:hover {background-color:darken(@seriously-pale-grey,10%);}
+            display: block;
+            color: @dark-font;
+            &:hover {
+                background-color: darken(@seriously-pale-grey, 10%);
+            }
         }
     }
 }
