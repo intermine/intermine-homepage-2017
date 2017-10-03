@@ -169,6 +169,7 @@ header {
     }
     .colors;
     nav ul {
+        a{ text-decoration:none;}
         display: flex;
         list-style-type: none;
         color: @intermine-color;
@@ -198,11 +199,14 @@ header {
         }
         ul {
             //stop things running off the screen rightwards
-            position:relative;right:0;
+            position: relative;
+            right: 0;
+            &.show {display:flex;}
         }
         .colors-body;
     }
-    .navigation-menu-link {
+    .navigation-menu-link,
+    #closeNav {
         display: none;
     }
     @media (max-width:@smaller-screen) {
@@ -268,12 +272,35 @@ header {
             .colors-body;
             nav {
                 width: 100vw;
-                ul .categories {
-                    width: 100vw;
-                    background-color: @seriously-pale-grey;
-                    padding: 1.5em 2em;
-                    border-top: solid 1px #ccc;
+                ul {
+                    .categories {
+                        width: 100vw;
+                        background-color: @seriously-pale-grey;
+                        padding: 1.5em 2em;
+                        border-top: solid 1px #ccc;
+                    }
+                    #closeNav {
+                        position: absolute;
+                        right: @spacer * 0.25;
+                        top: @spacer * 0.25;
+                        width: @spacer * 1.5;
+                        height: @spacer * 1.5;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: darken(@seriously-pale-grey, 30%);
+                        color: @seriously-pale-grey;
+                        border: 0;
+                        border-radius: 2px;
+                        font-size: 1.5em;
+                        font-weight: bold;
+                    }
                 }
+            }
+            #closeNav {
+                display: flex;
+                position: relative;
+                top: -1em;
             }
             .logo {
                 display: none;
@@ -281,14 +308,19 @@ header {
             h4 {
                 font-weight: bold;
             }
-            .header-collapsible-nav .show {
-                position: static;
-                li a {
-                    width: 100vw;
-                    box-sizing: border-box;
-                    padding-left: 2em;
-                    text-decoration: none;
-                    background-color: lighten(@seriously-pale-grey, 10%)
+            .header-collapsible-nav {
+                ul {
+                    position: static;
+                    li a {
+                        width: 100vw;
+                        box-sizing: border-box;
+                        padding-left: 2em;
+                        text-decoration: none;
+                        background-color: lighten(@seriously-pale-grey, 10%)
+                    }
+                }
+                .open ul {
+                    display: flex;
                 }
             }
         }
@@ -632,9 +664,6 @@ p:empty {
     h4 {
         margin: 0;
         font-weight: normal;
-    }
-    .show {
-        display: flex;
     }
     >li {
         position: relative;
