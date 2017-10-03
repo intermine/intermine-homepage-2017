@@ -539,6 +539,9 @@ footer {
     fill: currentColor;
 }
 
+.team-list {display:flex;
+flex-wrap:wrap;}
+
 .team-member {
     display: flex;
     padding-right: @spacer;
@@ -559,7 +562,9 @@ footer {
         align-self: center;
         margin-right: @spacer;
         min-width: 113px;
-        min-height: 136px;
+        min-height: 113px;
+        border-radius:60px;
+        border:solid 3px #999;
         background-color: darken(@seriously-pale-grey, 10%);
     }
     .icon {
