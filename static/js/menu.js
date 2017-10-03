@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 showMenu(dropdown);
                 //hide after we leave
                 menu.addEventListener("mouseout", function () {
-               //     hideMenu(dropdown);
+                    hideMenu(dropdown);
                 });
             } 
         });

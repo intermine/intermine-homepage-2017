@@ -69,7 +69,8 @@
 }
 
 .colors-body {
-    h4:hover, h4:focus {
+    h4:hover,
+    h4:focus {
         transition-property: all;
         transition-duration: 0.6s;
         transition-timing-function: ease-out;
@@ -195,6 +196,10 @@ header {
             text-decoration: none;
             color: #333;
         }
+        ul {
+            //stop things running off the screen rightwards
+            position:relative;right:0;
+        }
         .colors-body;
     }
     .navigation-menu-link {
@@ -226,16 +231,16 @@ header {
         }
         nav {
             z-index: 1;
-            width:5em;
+            width: 5em;
             ul {
                 .transition-faster;
                 flex-direction: column;
                 align-items: stretch;
                 flex-grow: 1;
                 .categories {
-                    width:10vw;
-                    overflow:hide;
-                    display:none;
+                    width: 10vw;
+                    overflow: hide;
+                    display: none;
                     &.show {
                         display: flex;
                     }
@@ -267,22 +272,23 @@ header {
                     width: 100vw;
                     background-color: @seriously-pale-grey;
                     padding: 1.5em 2em;
-                    border-top:solid 1px #ccc;
-                }            }
+                    border-top: solid 1px #ccc;
+                }
+            }
             .logo {
                 display: none;
             }
             h4 {
                 font-weight: bold;
             }
-        .header-collapsible-nav .show {
+            .header-collapsible-nav .show {
                 position: static;
                 li a {
                     width: 100vw;
                     box-sizing: border-box;
                     padding-left: 2em;
-                    text-decoration:none;
-                    background-color:lighten(@seriously-pale-grey,10%)
+                    text-decoration: none;
+                    background-color: lighten(@seriously-pale-grey, 10%)
                 }
             }
         }
@@ -441,6 +447,10 @@ footer {
         border-left: 0;
         border-right: 0;
         border-bottom-width: 1px;
+        h4.categories {
+            border: 0;
+            margin-bottom: @spacer/2;
+        }
         .subheading {
             margin: 0;
             padding: 0;
