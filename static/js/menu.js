@@ -10,6 +10,9 @@ document.addEventListener("DOMContentLoaded", function () {
         elem.classList.add("show");
     }
 
+    function toggleMenu(elem) {
+        elem.classList.toggle("show");
+    }
 
     navMenu.forEach(function (menu) {
         var dropdown = menu.querySelector("ul");
@@ -29,11 +32,11 @@ document.addEventListener("DOMContentLoaded", function () {
         //for touch. needs more checking.... TODO
         menu.addEventListener("click", function () {
             if (!this.classList.contains("navigation-menu-link")) {
-                shownMenu(dropdown);
+                toggleMenu(dropdown);
             } else {
-                header.classList.add("menu-open")
+                header.classList.toggle("menu-open")
                 document.querySelectorAll("header nav ul .categories").forEach(function(li){
-                    li.classList.add("show");
+                    li.classList.toggle("show");
                 });
             }
         });
