@@ -1,22 +1,6 @@
 <footer>
     <div class="sitemap-link-group resources">
-        <h4>Resources</h4>
-        <ul>
-            <!-- TODO TODO TODO TODO TODO -->
-            <li><a href="{{.Site.BaseURL}}/cite-intermine">Cite us</a></li>
-            <!-- TODO TODO TODO TODO TODO -->
-            <li><a href="{{.Site.BaseURL}}/intermine-related-publications">Publications &amp; citations</a></li>
-            <!-- TODO TODO TODO TODO TODO -->
-            <li><a href="{{.Site.BaseURL}}/about">About us</a></li>
-            <li><a href="{{.Site.BaseURL}}/about/projects">Projects</a></li>
-
-            <!-- TODO TODO TODO TODO TODO -->
-            <li><a href="{{.Site.BaseURL}}/about/contributors">Contributors &amp; team</a></li>
-            <!-- TODO TODO TODO TODO TODO -->
-            <li><a href="{{.Site.BaseURL}}/logos">Logos &amp; branding</a></li>
-            <li><a href="https://github.com/intermine">InterMine on GitHub</a></li>
-            <li><a href="http://intermine.readthedocs.io/en/latest/about/#privacy-policy">Privacy Policy</a></li>
-        </ul>
+        {{partial "linksresources.html" .}}
     </div>
     <div class="sitemap-link-group biologists">
         {{partial "linksbiologists.html" .}}        
@@ -27,14 +11,7 @@
     </div>
 
     <div class="sitemap-link-group contact">
-        <h4>Contact</h4>
-        <ul>
-            <li><a href="https://intermineorg.wordpress.com/"><svg class="icon icon-wordpress"><use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-wordpress"></use></svg>Blog</a></li>
-            <li><a href="https://twitter.com/intermineorg"><svg class="icon icon-twitter"><use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-twitter"></use></svg>@intermineorg</a></li>
-            <li><a href="https://lists.intermine.org/pipermail/dev/"><svg class="icon icon-email"><use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-email"></use></svg>Developer&nbsp;email&nbsp;list</a></li>
-            <li><a href="http://chat.intermine.org"><svg class="icon icon-chat"><use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-chat"></use></svg>Chat</a></li>
-            <li><a href="mailto:info@intermine.org"><svg class="icon icon-email"><use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-email"></use></svg>info@intermine.org</a></li>
-        </ul>
+        {{partial "linkscontact" .}}
     </div>
 
     <div class="sitemap-link-group affiliations">

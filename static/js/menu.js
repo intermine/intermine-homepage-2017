@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
     var navMenu = document.querySelectorAll(".header-collapsible-nav > li");
 
     function hideMenu(elem) {
-        elem.className = "";
+        elem.classList.remove("show");
     }
 
     function showMenu(elem) {
-        elem.className = "show";
+        elem.classList.add("show");
     }
 
 
@@ -23,20 +23,20 @@ document.addEventListener("DOMContentLoaded", function () {
                 menu.addEventListener("mouseout", function () {
                //     hideMenu(dropdown);
                 });
-            } else {
-                header.classList.add("menu-open")
-                document.querySelectorAll("header nav ul .categories").forEach(function(li){
-                    li.classList.add("show");
-                })
-            }
+            } 
         });
 
         //for touch. needs more checking.... TODO
         menu.addEventListener("click", function () {
             if (!this.classList.contains("navigation-menu-link")) {
                 shownMenu(dropdown);
+            } else {
+                header.classList.add("menu-open")
+                document.querySelectorAll("header nav ul .categories").forEach(function(li){
+                    li.classList.add("show");
+                });
             }
         });
-    })
+    });
 
 });
