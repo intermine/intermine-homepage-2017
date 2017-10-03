@@ -29,14 +29,22 @@ document.addEventListener("DOMContentLoaded", function () {
             } 
         });
 
-        //for touch. needs more checking.... TODO
+        //for touch.
         menu.addEventListener("click", function () {
             if (!this.classList.contains("navigation-menu-link")) {
-                toggleMenu(dropdown);
+                //they've clicked one of the actual elements
+                if(!this.classList.contains("open")) {
+                    this.focus(); 
+                    this.classList.add("open");
+                    showMenu(dropdown);
+                } else {
+                    this.classList.remove("open");                    
+                    hideMenu(dropdown);                    
+                }
             } else {
-            this.focus();
-            header.classList.toggle("menu-open")
-                document.querySelectorAll("header nav ul .categories").forEach(function(li){
+                //they've clicked the hamburger to open menu
+                header.classList.add("menu-open")
+                header.querySelectorAll(".categories").forEach(function(li){
                     li.classList.toggle("show");
                 });
             }
