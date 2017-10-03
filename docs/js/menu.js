@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
         menu.addEventListener("click", function () {
             if (!this.classList.contains("navigation-menu-link")) {
                 toggleMenu(dropdown);
+                this.focus();
             } else {
                 header.classList.toggle("menu-open")
                 document.querySelectorAll("header nav ul .categories").forEach(function(li){

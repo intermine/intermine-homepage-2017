@@ -257,6 +257,7 @@ header {
         }
         &.menu-open {
             padding-left: 0;
+            .colors-body;
             nav {
                 width: 100vw;
                 ul .categories {
@@ -267,15 +268,16 @@ header {
             .logo {
                 display: none;
             }
-            .header-collapsible-nav .show {
+            h4 {
+                font-weight: bold;
+            }
+        .header-collapsible-nav .show {
                 position: static;
-                h4 {
-                    font-weight: bold;
-                }
                 li a {
                     width: 100vw;
                     box-sizing: border-box;
-                    padding-left: 2em
+                    padding-left: 2em;
+                    text-decoration:none;
                 }
             }
         }
