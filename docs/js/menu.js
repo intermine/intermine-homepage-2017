@@ -3,13 +3,16 @@ document.addEventListener("DOMContentLoaded", function () {
     var navMenu = document.querySelectorAll(".header-collapsible-nav > li");
 
     function hideMenu(elem) {
-        elem.className = "";
+        elem.classList.remove("show");
     }
 
     function showMenu(elem) {
-        elem.className = "show";
+        elem.classList.add("show");
     }
 
+    function toggleMenu(elem) {
+        elem.classList.toggle("show");
+    }
 
     navMenu.forEach(function (menu) {
         var dropdown = menu.querySelector("ul");
@@ -23,20 +26,20 @@ document.addEventListener("DOMContentLoaded", function () {
                 menu.addEventListener("mouseout", function () {
                //     hideMenu(dropdown);
                 });
-            } else {
-                header.classList.add("menu-open")
-                document.querySelectorAll("header nav ul .categories").forEach(function(li){
-                    li.classList.add("show");
-                })
-            }
+            } 
         });
 
         //for touch. needs more checking.... TODO
         menu.addEventListener("click", function () {
             if (!this.classList.contains("navigation-menu-link")) {
-                shownMenu(dropdown);
+                toggleMenu(dropdown);
+            } else {
+                header.classList.toggle("menu-open")
+                document.querySelectorAll("header nav ul .categories").forEach(function(li){
+                    li.classList.toggle("show");
+                });
             }
         });
-    })
+    });
 
 });
