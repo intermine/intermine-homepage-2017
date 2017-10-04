@@ -11,10 +11,6 @@
   </url>
   
   <url>
-    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/</loc>
-  </url>
-  
-  <url>
     <loc>https://yochannah.github.io/intermine-homepage-mocks/mobile-apps/</loc>
   </url>
   
@@ -51,11 +47,6 @@
   </url>
   
   <url>
-    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://yochannah.github.io/intermine-homepage-mocks/team/</loc>
   </url>
   
@@ -77,7 +68,7 @@
   </url>
   
   <url>
-    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/projects/isa-intermine/</loc>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/projects/isa-intermine/</loc>
   </url>
   
   <url>
@@ -94,7 +85,11 @@
   </url>
   
   <url>
-    <loc>https://yochannah.github.io/intermine-homepage-mocks/about/projects/fair-bbsrc/</loc>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/projects/fair-bbsrc/</loc>
   </url>
   
   <url>

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<meta name="generator" content="Hugo 0.26" />
+	<meta name="generator" content="Hugo 0.29" />
     <meta charset="utf-8">
     <title>InterMine</title>
     <link rel="stylesheet" href="https://yochannah.github.io/intermine-homepage-mocks/style.css">
@@ -16,29 +16,30 @@
   <div class="logo"><a href="https://yochannah.github.io/intermine-homepage-mocks">
       <img src="https://cdn.rawgit.com/intermine/design-materials/ff1ec6bf/logos/intermine/intermine-300x37.png" width="300" height="37" alt="InterMine Home" /></a></div>
   <nav tabindex="1">
-    <ul class="header-collapsible-nav">
+    <ul class="header-collapsible-nav" role="menubar">
       <li class="navigation-menu-link">
         <svg class="icon icon-homepage">
           <use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-menu"></use>
         </svg>
       </li>
       
-      <li> <h4 tabindex="2" class="categories developers">Developers</h4>
+      <li tabindex="2" role="menu" aria-haspopup="true"> <h4 class="categories developers">Developers</h4>
 <ul>
+    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/developers">Overview</a></li>
     <li><a href="http://intermine.readthedocs.io/en/latest/">Developer docs &amp; getting started</a></li>
     <li><a href="http://iodocs.apps.intermine.org/">API Docs</a></li>
     <li><a href="http://registry.intermine.org/">InterMine Registry</a></li>
     <li><a href="http://intermine.readthedocs.io/en/latest/web-services/#api-and-client-libraries">API Clients</a></li>
     <li><a href="https://lists.intermine.org/pipermail/dev/">Developer email list</a></li>
     <li><a href="http://chat.intermine.org">Support chat</a></li>
-</ul> </li>
-      <li> <h4 tabindex="2" class="categories bioinformaticians" tabindex="3">Bioinformaticians</h4>
+</ul><button id="closeNav" aria-label="Close">x</button></li>
+      <li tabindex="3" role="menu" aria-haspopup="true"> <h4 class="categories bioinformaticians">Bioinformaticians</h4>
 <ul>
         <li><a href="http://iodocs.apps.intermine.org/">API documentation</a></li>
         <li><a href="http://intermine.readthedocs.io/en/latest/web-services/#api-and-client-libraries">API clients (includes R &amp; Python)</a></li>
     </ul>
  </li>
-      <li> <h4 tabindex="2" class="categories biologists">Biologists</h4>
+      <li tabindex="4" role="menu" aria-haspopup="true"> <h4 class="categories biologists">Biologists</h4>
 <ul>
     
     <li><a href="http://registry.intermine.org/">Which InterMine for my organism?</a></li>
@@ -49,27 +50,25 @@
     <li><a href="http://intermine.readthedocs.io/en/latest/web-services/#api-and-client-libraries">API Clients</a></li>
 </ul>
  </li>
-      <li> <h4 class="categories contact">Contact</h4>
+      <li tabindex="5" role="menu" aria-haspopup="true"> <h4 class="categories contact">Contact</h4>
 <ul>
-    <li><a href="https://intermineorg.wordpress.com/"><svg class="icon icon-wordpress"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-wordpress"></use></svg>Blog</a></li>
-    <li><a href="https://twitter.com/intermineorg"><svg class="icon icon-twitter"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-twitter"></use></svg>@intermineorg</a></li>
-    <li><a href="https://lists.intermine.org/pipermail/dev/"><svg class="icon icon-email"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-email"></use></svg>Developer&nbsp;email&nbsp;list</a></li>
-    <li><a href="http://chat.intermine.org"><svg class="icon icon-chat"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-chat"></use></svg>Chat</a></li>
-    <li><a href="mailto:info@intermine.org"><svg class="icon icon-email"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-email"></use></svg>info@intermine.org</a></li>
+    <li><a href="https://intermineorg.wordpress.com/"><svg class="icon icon-wordpress"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-wordpress"></use></svg> Blog</a></li>
+    <li><a href="https://twitter.com/intermineorg"><svg class="icon icon-twitter"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-twitter"></use></svg> @intermineorg</a></li>
+    <li><a href="https://lists.intermine.org/pipermail/dev/"><svg class="icon icon-email"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-email"></use></svg> Developer&nbsp;email&nbsp;list</a></li>
+    <li><a href="http://chat.intermine.org"><svg class="icon icon-chat"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-chat"></use></svg> Chat</a></li>
+    <li><a href="mailto:info@intermine.org"><svg class="icon icon-email"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-email"></use></svg> info@intermine.org</a></li>
 </ul>
  </li>
-      <li> <h4 class="categories resources">Resources</h4>
+      <li tabindex="6" role="menu" aria-haspopup="true"> <h4 class="categories resources">Resources</h4>
 <ul>
     
-    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/cite-intermine">Cite us</a></li>
+    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/intermine-related-publications">Publications &amp; citing us</a></li>
     
-    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/intermine-related-publications">Publications &amp; citations</a></li>
-    
-    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/team">About us</a></li>
-    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/about/projects">Projects</a></li>
+    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/team">About the team</a></li>
+    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/projects">Projects</a></li>
 
     
-    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/about/contributors">Contributors &amp; team</a></li>
+    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/about/contributors">Contributors</a></li>
     <li><a href="https://intermineorg.wordpress.com/logos/">Logos &amp; branding</a></li>
     <li><a href="https://github.com/intermine">InterMine on GitHub</a></li>
     <li><a href="http://intermine.readthedocs.io/en/latest/about/#privacy-policy">Privacy Policy</a></li>
@@ -139,27 +138,20 @@
     </main>
 
     <footer>
-    <div class="sitemap-link-group resources">
-        <h4 class="categories resources">Resources</h4>
+    <div class="sitemap-link-group developers">
+        <h4 class="categories developers">Developers</h4>
 <ul>
-    
-    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/cite-intermine">Cite us</a></li>
-    
-    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/intermine-related-publications">Publications &amp; citations</a></li>
-    
-    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/team">About us</a></li>
-    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/about/projects">Projects</a></li>
-
-    
-    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/about/contributors">Contributors &amp; team</a></li>
-    <li><a href="https://intermineorg.wordpress.com/logos/">Logos &amp; branding</a></li>
-    <li><a href="https://github.com/intermine">InterMine on GitHub</a></li>
-    <li><a href="http://intermine.readthedocs.io/en/latest/about/#privacy-policy">Privacy Policy</a></li>
+    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/developers">Overview</a></li>
+    <li><a href="http://intermine.readthedocs.io/en/latest/">Developer docs &amp; getting started</a></li>
+    <li><a href="http://iodocs.apps.intermine.org/">API Docs</a></li>
+    <li><a href="http://registry.intermine.org/">InterMine Registry</a></li>
+    <li><a href="http://intermine.readthedocs.io/en/latest/web-services/#api-and-client-libraries">API Clients</a></li>
+    <li><a href="https://lists.intermine.org/pipermail/dev/">Developer email list</a></li>
+    <li><a href="http://chat.intermine.org">Support chat</a></li>
 </ul>
-
     </div>
     <div class="sitemap-link-group biologists">
-        <h4 tabindex="2" class="categories biologists">Biologists</h4>
+        <h4 class="categories biologists">Biologists</h4>
 <ul>
     
     <li><a href="http://registry.intermine.org/">Which InterMine for my organism?</a></li>
@@ -169,29 +161,39 @@
     <li><a href="https://yochannah.github.io/intermine-homepage-mocks/mobile-apps">Mobile Apps</a></li>
     <li><a href="http://intermine.readthedocs.io/en/latest/web-services/#api-and-client-libraries">API Clients</a></li>
 </ul>
-        
-    </div>
-
-    <div class="sitemap-link-group developers">
-        <h4 tabindex="2" class="categories developers">Developers</h4>
+ 
+        <h4 class="categories bioinformaticians">Bioinformaticians</h4>
 <ul>
-    <li><a href="http://intermine.readthedocs.io/en/latest/">Developer docs &amp; getting started</a></li>
-    <li><a href="http://iodocs.apps.intermine.org/">API Docs</a></li>
-    <li><a href="http://registry.intermine.org/">InterMine Registry</a></li>
-    <li><a href="http://intermine.readthedocs.io/en/latest/web-services/#api-and-client-libraries">API Clients</a></li>
-    <li><a href="https://lists.intermine.org/pipermail/dev/">Developer email list</a></li>
-    <li><a href="http://chat.intermine.org">Support chat</a></li>
-</ul>
-    </div>
+        <li><a href="http://iodocs.apps.intermine.org/">API documentation</a></li>
+        <li><a href="http://intermine.readthedocs.io/en/latest/web-services/#api-and-client-libraries">API clients (includes R &amp; Python)</a></li>
+    </ul>
 
+    </div>
     <div class="sitemap-link-group contact">
         <h4 class="categories contact">Contact</h4>
 <ul>
-    <li><a href="https://intermineorg.wordpress.com/"><svg class="icon icon-wordpress"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-wordpress"></use></svg>Blog</a></li>
-    <li><a href="https://twitter.com/intermineorg"><svg class="icon icon-twitter"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-twitter"></use></svg>@intermineorg</a></li>
-    <li><a href="https://lists.intermine.org/pipermail/dev/"><svg class="icon icon-email"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-email"></use></svg>Developer&nbsp;email&nbsp;list</a></li>
-    <li><a href="http://chat.intermine.org"><svg class="icon icon-chat"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-chat"></use></svg>Chat</a></li>
-    <li><a href="mailto:info@intermine.org"><svg class="icon icon-email"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-email"></use></svg>info@intermine.org</a></li>
+    <li><a href="https://intermineorg.wordpress.com/"><svg class="icon icon-wordpress"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-wordpress"></use></svg> Blog</a></li>
+    <li><a href="https://twitter.com/intermineorg"><svg class="icon icon-twitter"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-twitter"></use></svg> @intermineorg</a></li>
+    <li><a href="https://lists.intermine.org/pipermail/dev/"><svg class="icon icon-email"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-email"></use></svg> Developer&nbsp;email&nbsp;list</a></li>
+    <li><a href="http://chat.intermine.org"><svg class="icon icon-chat"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-chat"></use></svg> Chat</a></li>
+    <li><a href="mailto:info@intermine.org"><svg class="icon icon-email"><use xlink:href="https://yochannah.github.io/intermine-homepage-mocks/images/symbol-defs.svg#icon-email"></use></svg> info@intermine.org</a></li>
+</ul>
+
+    </div>
+    <div class="sitemap-link-group resources">
+        <h4 class="categories resources">Resources</h4>
+<ul>
+    
+    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/intermine-related-publications">Publications &amp; citing us</a></li>
+    
+    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/team">About the team</a></li>
+    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/projects">Projects</a></li>
+
+    
+    <li><a href="https://yochannah.github.io/intermine-homepage-mocks/about/contributors">Contributors</a></li>
+    <li><a href="https://intermineorg.wordpress.com/logos/">Logos &amp; branding</a></li>
+    <li><a href="https://github.com/intermine">InterMine on GitHub</a></li>
+    <li><a href="http://intermine.readthedocs.io/en/latest/about/#privacy-policy">Privacy Policy</a></li>
 </ul>
 
     </div>
@@ -213,7 +215,6 @@
 
 
 </footer>
-
 
 </body>
 
