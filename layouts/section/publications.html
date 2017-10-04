@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+{{partial "head.html" . }}
+
+<body>
+  {{ partial "header.html" .}}
+  <main>
+    <h2>
+      {{.Title}}
+    </h2>
+    <div>{{.Content}}</div>
+    {{range .Data.Pages}}
+    <div class="publication-list">
+
+      <h3>{{.Params.title}}</h3>
+      <ul class="publication-section">
+        {{ $baseurl := .Site.BaseURL }} {{range $publication := .Params.publicationlist}}
+        <li>
+          <a class="visit-pubmed" href="http://www.ncbi.nlm.nih.gov/pubmed/{{$publication.pmid}}">
+            <svg class="icon icon-PubMed">
+              <use xlink:href="{{$baseurl}}images/symbol-defs.svg#icon-PubMed"></use>
+            </svg>
+          </a>
+          <div>
+            <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{$publication.pmid}}">
+                    {{$publication.title}}
+                  </a>
+            <p>{{$publication.authors}}</p>
+          </div>
+        </li>
+        {{end}}
+
+      </ul>
+    </div>
+    {{end}}
+
+  </main>
+
+  {{partial "footer.html" . }}
+
+</body>
+
+</html>

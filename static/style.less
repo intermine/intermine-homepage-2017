@@ -169,7 +169,9 @@ header {
     }
     .colors;
     nav ul {
-        a{ text-decoration:none;}
+        a {
+            text-decoration: none;
+        }
         display: flex;
         list-style-type: none;
         color: @intermine-color;
@@ -201,7 +203,9 @@ header {
             //stop things running off the screen rightwards
             position: relative;
             right: 0;
-            &.show {display:flex;}
+            &.show {
+                display: flex;
+            }
         }
         .colors-body;
     }
@@ -539,8 +543,10 @@ footer {
     fill: currentColor;
 }
 
-.team-list {display:flex;
-flex-wrap:wrap;}
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .team-member {
     display: flex;
@@ -563,8 +569,8 @@ flex-wrap:wrap;}
         margin-right: @spacer;
         min-width: 113px;
         min-height: 113px;
-        border-radius:60px;
-        border:solid 3px #999;
+        border-radius: 60px;
+        border: solid 3px #999;
         background-color: darken(@seriously-pale-grey, 10%);
     }
     .icon {
@@ -686,6 +692,33 @@ p:empty {
             &:hover {
                 background-color: darken(@seriously-pale-grey, 10%);
             }
+        }
+    }
+}
+
+.publication-list {
+    h3 {
+        margin-left: @spacer;
+    }
+    .publication-section {
+        list-style-type: none;
+        padding-left: 0;
+        li {
+            border-bottom:solid 1px #ccc;
+            border-top:solid 1px #eee;
+            padding: @spacer/2 @spacer;
+            display:flex;
+            > a { align-self:center; margin-right:@spacer;}
+            &:nth-of-type(even) {
+                background-color: @seriously-pale-grey;
+            }
+            p {margin:@spacer/2 0}
+        }
+    }
+    .visit-pubmed {
+        svg {
+            fill: @biologists-color;
+        width:2em;height:2em;
         }
     }
 }
