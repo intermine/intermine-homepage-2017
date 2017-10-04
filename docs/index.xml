@@ -30,6 +30,15 @@
     
     <item>
       <title></title>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/contributors/nadia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/contributors/nadia/</guid>
+      <description>Nadia was a 2017 Google Summer of Code student for InterMine, and single-handedly coded the brilliant InterMine iOS app.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://yochannah.github.io/intermine-homepage-mocks/mobile-apps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -163,6 +172,34 @@ She joined the InterMine team in 2010, working for 3 years, primarily in the bac
       
       <guid>https://yochannah.github.io/intermine-homepage-mocks/projects/fair-bbsrc/</guid>
       <description>This grant is funded by the BBSRC, and runs for three years starting July 2017, with a focus on making InterMine and its data more FAIR - that is, Findable, Accessible, Interoperable, and Reusable. Read more in our grant launch blog post</description>
+    </item>
+    
+    <item>
+      <title>Publications about Community-run InterMines</title>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/publications/otherintermines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/publications/otherintermines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications by the InterMine Team</title>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/publications/interminecore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/publications/interminecore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorials and videos</title>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/tutorials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/tutorials/</guid>
+      <description>Here&amp;rsquo;s a short list of video tutorials produced by community members. If you&amp;rsquo;d like yours added to the list please contact us!
+ FlyMine intro videos - for the Drosophila-minded among us. Thalemine tutorials - A. thaliana-based tutorials. TargetMine tutorials Tutorials for an InterMine designed to help identify drug targets. YeastMine videos - SGD has quite a broad range of tutorials based on S. Cerevisiae data. MouseMine at MGI - M.</description>
     </item>
     
   </channel>

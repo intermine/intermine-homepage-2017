@@ -11,6 +11,10 @@
   </url>
   
   <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/contributors/nadia/</loc>
+  </url>
+  
+  <url>
     <loc>https://yochannah.github.io/intermine-homepage-mocks/mobile-apps/</loc>
   </url>
   
@@ -56,6 +60,10 @@
   </url>
   
   <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/contributors/</loc>
+  </url>
+  
+  <url>
     <loc>https://yochannah.github.io/intermine-homepage-mocks/developers/developerdocs/</loc>
   </url>
   
@@ -98,8 +106,29 @@
   </url>
   
   <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/publications/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/publications/otherintermines/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/publications/interminecore/</loc>
+  </url>
+  
+  <url>
     <loc>https://yochannah.github.io/intermine-homepage-mocks/tags/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/tutorials/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yochannah.github.io/intermine-homepage-mocks/tutorials/</loc>
   </url>
   
 </urlset>

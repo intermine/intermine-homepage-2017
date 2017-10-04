@@ -15,8 +15,8 @@
             
             {{ range .Data.Pages }}
             <div class="resource-link">
-                <h4>{{.Params.title}}</h4>
-                
+                    <img class="dynamicimage" src="{{ .Site.BaseURL }}/images/{{.Params.picture}}" width="{{.Params.picturewidth}}" height="{{.Params.pictureheight}}" alt="{{.Params.title}}" />                
+                    <h4>{{.Params.title}}</h4>
               {{.Content}}
             </div>
             {{ end }}
