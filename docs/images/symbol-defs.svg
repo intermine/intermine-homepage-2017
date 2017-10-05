@@ -57,5 +57,9 @@
 <path d="M6 2v24h24v-24h-24zM28 24h-20v-20h20v20zM4 28v-21l-2-2v25h25l-2-2h-21z"></path>
 <path d="M11 8l5 5-6 6 3 3 6-6 5 5v-13z"></path>
 </symbol>
+<symbol id="icon-bar-chart" viewBox="0 0 32 28">
+<title>bar-chart</title>
+<path d="M10 14v8h-4v-8h4zM16 6v16h-4v-16h4zM32 24v2h-32v-24h2v22h30zM22 10v12h-4v-12h4zM28 4v18h-4v-18h4z"></path>
+</symbol>
 </defs>
 </svg>

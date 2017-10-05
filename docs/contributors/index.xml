@@ -11,12 +11,30 @@
     
     
     <item>
-      <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/contributors/nadia/</link>
+      <title>Previous InterMine Members</title>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/contributors/previousinterminers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/contributors/nadia/</guid>
-      <description>Nadia was a 2017 Google Summer of Code student for InterMine, and single-handedly coded the brilliant InterMine iOS app.</description>
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/contributors/previousinterminers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GSOC 2017</title>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/contributors/gsoc2017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/contributors/gsoc2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>InterMine Community Contributors</title>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/contributors/community/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/contributors/community/</guid>
+      <description></description>
     </item>
     
   </channel>
