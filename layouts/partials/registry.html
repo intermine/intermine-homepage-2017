@@ -1,0 +1,18 @@
+{{ $mines := getJSON "http://registry.intermine.org/service/instances" }} 
+<div class="mine-showcase">
+    <div class="intermine-links">
+    {{range $mine := (first 15 (shuffle $mines.instances))}}
+        <a href="{{$mine.url}}" title="{{$mine.description}}" class="intermine-link">
+        {{range $organism := (first 1 (shuffle $mine.organisms))}}
+            <span class="organism">{{$organism}}</span>
+        {{end}}
+        <span class="minename">({{$mine.name}})</span>
+        </a>
+    {{end}}
+    </div>
+    <div class="explanation">
+            <h2>There's an InterMine for (almost) anyone</h2>
+            <p>With InterMine you can search across data for one or many organisms, and jump between different organisms based on homology. </p>
+            <p>This is a sample of the organisms you can find in each mine - click on one to go straight to that InterMine.</p>
+        </div>
+    </div>
