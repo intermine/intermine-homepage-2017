@@ -436,7 +436,13 @@ main {
             font-style: oblique
         }
         .explanation {
-            margin-left: @spacer
+            margin-left: @spacer;
+            h3 {border-bottom:solid 3px @biologists-color;}
+            h4 {border-bottom:solid 3px @bioinformaticians-color;
+            &:nth-of-type(2){
+                border-bottom:solid 3px @developers-color;
+            }}
+            
         }
         @media (max-width:@smaller-screen) {
             flex-direction: column;
