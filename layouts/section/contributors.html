@@ -13,33 +13,24 @@
         <div>
 
             {{ range .Data.Pages }}
-            <div class="team-member">
-              {{if isset .Params "picture"}}
-                <img src="{{ .Params.picture }}" width="113" height="113"/>
-              {{else}}
-                {{if isset .Params "localpicture"}}
-                  <img src="{{.Site.BaseURL}}/images/{{ .Params.localpicture }}" width="113" />
-                {{else}}
-                  <div class="placeholder"></div>
-                {{end}}
-              {{end}}
-                <div class="details">
-                  <h3>{{ .Params.name }}</h3> {{.Content}}
+            <div class="community-member-list">
+                  <h3>{{ .Title }}</h3>
                     <ul>
-                      {{if isset .Params "email"}}
-                        <li><svg class="icon icon-email"><use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-email"></use></svg>{{.Params.email}}</li>
-                      {{end}}
                       {{ $baseurl := .Site.BaseURL }}
-                      {{range $link := .Params.links}}
-                        <li><a href="{{$link.url}}" class="{{$link.type}}"><svg class="icon icon-{{$link.type}}"><use xlink:href='{{$baseurl}}/images/symbol-defs.svg#icon-{{$link.type}}'></use></svg>{{$link.text}}</a></li>
+                      {{range $member := .Params.members}}
+                        <li>
+                          <a href="{{$member.link.url}}" class="{{$member.link.type}}">
+                            <img src="{{ $member.picture }}" width="113" height="113"/>                            
+                            <span>
+                              <svg class="icon icon-{{$member.link.type}}"><use xlink:href='{{$baseurl}}/images/symbol-defs.svg#icon-{{$member.link.type}}'></use></svg>
+                              {{$member.name}}
+                            </span>
+                          </a></li>
                       {{end}}
-
                     </ul>
-                </div>
             </div>
             {{ end }}
         </div>
-
     </main>
 
     {{partial "footer.html" . }}

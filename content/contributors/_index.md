@@ -1,5 +1,5 @@
 {
-  "title": "Contributors"
+  "title": "Contributors",
 }
 
 ### Contributing to InterMine

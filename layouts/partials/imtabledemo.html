@@ -1,0 +1,54 @@
+<div class="demo-imtable">
+    <div id="demo-imtable" class="loading"></div>
+</div>
+<!-- The imtables source -->
+<script src="http://cdn.intermine.org/js/intermine/im-tables/2.0.2/imtables.js" charset="UTF-8"></script>
+<link rel="stylesheet" href="http://cdn.intermine.org/js/intermine/im-tables/2.0.2/main.sandboxed.css">
+<script>
+
+var selector = '#demo-imtable';
+var service  = {root: 'http://www.flymine.org/flymine/service/'};
+var query    = {
+    "name": "Gene_GO",
+    "title": "Gene --> GO terms",
+    "comment": "06.06.07 updated to work from gene class - Philip",
+    "description": "Search for GO annotations for a particular gene.",
+    "from": "Gene",
+    "select": [
+      "symbol",
+      "secondaryIdentifier",
+      "goAnnotation.ontologyTerm.identifier",
+      "goAnnotation.ontologyTerm.name",
+      "goAnnotation.evidence.code.code",
+      "goAnnotation.ontologyTerm.namespace"
+    ],
+    "orderBy": [
+      {
+        "path": "secondaryIdentifier",
+        "direction": "ASC"
+      }
+    ],
+    "where": [
+      {
+        "path": "Gene",
+        "op": "LOOKUP",
+        "value": "zen",
+        "extraValue": "",
+        "code": "A",
+        "editable": true,
+        "switched": "LOCKED",
+        "switchable": false
+      }
+    ]
+  };
+
+imtables.loadDash(
+  selector, // Can also be an element, or a jQuery object.
+  {"start":0,"limit":5}, // May be null
+  {service: service, query: query} // May be an imjs.Query
+).then(
+  function (table) { document.getElementById(selector).removeClass("loading") },
+  function (error) { console.error('Could not load table', error); }
+);
+
+</script>

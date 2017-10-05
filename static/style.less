@@ -26,6 +26,35 @@
     transition-delay: 0s;
 }
 
+.round-image {
+    align-self: center;
+    margin-right: @spacer;
+    min-width: 113px;
+    min-height: 113px;
+    border-radius: 60px;
+    border: solid 3px #999;
+    background-color: darken(@seriously-pale-grey, 10%);
+}
+
+.unstyle-ul {
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-start;
+        li,
+        li a {
+            margin-right: @spacer;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+        @media (max-width:@smaller-screen) {
+            .transition;
+            flex-wrap: wrap;
+        }
+    }
+}
+
 .colors {
     .developers {
         border: solid 3px @developers-color;
@@ -390,42 +419,43 @@ main {
     }
 }
 
-#showcase {
-    @media (max-width: @smaller-screen) {
-        margin: @spacer/2;
+.showcase {
+    >div {
+        border-bottom: solid 1px #ccc;
     }
-}
-
-#showcase-content {
-    display: flex;
-    margin: 0 -@spacer @spacer;
-    @media (max-width: @smaller-screen) {
-        flex-wrap: wrap;
-        margin: 0;
+    .demo-imtable {
+        .loading {
+            width: 70vw;
+            min-height: 400px;
+            border: solid @seriously-pale-grey 1px;
+        }
     }
-}
-
-.showcase-item {
-    .shadowed-box(1px);
-    .border-radius;
-    .transition;
-    flex-grow: 1;
-    min-width: 200px;
-    min-height: 200px;
-    background-color: @seriously-pale-grey;
-    margin: @spacer/2;
-    padding: @spacer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    &:hover {
-        flex-grow: 4;
-    }
-    @media (max-width:@smaller-screen) {
-        flex-wrap: wrap;
-    }
-    h3 {
-        margin: 0 0 @spacer;
+    .table-showcase {
+        display: flex;
+        .descriptor {
+            font-style: oblique
+        }
+        .explanation {
+            margin-left: @spacer
+        }
+        @media (max-width:@smaller-screen) {
+            flex-direction: column;
+            .explanation {
+                order: 1;
+                margin: 0
+            }
+            .demo-imtable {
+                .transition;
+                order: 2;
+                align-self: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .loading {
+                    max-width: 100%
+                }
+            }
+        }
     }
 }
 
@@ -541,7 +571,11 @@ footer {
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
-    &.icon-linkout {fill:rgba(0,0,0,0.3); margin-left:@spacer/5;min-width:1em;}
+    &.icon-linkout {
+        fill: rgba(0, 0, 0, 0.3);
+        margin-left: @spacer/5;
+        min-width: 1em;
+    }
 }
 
 .team-list {
@@ -566,31 +600,26 @@ footer {
     }
     .placeholder,
     img {
-        align-self: center;
-        margin-right: @spacer;
-        min-width: 113px;
-        min-height: 113px;
-        border-radius: 60px;
-        border: solid 3px #999;
-        background-color: darken(@seriously-pale-grey, 10%);
+        .round-image;
     }
     .icon {
         margin-right: @spacer/2
     }
+    .unstyle-ul
+}
+
+.community-member-list {
+    .unstyle-ul;
     ul {
-        display: flex;
-        list-style-type: none;
-        justify-content: flex-start;
-        li,
-        li a {
-            margin-right: @spacer;
+        flex-wrap: wrap;
+        a {
             display: flex;
-            align-items: center;
-            text-decoration: none;
-        }
-        @media (max-width:@smaller-screen) {
-            .transition;
-            flex-wrap: wrap;
+            flex-direction: column;
+            color: @dark-font;
+            img {
+                .round-image;
+            }
+            margin:@spacer/2;
         }
     }
 }
@@ -639,9 +668,8 @@ footer {
             text-decoration: underline;
         }
         .dynamicimage {
-            margin:0 @spacer @spacer @spacer;
+            margin: 0 @spacer @spacer @spacer;
         }
-    
     }
 }
 
@@ -656,7 +684,7 @@ footer {
     img {
         width: 20vw;
         height: 20vw;
-        border:solid 2px green;
+        border: solid 2px green;
         margin-right: @spacer *2;
     }
 }
@@ -710,21 +738,27 @@ p:empty {
         list-style-type: none;
         padding-left: 0;
         li {
-            border-bottom:solid 1px #ccc;
-            border-top:solid 1px #eee;
+            border-bottom: solid 1px #ccc;
+            border-top: solid 1px #eee;
             padding: @spacer/2 @spacer;
-            display:flex;
-            > a { align-self:center; margin-right:@spacer;}
+            display: flex;
+            >a {
+                align-self: center;
+                margin-right: @spacer;
+            }
             &:nth-of-type(even) {
                 background-color: @seriously-pale-grey;
             }
-            p {margin:@spacer/2 0}
+            p {
+                margin: @spacer/2 0
+            }
         }
     }
     .visit-pubmed {
         svg {
             fill: @biologists-color;
-        width:2em;height:2em;
+            width: 2em;
+            height: 2em;
         }
     }
 }

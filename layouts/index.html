@@ -4,65 +4,42 @@
 {{partial "head.html" . }}
 
 <body>
-  {{ partial "header.html" .}}
+    {{ partial "header.html" .}}
     <main>
-      <div class="tagline non-alt">
-          <h2>Disparate data in, unified data out</h2>
-          <div class="details">
-              <div class="explanation">
-                  <p class="main-text">InterMine integrates biological data sources, making it easy to query and analyse data.</p>
-                  <p class="supporting-text">InterMine is <a href="https://github.com/intermine/intermine">open source</a> (LGPL 2.1) and free to use. </p>
-                  <p class="supporting-text">Around <a href="http://registry.intermine.org/">thirty different InterMines exist worldwide</a>, covering a broad range of organisms.</p>
-              </div>
-              <img src="images/intermine-data-flow.png" width="600" height="231" alt="InterMine combines multiple data sources into a single queryable source">
-          </div>
-      </div>
-      <div id="showcase">
-          <h2>Showcase</h2>
-          <div id="showcase-content">
-              <div class="showcase-item">
-                  <h3>InterMine Registry</h3>
-                  <div class="showcase-details registry">
-                      <a href="http://registry.intermine.org">
-                          <img src="images/registry-4.png" width="300" height="192" alt="InterMine Registry preview screenshot"></a>
-                  </div>
-                  <div>
-                      <p>Browse a list of public InterMines or query it programatically.</p>
-                      <div class="more-details-links">
-                          <a href="http://registry.intermine.org" class="more-details">Registry</a>
-                          <a href="http://registry.intermine.org/api-docs/" class="more-details">API docs</a>
-                      </div>
+        <div class="tagline non-alt">
+            <h2>Disparate data in, unified data out</h2>
+            <div class="details">
+                <div class="explanation">
+                    <p class="main-text">InterMine integrates biological data sources, making it easy to query and analyse data.</p>
+                    <p class="supporting-text">InterMine is <a href="https://github.com/intermine/intermine">open source</a> (LGPL 2.1) and free to
+                        use. </p>
+                    <p class="supporting-text">Around <a href="http://registry.intermine.org/">thirty different InterMines exist worldwide</a>, covering
+                        a broad range of organisms.</p>
+                </div>
+                <img src="images/intermine-data-flow.png" width="600" height="231" alt="InterMine combines multiple data sources into a single queryable source">
+            </div>
+        </div>
+        <div class="showcase">
+            <h2>InterMine Features</h2>
+            <div class="table-showcase">
+                {{partial "imtabledemo.html"}}
+                <div class="explanation">
+                    <h3>Dynamic data tables</h3>
 
-                  </div>
-              </div>
-              <div class="showcase-item">
-                  <h3>Mobile InterMine apps</h3>
-                  <div class="showcase-details">
-                      <a href="{{.Site.BaseURL}}/mobile-apps">
-                          <img src="{{.Site.BaseURL}}/images/intermine-android-app.png" width="114" height="220" alt="review screenshot of mobile application"></a>
-                  </div>
-                  <div>
-                      <p>Search across all InterMines on <a href="https://play.google.com/store/apps/details?id=org.intermine.app">Android</a> or <a href="https://itunes.apple.com/us/app/intermine-gene-search/id1271710231?mt=8">iOS</a>.</p>
-                      <a href="{{.Site.BaseURL}}/mobile-apps" class="more-details">Mobile app home</a>
+                    <p>InterMine's tables allow you to easily drill down into data. It's easy to filter data, add additional
+                        columns, navigate to report pages.</p>
+                    <h4>Try it yourself!</h4>
+                    <p>Try clicking on the
+                        <svg class="icon icon-bar-chart">
+                            <use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-bar-chart"></use>
+                        </svg> icon in the ontology term namespace and filtering the column to show only one term.</p>
+                        <h4>Run queries in many languages</h4>
+                        <p>Try clicking on the "Generate Python code" button - or use the dropdown to choose a different language. You can then easily copy/paste the queries to your scripts.</p>
+                        <p class="descriptor">Shown in table: GO terms related to the Drosophila gene "zen". Data drawn from <a href="http://www.flymine.org">FlyMine</a>.</p>                       
 
-                  </div>
-              </div>
-              <div class="showcase-item">
-                  <h3>Multi-organism GO Search</h3>
-                  <div class="showcase-details registry">
-                      <a href="http://registry.intermine.org">
-                          <img src="images/intermod-go-tool-screenshot.png" width="300" height="192" alt="Preview screenshot of Registry"></a>
-                  </div>
-                  <div>
-                      <p>Search GO Terms across multiple organisms at once</p>
-                      <div class="more-details-links">
-                          <a href="http://gointermod.apps.intermine.org/#" class="more-details">Demo</a>
-                      </div>
-
-                  </div>
-              </div>
-          </div>
-      </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     {{partial "footer.html" . }}
