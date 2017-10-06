@@ -448,8 +448,9 @@ main {
     margin: 0;
   }
 }
-main h2 {
-  margin: 0.5em 0;
+main h2,
+main > p {
+  margin: 0.5em;
 }
 .tagline {
   margin: 0 -1em;
@@ -547,9 +548,6 @@ main h2 {
     max-width: 100%;
   }
 }
-.showcase-content {
-  display: flex;
-}
 .more-details-links {
   display: flex;
   justify-content: flex-end;
@@ -570,6 +568,16 @@ main h2 {
   border: solid 10px #fff;
   border-radius: 2px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.075);
+}
+.showcase-content {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 760px) {
+  .showcase-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 .showcase-details {
   display: flex;

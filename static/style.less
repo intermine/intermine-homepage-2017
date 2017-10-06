@@ -369,8 +369,8 @@ main {
     @media (max-width: @itsy-bitsy-screen) {
         margin: 0;
     }
-    h2 {
-        margin: @spacer/2 0;
+    h2, > p {
+        margin: @spacer/2;
     }
 }
 
@@ -465,11 +465,6 @@ main {
     }
 }
 
-.showcase-content {
-    display:flex;
-    .showcase-item {}
-}
-
 .more-details-links {
     display: flex;
     justify-content: flex-end;
@@ -493,6 +488,15 @@ main {
 
 .registry img {
     .polaroid;
+}
+
+.showcase-content {
+    display:flex;
+    justify-content:space-around;
+    @media(max-width:@itsy-bitsy-screen){
+        flex-wrap:wrap;
+        justify-content:center;
+    }
 }
 
 .showcase-details {
