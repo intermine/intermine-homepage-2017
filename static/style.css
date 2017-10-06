@@ -448,7 +448,7 @@ main {
     margin: 0;
   }
 }
-main h2,
+main > h2,
 main > p {
   margin: 0.5em;
 }
