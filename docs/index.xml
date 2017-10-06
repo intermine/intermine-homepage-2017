@@ -39,16 +39,6 @@
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/mobile-apps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/mobile-apps/</guid>
-      <description>InterMine Android and iOS Apps InterMine&#39;s mobile apps allow you to carry the power of multiple InterMines in your pocket. They include a cross-InterMine search tool, as well as alowing you to browse lists, templates, and to create a selection of &#34;favourites&#34; - perhaps a set of publications to review or a collection of interesting genes.
-Android  Search genes across multiple InterMines, as well as viewing lists, templates, and creating favourites.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://yochannah.github.io/intermine-homepage-mocks/team/daniela/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -157,6 +147,16 @@ She joined the InterMine team in 2010, working for 3 years, primarily in the bac
     </item>
     
     <item>
+      <title>InterMine Android and iOS Apps</title>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/mobile-apps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/mobile-apps/</guid>
+      <description>InterMine&#39;s mobile apps allow you to carry the power of multiple InterMines in your pocket. They include a cross-InterMine search tool, as well as alowing you to browse lists, templates, and to create a selection of &#34;favourites&#34; - perhaps a set of publications to review or a collection of interesting genes.
+Android  Search genes across multiple InterMines, as well as viewing lists, templates, and creating favourites.     iOS   Developed by Nadia Yudina as part of Google Summer of Code 2017.</description>
+    </item>
+    
+    <item>
       <title>InterMine Chat (Discord)</title>
       <link>https://yochannah.github.io/intermine-homepage-mocks/developers/supportchat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -208,6 +208,16 @@ She joined the InterMine team in 2010, working for 3 years, primarily in the bac
       
       <guid>https://yochannah.github.io/intermine-homepage-mocks/publications/interminecore/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Site Credits</title>
+      <link>https://yochannah.github.io/intermine-homepage-mocks/credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yochannah.github.io/intermine-homepage-mocks/credits/</guid>
+      <description>InterMine Homepage Copyright InterMine 2017 Site This site is generated using the static site generator hugo and hosted on GitHub pages.
+Icons SVG icons used on the site are courtesy of IcoMoon and academicons (pubmed icon). Organism icons on the home page are made by Freepik from www.flaticon.com.</description>
     </item>
     
     <item>
