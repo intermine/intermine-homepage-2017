@@ -1,18 +1,37 @@
-{{ $mines := getJSON "http://registry.intermine.org/service/instances" }} 
+{{ $registry := getJSON "http://registry.intermine.org/service/instances" }} 
+{{ $splitat := 6}}
+
 <div class="mine-showcase">
     <div class="intermine-links">
-    {{range $mine := (first 15 (shuffle $mines.instances))}}
-        <a href="{{$mine.url}}" title="{{$mine.description}}" class="intermine-link">
-        {{range $organism := (first 1 (shuffle $mine.organisms))}}
-            <span class="organism">{{$organism}}</span>
-        {{end}}
-        <span class="minename">({{$mine.name}})</span>
+    <!-- some manually curated mines -->
+    {{range $mineName :=  $.Site.Data.homepage.mines.first}}
+        {{$mine := getJSON (print "http://registry.intermine.org/service/instances/" $mineName)}}
+        <a href="{{$mine.instance.url}}" title="{{$mine.instance.description}}" class="intermine-link">
+        <span class="minename">{{$mine.instance.name}}</span>
         </a>
     {{end}}
+    <!-- some randomly selected mines from the registry
+    {{range $mine := (first 8 (shuffle $registry.instances))}}
+        <a href="{{$mine.url}}" title="{{$mine.description}}" class="intermine-link">
+        <span class="minename">{{$mine.name}}</span>
+        </a>
+    {{end}}-->
+    <!-- some manually curated mines -->
+    {{range $mineName :=  $.Site.Data.homepage.mines.last}}
+    {{$mine := getJSON (print "http://registry.intermine.org/service/instances/" $mineName)}}
+        <a href="{{$mine.instance.url}}" title="{{$mine.instance.description}}" class="intermine-link">
+        <span class="minename">{{$mine.instance.name}}</span>
+        </a>
+    {{end}}
+    <a href="http://www.synbiomine.org/" title="Data mining and parts for synthetic biology" class="intermine-link">
+        <span class="minename">SynBioMine</span>
+    </a>
+    
     </div>
     <div class="explanation">
             <h2>There's an InterMine for (almost) anyone</h2>
-            <p>With InterMine you can search across data for one or many organisms, and jump between different organisms based on homology. </p>
-            <p>This is a sample of the organisms you can find in each mine - click on one to go straight to that InterMine.</p>
+            <p>With InterMine you can explore organism and other research data provided by many different organizations, moving between databases using criteria such as homology.</p>
+                    
+                    <p>This is a sample of the InterMine installations available - click on one to go straight to that service.</p>
         </div>
     </div>

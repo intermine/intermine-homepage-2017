@@ -1,0 +1,14 @@
+{"mines" : {
+    "first" : ["YeastMine",
+         "WormMine", 
+         "FlyMine", 
+         "ZebrafishMine", 
+         "RatMine", 
+         "MouseMine"],
+    "last":
+        [ "TargetMine",
+         "PlanMine", 
+         "PhytoMine",
+         "HymenopteraMine",
+          "modMine",
+          "ChickpeaMine"]}}
