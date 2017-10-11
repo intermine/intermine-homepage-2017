@@ -1,27 +1,33 @@
 {{ $registry := getJSON "http://registry.intermine.org/service/instances" }} 
-{{ $splitat := 6}}
 
-<div class="mine-showcase">
+<div class="mine-showcase two"> 
     <div class="intermine-links">
     <!-- some manually curated mines -->
     {{range $mineName :=  $.Site.Data.homepage.mines.first}}
         {{$mine := getJSON (print "http://registry.intermine.org/service/instances/" $mineName)}}
-        <a href="{{$mine.instance.url}}" title="{{$mine.instance.description}}" class="intermine-link">
-        <span class="minename">{{$mine.instance.name}}</span>
-        </a>
+        {{if eq $mine.instance.status "Running" }} 
+            <a href="{{$mine.instance.url}}" title="{{$mine.instance.description}}" class="intermine-link">
+            <span class="minename">{{$mine.instance.name}}</span>
+            </a>
+        {{end}}
     {{end}}
-    <!-- some randomly selected mines from the registry
+    <!-- some randomly selected mines from the registry -->
     {{range $mine := (first 8 (shuffle $registry.instances))}}
-        <a href="{{$mine.url}}" title="{{$mine.description}}" class="intermine-link">
-        <span class="minename">{{$mine.name}}</span>
-        </a>
-    {{end}}-->
+        {{if not (in (union $.Site.Data.homepage.mines.first $.Site.Data.homepage.mines.last) $mine.name)}} 
+             <a href="{{$mine.url}}" title="{{$mine.description}}" class="intermine-link">
+                <span class="minename">{{$mine.name}}</span>
+            </a>
+        {{end}}
+    {{end}} 
     <!-- some manually curated mines -->
     {{range $mineName :=  $.Site.Data.homepage.mines.last}}
+    
     {{$mine := getJSON (print "http://registry.intermine.org/service/instances/" $mineName)}}
+    {{if eq $mine.instance.status "Running" }}     
         <a href="{{$mine.instance.url}}" title="{{$mine.instance.description}}" class="intermine-link">
         <span class="minename">{{$mine.instance.name}}</span>
         </a>
+        {{end}}
     {{end}}
     <a href="http://www.synbiomine.org/" title="Data mining and parts for synthetic biology" class="intermine-link">
         <span class="minename">SynBioMine</span>
