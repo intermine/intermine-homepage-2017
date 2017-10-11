@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About InterMine on InterMine - data integration, analysis, and warehousing</title>
-    <link>https://yochannah.github.io/intermine-homepage-mocks/team/</link>
+    <link>http://intermine.org/team/</link>
     <description>Recent content in About InterMine on InterMine - data integration, analysis, and warehousing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="https://yochannah.github.io/intermine-homepage-mocks/team/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://intermine.org/team/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/team/gos/</link>
+      <link>http://intermine.org/team/gos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/gos/</guid>
+      <guid>http://intermine.org/team/gos/</guid>
       <description>InterMine is part of the Micklem Lab, led by Gos Micklem. Gos is also director of the Cambridge Computational Biology Institute. Gos can often be found writing grants and winning Department of Genetics awards for enthusiastic lecturing. (He says that this was probably a statistical anomaly).</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/team/julie/</link>
+      <link>http://intermine.org/team/julie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/julie/</guid>
+      <guid>http://intermine.org/team/julie/</guid>
       <description>Julie joined the InterMine team immediately after graduating with a Computer Science (hons) degree from Bristol University in 2006. She specialises in the InterMine build system and writing meeting agendas.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/team/daniela/</link>
+      <link>http://intermine.org/team/daniela/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/daniela/</guid>
+      <guid>http://intermine.org/team/daniela/</guid>
       <description>Software Engineer with 15+ years of experience in web applications development in a variety of industries. Experienced in J2EE open source frameworks, servers, libraries and web services.
 She joined the InterMine team in 2010, working for 3 years, primarily in the backend development, then she moved away to the game industry but she changed ideas very soon and came back thinking that genes and proteins are more fun than treasures and crowns!</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/team/josh/</link>
+      <link>http://intermine.org/team/josh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/josh/</guid>
+      <guid>http://intermine.org/team/josh/</guid>
       <description>Software engineer with a soft spot for Clojurescript, immutable data, and functional programming in general. Josh can often be spotted working late into the night, feverishly implementing the next exciting features in BlueGenes. Previously worked at Xerox.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/team/justin/</link>
+      <link>http://intermine.org/team/justin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/justin/</guid>
+      <guid>http://intermine.org/team/justin/</guid>
       <description>Software engineer looking to accelerate the life sciences with user-oriented data, semantic and compute infrastructure. Particular interests include scientific data integration, disease, aging and synthetic biology. Developer of the SynBioMine synthetic biology data warehouse (synbiomine.org) and a member of ELIXIR FAIR initiatives such as Bioschemas. Previously a core developer and maintainer of open-source virtual worlds (working with Intel and the US Department of Energy, amongst others) and even more previously IBM.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/team/rachel/</link>
+      <link>http://intermine.org/team/rachel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/rachel/</guid>
+      <guid>http://intermine.org/team/rachel/</guid>
       <description>Biologist/bioinformatician with over 10 years experience working with InterMine and complex biological data, she forms the liaison between the biology and the software development. Rachel also runs training workshops for InterMine users and provides help-desk support.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/team/sergio/</link>
+      <link>http://intermine.org/team/sergio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/sergio/</guid>
+      <guid>http://intermine.org/team/sergio/</guid>
       <description>With InterMine since 2007, has worked mostly in the production of modMine (modENCODE project) and ThaleMine (Araport project). Likes databases and data visualization, has produced a music album of his compositions.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/team/yo/</link>
+      <link>http://intermine.org/team/yo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/yo/</guid>
+      <guid>http://intermine.org/team/yo/</guid>
       <description>Software engineer with a focus on front-end technologies such as Javascript, ClojureScript, and User Interfaces. May be spotted blogging, tweeting from her own account, @intermineorg, @gmodproject, or updating the InterMine homepage. Loves interacting with open source communities. Previously, Yo worked at Capital One and K-Now, a spin-off from the University of Sheffield. In her spare time you can find her running, cycling, or reading speculative fiction.</description>
     </item>
     

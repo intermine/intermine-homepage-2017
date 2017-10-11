@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contributors on InterMine - data integration, analysis, and warehousing</title>
-    <link>https://yochannah.github.io/intermine-homepage-mocks/contributors/</link>
+    <link>http://intermine.org/contributors/</link>
     <description>Recent content in Contributors on InterMine - data integration, analysis, and warehousing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="https://yochannah.github.io/intermine-homepage-mocks/contributors/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://intermine.org/contributors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Previous InterMine Members</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/contributors/previousinterminers/</link>
+      <link>http://intermine.org/contributors/previousinterminers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/contributors/previousinterminers/</guid>
+      <guid>http://intermine.org/contributors/previousinterminers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GSOC 2017</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/contributors/gsoc2017/</link>
+      <link>http://intermine.org/contributors/gsoc2017/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/contributors/gsoc2017/</guid>
+      <guid>http://intermine.org/contributors/gsoc2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>InterMine Community Contributors</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/contributors/community/</link>
+      <link>http://intermine.org/contributors/community/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/contributors/community/</guid>
+      <guid>http://intermine.org/contributors/community/</guid>
       <description></description>
     </item>
     

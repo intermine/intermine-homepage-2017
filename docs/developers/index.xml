@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Developers on InterMine - data integration, analysis, and warehousing</title>
-    <link>https://yochannah.github.io/intermine-homepage-mocks/developers/</link>
+    <link>http://intermine.org/developers/</link>
     <description>Recent content in Developers on InterMine - data integration, analysis, and warehousing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="https://yochannah.github.io/intermine-homepage-mocks/developers/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://intermine.org/developers/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>API Clients</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/developers/apiclients/</link>
+      <link>http://intermine.org/developers/apiclients/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/developers/apiclients/</guid>
+      <guid>http://intermine.org/developers/apiclients/</guid>
       <description>We have client libraries to make querying InterMine super-easy! There&amp;rsquo;s one for each of R, Python, Perl, JavaScript (node or browser), Ruby, and Java</description>
     </item>
     
     <item>
       <title>API Documentation</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/developers/apidocumentation/</link>
+      <link>http://intermine.org/developers/apidocumentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/developers/apidocumentation/</guid>
+      <guid>http://intermine.org/developers/apidocumentation/</guid>
       <description>Dive straight into our API with interactive live documentation.</description>
     </item>
     
     <item>
       <title>Developer docs &amp; getting started</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/developers/developerdocs/</link>
+      <link>http://intermine.org/developers/developerdocs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/developers/developerdocs/</guid>
+      <guid>http://intermine.org/developers/developerdocs/</guid>
       <description>Documentation for new and veteran InterMine developers. Includes getting started tutorials, system requirements, configuration info, and troubleshooting tips.</description>
     </item>
     
     <item>
       <title>Developer email list</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/developers/developeremaillist/</link>
+      <link>http://intermine.org/developers/developeremaillist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/developers/developeremaillist/</guid>
+      <guid>http://intermine.org/developers/developeremaillist/</guid>
       <description>Sign up, ask for help, get updates, or just browse the archives to see if a problem you&amp;rsquo;re having has happened before.</description>
     </item>
     
     <item>
       <title>InterMine Chat (Discord)</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/developers/supportchat/</link>
+      <link>http://intermine.org/developers/supportchat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/developers/supportchat/</guid>
+      <guid>http://intermine.org/developers/supportchat/</guid>
       <description>Chat in real time with InterMiners (UK day time) or with the rest of the community. There&amp;rsquo;s a general chit-chat channel for important stuff like cat pictures, and a support channel for technical queries.</description>
     </item>
     
     <item>
       <title>InterMine Registry</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/developers/registry/</link>
+      <link>http://intermine.org/developers/registry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/developers/registry/</guid>
+      <guid>http://intermine.org/developers/registry/</guid>
       <description>Need a list of InterMines programmatically? Our Registry Swagger API gives you interactive API documentation, or you can browse a list of InterMines if you prefer.</description>
     </item>
     

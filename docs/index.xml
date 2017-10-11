@@ -2,230 +2,230 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>InterMine - data integration, analysis, and warehousing</title>
-    <link>https://yochannah.github.io/intermine-homepage-mocks/</link>
+    <link>http://intermine.org/</link>
     <description>Recent content on InterMine - data integration, analysis, and warehousing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="https://yochannah.github.io/intermine-homepage-mocks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://intermine.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/team/gos/</link>
+      <link>http://intermine.org/team/gos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/gos/</guid>
+      <guid>http://intermine.org/team/gos/</guid>
       <description>InterMine is part of the Micklem Lab, led by Gos Micklem. Gos is also director of the Cambridge Computational Biology Institute. Gos can often be found writing grants and winning Department of Genetics awards for enthusiastic lecturing. (He says that this was probably a statistical anomaly).</description>
     </item>
     
     <item>
       <title>Previous InterMine Members</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/contributors/previousinterminers/</link>
+      <link>http://intermine.org/contributors/previousinterminers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/contributors/previousinterminers/</guid>
+      <guid>http://intermine.org/contributors/previousinterminers/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/team/julie/</link>
+      <link>http://intermine.org/team/julie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/julie/</guid>
+      <guid>http://intermine.org/team/julie/</guid>
       <description>Julie joined the InterMine team immediately after graduating with a Computer Science (hons) degree from Bristol University in 2006. She specialises in the InterMine build system and writing meeting agendas.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/team/daniela/</link>
+      <link>http://intermine.org/team/daniela/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/daniela/</guid>
+      <guid>http://intermine.org/team/daniela/</guid>
       <description>Software Engineer with 15+ years of experience in web applications development in a variety of industries. Experienced in J2EE open source frameworks, servers, libraries and web services.
 She joined the InterMine team in 2010, working for 3 years, primarily in the backend development, then she moved away to the game industry but she changed ideas very soon and came back thinking that genes and proteins are more fun than treasures and crowns!</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/team/josh/</link>
+      <link>http://intermine.org/team/josh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/josh/</guid>
+      <guid>http://intermine.org/team/josh/</guid>
       <description>Software engineer with a soft spot for Clojurescript, immutable data, and functional programming in general. Josh can often be spotted working late into the night, feverishly implementing the next exciting features in BlueGenes. Previously worked at Xerox.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/team/justin/</link>
+      <link>http://intermine.org/team/justin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/justin/</guid>
+      <guid>http://intermine.org/team/justin/</guid>
       <description>Software engineer looking to accelerate the life sciences with user-oriented data, semantic and compute infrastructure. Particular interests include scientific data integration, disease, aging and synthetic biology. Developer of the SynBioMine synthetic biology data warehouse (synbiomine.org) and a member of ELIXIR FAIR initiatives such as Bioschemas. Previously a core developer and maintainer of open-source virtual worlds (working with Intel and the US Department of Energy, amongst others) and even more previously IBM.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/team/rachel/</link>
+      <link>http://intermine.org/team/rachel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/rachel/</guid>
+      <guid>http://intermine.org/team/rachel/</guid>
       <description>Biologist/bioinformatician with over 10 years experience working with InterMine and complex biological data, she forms the liaison between the biology and the software development. Rachel also runs training workshops for InterMine users and provides help-desk support.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/team/sergio/</link>
+      <link>http://intermine.org/team/sergio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/sergio/</guid>
+      <guid>http://intermine.org/team/sergio/</guid>
       <description>With InterMine since 2007, has worked mostly in the production of modMine (modENCODE project) and ThaleMine (Araport project). Likes databases and data visualization, has produced a music album of his compositions.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/team/yo/</link>
+      <link>http://intermine.org/team/yo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/team/yo/</guid>
+      <guid>http://intermine.org/team/yo/</guid>
       <description>Software engineer with a focus on front-end technologies such as Javascript, ClojureScript, and User Interfaces. May be spotted blogging, tweeting from her own account, @intermineorg, @gmodproject, or updating the InterMine homepage. Loves interacting with open source communities. Previously, Yo worked at Capital One and K-Now, a spin-off from the University of Sheffield. In her spare time you can find her running, cycling, or reading speculative fiction.</description>
     </item>
     
     <item>
       <title>API Clients</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/developers/apiclients/</link>
+      <link>http://intermine.org/developers/apiclients/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/developers/apiclients/</guid>
+      <guid>http://intermine.org/developers/apiclients/</guid>
       <description>We have client libraries to make querying InterMine super-easy! There&amp;rsquo;s one for each of R, Python, Perl, JavaScript (node or browser), Ruby, and Java</description>
     </item>
     
     <item>
       <title>API Documentation</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/developers/apidocumentation/</link>
+      <link>http://intermine.org/developers/apidocumentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/developers/apidocumentation/</guid>
+      <guid>http://intermine.org/developers/apidocumentation/</guid>
       <description>Dive straight into our API with interactive live documentation.</description>
     </item>
     
     <item>
       <title>Developer docs &amp; getting started</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/developers/developerdocs/</link>
+      <link>http://intermine.org/developers/developerdocs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/developers/developerdocs/</guid>
+      <guid>http://intermine.org/developers/developerdocs/</guid>
       <description>Documentation for new and veteran InterMine developers. Includes getting started tutorials, system requirements, configuration info, and troubleshooting tips.</description>
     </item>
     
     <item>
       <title>Developer email list</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/developers/developeremaillist/</link>
+      <link>http://intermine.org/developers/developeremaillist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/developers/developeremaillist/</guid>
+      <guid>http://intermine.org/developers/developeremaillist/</guid>
       <description>Sign up, ask for help, get updates, or just browse the archives to see if a problem you&amp;rsquo;re having has happened before.</description>
     </item>
     
     <item>
       <title>GSOC 2017</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/contributors/gsoc2017/</link>
+      <link>http://intermine.org/contributors/gsoc2017/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/contributors/gsoc2017/</guid>
+      <guid>http://intermine.org/contributors/gsoc2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ISA-InterMine: accelerating and rewarding data sharing</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/projects/isa-intermine/</link>
+      <link>http://intermine.org/projects/isa-intermine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/projects/isa-intermine/</guid>
+      <guid>http://intermine.org/projects/isa-intermine/</guid>
       <description>The ISA-InterMine grant is funded by the Wellcome Trust, collaborating with ISATools in Oxford to integrate ISA metadata into InterMine and make creating InterMine instances quickly and easily on the cloud. Read more details in our announcment blog post. This grant&amp;rsquo;s start date is April 2018 and it runs for three years.</description>
     </item>
     
     <item>
       <title>InterMine Android and iOS Apps</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/mobile-apps/</link>
+      <link>http://intermine.org/mobile-apps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/mobile-apps/</guid>
+      <guid>http://intermine.org/mobile-apps/</guid>
       <description>InterMine&#39;s mobile apps allow you to carry the power of multiple InterMines in your pocket. They include a cross-InterMine search tool, as well as alowing you to browse lists, templates, and to create a selection of &#34;favourites&#34; - perhaps a set of publications to review or a collection of interesting genes.
 Android  Search genes across multiple InterMines, as well as viewing lists, templates, and creating favourites.     iOS   Developed by Nadia Yudina as part of Google Summer of Code 2017.</description>
     </item>
     
     <item>
       <title>InterMine Chat (Discord)</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/developers/supportchat/</link>
+      <link>http://intermine.org/developers/supportchat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/developers/supportchat/</guid>
+      <guid>http://intermine.org/developers/supportchat/</guid>
       <description>Chat in real time with InterMiners (UK day time) or with the rest of the community. There&amp;rsquo;s a general chit-chat channel for important stuff like cat pictures, and a support channel for technical queries.</description>
     </item>
     
     <item>
       <title>InterMine Community Contributors</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/contributors/community/</link>
+      <link>http://intermine.org/contributors/community/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/contributors/community/</guid>
+      <guid>http://intermine.org/contributors/community/</guid>
       <description></description>
     </item>
     
     <item>
       <title>InterMine Registry</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/developers/registry/</link>
+      <link>http://intermine.org/developers/registry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/developers/registry/</guid>
+      <guid>http://intermine.org/developers/registry/</guid>
       <description>Need a list of InterMines programmatically? Our Registry Swagger API gives you interactive API documentation, or you can browse a list of InterMines if you prefer.</description>
     </item>
     
     <item>
       <title>Making data FAIR using InterMine</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/projects/fair-bbsrc/</link>
+      <link>http://intermine.org/projects/fair-bbsrc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/projects/fair-bbsrc/</guid>
+      <guid>http://intermine.org/projects/fair-bbsrc/</guid>
       <description>This grant is funded by the BBSRC, and runs for three years starting July 2017, with a focus on making InterMine and its data more FAIR - that is, Findable, Accessible, Interoperable, and Reusable. Read more in our grant launch blog post</description>
     </item>
     
     <item>
       <title>Publications about Community-run InterMines</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/publications/otherintermines/</link>
+      <link>http://intermine.org/publications/otherintermines/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/publications/otherintermines/</guid>
+      <guid>http://intermine.org/publications/otherintermines/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications by the InterMine Team</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/publications/interminecore/</link>
+      <link>http://intermine.org/publications/interminecore/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/publications/interminecore/</guid>
+      <guid>http://intermine.org/publications/interminecore/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Site Credits</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/credits/</link>
+      <link>http://intermine.org/credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/credits/</guid>
+      <guid>http://intermine.org/credits/</guid>
       <description>InterMine Homepage Copyright InterMine 2017 Site This site is generated using the static site generator hugo and hosted on GitHub pages.
 Icons SVG icons used on the site are courtesy of IcoMoon and academicons (pubmed icon). Organism icons on the home page are made by Freepik from www.flaticon.com.</description>
     </item>
     
     <item>
       <title>Tutorials and videos</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/tutorials/</link>
+      <link>http://intermine.org/tutorials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/tutorials/</guid>
+      <guid>http://intermine.org/tutorials/</guid>
       <description>Here&amp;rsquo;s a short list of video tutorials produced by community members. If you&amp;rsquo;d like yours added to the list please contact us!
  FlyMine intro videos - for the Drosophila-minded among us. Thalemine tutorials - A. thaliana-based tutorials. TargetMine tutorials Tutorials for an InterMine designed to help identify drug targets. YeastMine videos - SGD has quite a broad range of tutorials based on S. Cerevisiae data. MouseMine at MGI - M.</description>
     </item>

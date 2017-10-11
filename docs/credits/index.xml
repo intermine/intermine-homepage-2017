@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Credits on InterMine - data integration, analysis, and warehousing</title>
-    <link>https://yochannah.github.io/intermine-homepage-mocks/credits/</link>
+    <link>http://intermine.org/credits/</link>
     <description>Recent content in Credits on InterMine - data integration, analysis, and warehousing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="https://yochannah.github.io/intermine-homepage-mocks/credits/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://intermine.org/credits/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Site Credits</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/credits/</link>
+      <link>http://intermine.org/credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/credits/</guid>
+      <guid>http://intermine.org/credits/</guid>
       <description>InterMine Homepage Copyright InterMine 2017 Site This site is generated using the static site generator hugo and hosted on GitHub pages.
 Icons SVG icons used on the site are courtesy of IcoMoon and academicons (pubmed icon). Organism icons on the home page are made by Freepik from www.flaticon.com.</description>
     </item>

@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>InterMine&#39;s Projects on InterMine - data integration, analysis, and warehousing</title>
-    <link>https://yochannah.github.io/intermine-homepage-mocks/projects/</link>
+    <link>http://intermine.org/projects/</link>
     <description>Recent content in InterMine&#39;s Projects on InterMine - data integration, analysis, and warehousing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="https://yochannah.github.io/intermine-homepage-mocks/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://intermine.org/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ISA-InterMine: accelerating and rewarding data sharing</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/projects/isa-intermine/</link>
+      <link>http://intermine.org/projects/isa-intermine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/projects/isa-intermine/</guid>
+      <guid>http://intermine.org/projects/isa-intermine/</guid>
       <description>The ISA-InterMine grant is funded by the Wellcome Trust, collaborating with ISATools in Oxford to integrate ISA metadata into InterMine and make creating InterMine instances quickly and easily on the cloud. Read more details in our announcment blog post. This grant&amp;rsquo;s start date is April 2018 and it runs for three years.</description>
     </item>
     
     <item>
       <title>Making data FAIR using InterMine</title>
-      <link>https://yochannah.github.io/intermine-homepage-mocks/projects/fair-bbsrc/</link>
+      <link>http://intermine.org/projects/fair-bbsrc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yochannah.github.io/intermine-homepage-mocks/projects/fair-bbsrc/</guid>
+      <guid>http://intermine.org/projects/fair-bbsrc/</guid>
       <description>This grant is funded by the BBSRC, and runs for three years starting July 2017, with a focus on making InterMine and its data more FAIR - that is, Findable, Accessible, Interoperable, and Reusable. Read more in our grant launch blog post</description>
     </item>
     
