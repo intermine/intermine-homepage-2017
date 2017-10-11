@@ -12,4 +12,6 @@ The homepage is generated using the static site generator [hugo](https://gohugo.
 4. If you'd like to view the site locally, run `hugo server` and navigate to localhost:1313. While `hugo server` is running, it will automatically build and refresh pages you edit, so long as there are no errors.
 3. Edit the page you're interested in. Note that folders in content which have an `_index.md` are list pages and will output the contents of all the other pages in the folder. Folders with `index.md` (no underscore) are just single-page entries rather than list pages.
 5. When you're happy with your changes locally, run `hugo`. This will build the site statically into the `docs` folder.
-6. Push. Viola, it should be live and hosted on gh-pages (assuming you have gh-pages set up for your repo to serve from `/docs`)
+6. Push. 
+
+If you want do deploy it on InterMine.org, see the [intermine.org documentation](https://github.com/intermine/intermine.github.io/blob/master/README.md)
