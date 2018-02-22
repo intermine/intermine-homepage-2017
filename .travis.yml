@@ -1,0 +1,18 @@
+# Install the apt prerequisites
+addons:
+  apt:
+    packages:
+      - python-pygments
+      - hugo
+
+# Build the website
+script:
+  - binaries/hugo --theme=fresh
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: docs
+  on:
+    branch: gh-pages
