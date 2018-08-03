@@ -38,6 +38,24 @@
     </item>
     
     <item>
+      <title>GSOC 2018</title>
+      <link>http://intermine.org/contributors/gsoc2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/contributors/gsoc2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GSOC 2017</title>
+      <link>http://intermine.org/contributors/gsoc2017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/contributors/gsoc2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title></title>
       <link>http://intermine.org/team/daniela/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -45,15 +63,6 @@
       <guid>http://intermine.org/team/daniela/</guid>
       <description>Software Engineer with 15+ years of experience in web applications development in a variety of industries. Experienced in J2EE open source frameworks, servers, libraries and web services.
 She joined the InterMine team in 2010, working for 3 years, primarily in the backend development, then she moved away to the game industry but she changed ideas very soon and came back thinking that genes and proteins are more fun than treasures and crowns!</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://intermine.org/team/josh/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://intermine.org/team/josh/</guid>
-      <description>Software engineer with a soft spot for Clojurescript, immutable data, and functional programming in general. Josh can often be spotted working late into the night, feverishly implementing the next exciting features in BlueGenes. Previously worked at Xerox.</description>
     </item>
     
     <item>
@@ -129,15 +138,6 @@ She joined the InterMine team in 2010, working for 3 years, primarily in the bac
     </item>
     
     <item>
-      <title>GSOC 2017</title>
-      <link>http://intermine.org/contributors/gsoc2017/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://intermine.org/contributors/gsoc2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ISA-InterMine: accelerating and rewarding data sharing</title>
       <link>http://intermine.org/projects/isa-intermine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -153,7 +153,7 @@ She joined the InterMine team in 2010, working for 3 years, primarily in the bac
       
       <guid>http://intermine.org/mobile-apps/</guid>
       <description>InterMine&#39;s mobile apps allow you to carry the power of multiple InterMines in your pocket. They include a cross-InterMine search tool, as well as alowing you to browse lists, templates, and to create a selection of &#34;favourites&#34; - perhaps a set of publications to review or a collection of interesting genes.
-Android  Search genes across multiple InterMines, as well as viewing lists, templates, and creating favourites.     iOS   Developed by Nadia Yudina as part of Google Summer of Code 2017.</description>
+Android  Search genes across multiple InterMines, as well as viewing lists, templates, and creating favourites. Developed by Daria Komkova.</description>
     </item>
     
     <item>
