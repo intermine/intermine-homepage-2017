@@ -1,0 +1,21 @@
+<div class="table-showcase cross-intermine-search">
+  <h2>Which InterMine is for you?</h2>
+  <p>Search for your favourite biological thing across all intermines</p>
+  <form id="crossInterMineSearch" action="http://cross-intermine-search-tool.herokuapp.com/">
+    <input type="text" placeholder="E.g. Diabetes, BRCA1, PPARG_HUMAN" id="search" />
+    <button type="submit">Search (launches a new page)</button>
+  </form>
+  <p class="quicklink-results">
+    Or jump straight to the results for <a href="http://cross-intermine-search-tool.herokuapp.com/#/?search=BRCA1">BRCA1</a> or <a href="http://cross-intermine-search-tool.herokuapp.com/#/?search=diabetes">diabetes</a>.
+  </p>
+</div>
+
+<script>
+  var searchForm = document.getElementById("crossInterMineSearch"),
+    url = "http://cross-intermine-search-tool.herokuapp.com/#/";
+  searchForm.addEventListener("submit", function(e) {
+    e.preventDefault();
+    var searchTerm = e.target.search.value;
+    window.open(url + "?search=" + e.target.search.value, "_blank");
+  });
+</script>
