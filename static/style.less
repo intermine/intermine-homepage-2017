@@ -419,6 +419,7 @@ header {
 }
 
 main {
+  padding: 0 @spacer;
   margin: auto;
   flex-grow: 1;
   box-sizing: border-box;
@@ -660,7 +661,10 @@ main {
 
     p {
       margin-top: 0;
-      &.quicklink-results {margin:0;}
+
+      &.quicklink-results {
+        margin: 0;
+      }
     }
 
     form {
@@ -1044,5 +1048,42 @@ p:empty {
       width: 2em;
       height: 2em;
     }
+  }
+}
+
+.contactpage {
+
+  li {
+    list-style-type: none;
+    flex-grow: 1;
+    background-color: #e5e5e5;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 2px;
+    display: flex;
+    margin: 0.5em;
+    flex-grow: 1;
+    .transition;
+    &:hover {
+      .transition;
+      background-color: @biologists-color;
+      a {color:#fff;}
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    }
+    a {
+      text-decoration: none;
+      font-size: 1.2em;
+      padding: 1em 1em 1em 2em;
+    }
+
+    .icon-linkout {
+      display: none;
+    }
+
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:0
   }
 }

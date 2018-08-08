@@ -10,30 +10,50 @@
       {{.Title}}
     </h2>
     <div>{{.Content}}</div>
-    {{range .Data.Pages}}
+
     <div class="publication-list">
 
-      <h3>{{.Params.title}}</h3>
+      {{ $citations := getJSON "https://api.zotero.org/groups/2117194/collections/WE489M9J/items?itemType=-attachment&sort=date" }}
+
+      <h3>Publications by the InterMine Team</h3>
       <ul class="publication-section">
-        {{ $baseurl := .Site.BaseURL }} {{range $publication := .Params.publicationlist}}
-        <li>
-          <a class="visit-pubmed" href="http://www.ncbi.nlm.nih.gov/pubmed/{{$publication.pmid}}">
-            <svg class="icon icon-PubMed">
-              <use xlink:href="{{$baseurl}}images/symbol-defs.svg#icon-PubMed"></use>
-            </svg>
-          </a>
-          <div>
-            <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{$publication.pmid}}">
-                    {{$publication.title}}
-                  </a>
-            <p>{{$publication.authors}}</p>
-          </div>
-        </li>
+        {{ $baseurl := .Site.BaseURL }}
+        {{range $publication:= $citations}}
+          <li>
+            <div>
+              <a href="http://doi.org/{{$publication.data.DOI}}">
+                  {{$publication.data.title}}</a>
+               {{(index $publication.data.creators 0).firstName}}
+              {{(index $publication.data.creators 0).lastName}} et al.  {{$publication.data.date}}
+
+            </div>
+          </li>
         {{end}}
 
       </ul>
     </div>
-    {{end}}
+
+    <div class="publication-list">
+
+      {{ $citations := getJSON "https://api.zotero.org/groups/2117194/collections/DWCKUHXT/items?itemType=-attachment&sort=date" }}
+
+      <h3>Citations and Publications about Community-run InterMines</h3>
+      <ul class="publication-section">
+        {{ $baseurl := .Site.BaseURL }}
+        {{range $publication:= $citations}}
+          <li>
+            <div>
+              <a href="http://doi.org/{{$publication.data.DOI}}">
+                  {{$publication.data.title}}</a>
+               {{(index $publication.data.creators 0).firstName}}
+              {{(index $publication.data.creators 0).lastName}} et al.  {{$publication.data.date}}
+
+            </div>
+          </li>
+        {{end}}
+
+      </ul>
+    </div>
 
   </main>
 
