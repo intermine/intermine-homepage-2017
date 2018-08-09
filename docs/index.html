@@ -75,6 +75,9 @@
 </ul></li>
       <li tabindex="4" role="menu" aria-haspopup="true"> <h4 class="categories contact">Contact</h4>
 <ul>
+    <li><a href="/contact">
+           Overview
+    </a></li>
     <li><a href="https://intermineorg.wordpress.com/">
         <svg class="icon icon-wordpress">
             <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-wordpress"></use></svg>
@@ -98,7 +101,7 @@
             </a></li>
     <li><a href="http://chat.intermine.org">
         <svg class="icon icon-chat">
-            <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-chat"></use></svg> 
+            <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-chat"></use></svg>
             Chat
             <svg class="icon icon-linkout">
                     <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-externallink"></use></svg>
@@ -112,7 +115,7 @@
         </a></li>
     <li><a href="mailto:info@intermine.org">
         <svg class="icon icon-email">
-            <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-email"></use></svg> 
+            <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-email"></use></svg>
             info@intermine.org
             <svg class="icon icon-linkout">
                     <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-externallink"></use></svg></a></li>
@@ -157,35 +160,59 @@
             </div>
         </div>
         <div class="showcase">
-             
 
-<div class="mine-showcase two"> 
+            <div class="table-showcase cross-intermine-search">
+  <h2>Which InterMine is for you?</h2>
+  <p>Search for your favourite biological thing across all intermines</p>
+  <form id="crossInterMineSearch" action="http://cross-intermine-search-tool.herokuapp.com/">
+    <input type="text" placeholder="E.g. Diabetes, BRCA1, PPARG_HUMAN" id="search" />
+    <button type="submit">Search (launches a new page)</button>
+  </form>
+  <p class="quicklink-results">
+    Or jump straight to the results for <a href="http://cross-intermine-search-tool.herokuapp.com/#/?search=BRCA1">BRCA1</a> or <a href="http://cross-intermine-search-tool.herokuapp.com/#/?search=diabetes">diabetes</a>.
+  </p>
+</div>
+
+<script>
+  var searchForm = document.getElementById("crossInterMineSearch"),
+    url = "http://cross-intermine-search-tool.herokuapp.com/#/";
+  searchForm.addEventListener("submit", function(e) {
+    e.preventDefault();
+    var searchTerm = e.target.search.value;
+    window.open(url + "?search=" + e.target.search.value, "_blank");
+  });
+</script>
+
+
+            
+
+<div class="mine-showcase two">
     <div class="intermine-links">
     
     
         
-         
+        
             <a href="https://yeastmine.yeastgenome.org/yeastmine" title="Search and retrieve S. cerevisiae data, populated by SGD and powered by InterMine" class="intermine-link">
             <span class="minename">YeastMine</span>
             </a>
         
     
         
-         
+        
             <a href="http://intermine.wormbase.org/tools/wormmine/" title="Intermine data mining platform for C. elegans and related nematodes" class="intermine-link">
             <span class="minename">WormMine</span>
             </a>
         
     
         
-         
+        
             <a href="http://www.flymine.org/flymine" title=" An integrated database for Drosophila genomics" class="intermine-link">
             <span class="minename">FlyMine</span>
             </a>
         
     
         
-         
+        
             <a href="http://zebrafishmine.org" title=" ZebrafishMine is powered by the InterMIne data warehouse system, and integrates biological data sets from multiple sources.
 It currently includes updates of data from ZFIN, the zebrafish model organism database. There is also data from the Panther database." class="intermine-link">
             <span class="minename">ZebrafishMine</span>
@@ -193,14 +220,14 @@ It currently includes updates of data from ZFIN, the zebrafish model organism da
         
     
         
-         
+        
             <a href="http://ratmine.mcw.edu/ratmine" title="RatMine integrates many types of data for Rattus Norvegicus, Homo Sapiens, Mus Musculus and other organisms. You can run flexible queries, export results and analyse lists of data. The Rat Genome Database (RGD) was established in 1999 and is the premier site for genetic, genomic, phenotype, and disease data generated from rat research. In addition, it provides easy access to corresponding human and mouse data for cross-species comparisons. RGD&#39;s comprehensive data and innovative software tools make it a valuable resource for researchers worldwide." class="intermine-link">
             <span class="minename">RatMine</span>
             </a>
         
     
         
-         
+        
             <a href="http://www.mousemine.org/mousemine" title="MouseMine is a powerful new system for online access to mouse data from MGI (Mouse Genome Informatics). For more than 20 years, MGI has provided high-quality scientific data on the laboratory mouse, gathered and integrated from hundreds of sources. Over the years, MGI has provided an evolving set of tools for accessing those data, including an interactive web interface (WI), database reports downloaded from our ftp site, direct SQL access, and most recently, via data warehouse systems such as BioMart. MouseMine represents a new generation of access to MGI data. Powered by InterMine, MouseMine offers flexible querying, numerous predefined query templates, a point-and-click interface for building your own queries or modifying a template, iterative refinement of results, built-in enrichment analysis, downloading in multiple formats, forwarding to Galaxy, and more." class="intermine-link">
             <span class="minename">MouseMine</span>
             </a>
@@ -208,7 +235,7 @@ It currently includes updates of data from ZFIN, the zebrafish model organism da
     
     
     
-         
+        
              <a href="http://intermine.modencode.org/release-33" title="A data warehouse for the modENCODE project" class="intermine-link">
                 <span class="minename">ModMine</span>
             </a>
@@ -216,7 +243,27 @@ It currently includes updates of data from ZFIN, the zebrafish model organism da
     
         
     
-         
+        
+             <a href="http://urgi.versailles.inra.fr/repetdb" title="Repeats intermine database" class="intermine-link">
+                <span class="minename">RepetDB</span>
+            </a>
+        
+    
+        
+             <a href="https://mines.legumeinfo.org/cowpeamine" title="A mine containing both cowpea genetic and genomic data, courtesy UC-Riverside" class="intermine-link">
+                <span class="minename">CowpeaMine</span>
+            </a>
+        
+    
+        
+    
+        
+             <a href="https://urgi.versailles.inra.fr/WheatMine" title="Wheat IWGSC RefSeq v1.0" class="intermine-link">
+                <span class="minename">WheatMine</span>
+            </a>
+        
+    
+        
              <a href="http://bovinegenome.org/bovinemine" title="An integrated data warehouse for the Bovine Genome Database" class="intermine-link">
                 <span class="minename">BovineMine</span>
             </a>
@@ -224,85 +271,71 @@ It currently includes updates of data from ZFIN, the zebrafish model organism da
     
         
     
-         
-             <a href="http://urgi.versailles.inra.fr/GrapeMine" title="An integrated database for grapevine data" class="intermine-link">
-                <span class="minename">GrapeMine</span>
-            </a>
-        
-    
-        
-    
-        
-    
-         
-             <a href="http://www.humanmine.org/humanmine" title="HumanMine integrates many types of data for Homo sapiens and Mus musculus" class="intermine-link">
-                <span class="minename">HumanMine</span>
-            </a>
-        
-     
     
     
+
     
     
-         
         <a href="http://targetmine.mizuguchilab.org/targetmine" title="TargetMine integrates many types of data for human, rat and mouse" class="intermine-link">
         <span class="minename">TargetMine</span>
         </a>
         
     
+
     
     
-         
         <a href="http://planmine.mpi-cbg.de/planmine" title=" An integrated web resource of data &amp; tools to mine Planarian biology" class="intermine-link">
         <span class="minename">PlanMine</span>
         </a>
         
     
+
     
     
-         
         <a href="https://phytozome.jgi.doe.gov/phytomine/" title="An InterMine interface to data from Phytozome, the Plant Comparative Genomics portal of the Department of Energy&#39;s Joint Genome Institute, which hosts 81 assembled and annotation genomes, from 78 viridiplantae species." class="intermine-link">
         <span class="minename">PhytoMine</span>
         </a>
         
     
+
     
     
-         
         <a href="http://hymenopteragenome.org/hymenopteramine" title="An integrated data warehouse for the Hymenoptera Genome Database" class="intermine-link">
         <span class="minename">HymenopteraMine</span>
         </a>
         
     
+
     
     
-         
         <a href="http://intermine.modencode.org/release-33" title="A data warehouse for the modENCODE project" class="intermine-link">
         <span class="minename">ModMine</span>
         </a>
         
     
+
     
     
-         
         <a href="https://mines.legumeinfo.org/chickpeamine" title="A mine with chickpea data (both desi and kabuli varieties) from the Legume Information Systems (LIS) tripal.chado database" class="intermine-link">
         <span class="minename">ChickpeaMine</span>
         </a>
         
     
+    
     <a href="http://www.synbiomine.org/" title="Data mining and parts for synthetic biology" class="intermine-link">
         <span class="minename">SynBioMine</span>
     </a>
-    
+
     </div>
     <div class="explanation">
             <h2>There's an InterMine for (almost) anyone</h2>
             <p>With InterMine you can explore organism and other research data provided by many different organizations, moving between databases using criteria such as homology.</p>
-                    
+
                     <p>This is a sample of the InterMine installations available - click on one to go straight to that service.</p>
         </div>
     </div>
-                
+
+
             <h2>InterMine Features</h2>
             <div class="table-showcase">
                 <div class="demo-imtable">
@@ -372,7 +405,7 @@ imtables.loadDash(
                         </svg> icon in the ontology term namespace and filtering the column to show only one term.</p>
                         <h4>Run queries in many languages</h4>
                         <p>Try clicking on the "Generate Python code" button - or use the dropdown to choose a different language. You can then easily copy/paste the queries to your scripts.</p>
-                        <p class="descriptor">Shown in table: GO terms related to the Drosophila gene "zen". Data drawn from <a href="http://www.flymine.org">FlyMine</a>.</p>                       
+                        <p class="descriptor">Shown in table: GO terms related to the Drosophila gene "zen". Data drawn from <a href="http://www.flymine.org">FlyMine</a>.</p>
 
                 </div>
             </div>
@@ -436,6 +469,9 @@ imtables.loadDash(
         <div class="sitemap-link-group contact">
                 <h4 class="categories contact">Contact</h4>
 <ul>
+    <li><a href="/contact">
+           Overview
+    </a></li>
     <li><a href="https://intermineorg.wordpress.com/">
         <svg class="icon icon-wordpress">
             <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-wordpress"></use></svg>
@@ -459,7 +495,7 @@ imtables.loadDash(
             </a></li>
     <li><a href="http://chat.intermine.org">
         <svg class="icon icon-chat">
-            <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-chat"></use></svg> 
+            <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-chat"></use></svg>
             Chat
             <svg class="icon icon-linkout">
                     <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-externallink"></use></svg>
@@ -473,7 +509,7 @@ imtables.loadDash(
         </a></li>
     <li><a href="mailto:info@intermine.org">
         <svg class="icon icon-email">
-            <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-email"></use></svg> 
+            <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-email"></use></svg>
             info@intermine.org
             <svg class="icon icon-linkout">
                     <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-externallink"></use></svg></a></li>
