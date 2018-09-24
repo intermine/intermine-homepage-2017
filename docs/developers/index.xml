@@ -64,5 +64,14 @@
       <description>Need a list of InterMines programmatically? Our Registry Swagger API gives you interactive API documentation, or you can browse a list of InterMines if you prefer.</description>
     </item>
     
+    <item>
+      <title>InterMine on GitHub</title>
+      <link>http://intermine.org/developers/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/developers/github/</guid>
+      <description>This is where the code lives! Feel free to fork, star, make issues and bug reports, or even make a pull request if you have a fix or feature for us.</description>
+    </item>
+    
   </channel>
 </rss>
