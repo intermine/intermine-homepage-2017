@@ -2,6 +2,10 @@
   "title": "Previous InterMine Members",
   "weight": 1,
   "members": [
+  { "name": "Justin Clark-Casey",
+    "role": "InterMine member",
+    "picture": "https://avatars0.githubusercontent.com/u/12761716?v=4",
+    "link": { "type": "github", "url": "https://github.com/justinccdev" } },
   { "name": "Josh Heimbach",
     "role": "InterMine member",
     "picture": "https://avatars3.githubusercontent.com/u/4752532?v=4",
