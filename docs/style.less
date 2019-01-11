@@ -276,6 +276,33 @@ header {
     .colors-body;
   }
 
+  .info {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  font-size:1.3em;
+  color:#fff;
+  background-color:#F0F4C3;
+  background-color:#009688;
+  text-shadow:1px 1px 0px rgba(255,255,255,0.3);
+  border-radius:2px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  margin:0.4*@spacer;
+  padding: 0.25*@spacer;
+}
+
+.info .icon {
+  color:#B2DFDB;
+  width:1.5*@spacer;
+  height:1.5*@spacer;
+  filter: drop-shadow( 1px 1px 0px rgba(0,0,0,0.5) );
+  margin:0.25*@spacer;}
+
+@media (max-width:760px) {
+  .info {font-size:1*@spacer;
+  justify-content:center;}
+}
+
   #closeNav,
   .navigation-menu-link {
     display: none;
@@ -307,6 +334,7 @@ header {
       justify-content: center;
       align-items: center;
     }
+
 
     nav {
       z-index: 1;
@@ -835,7 +863,7 @@ footer {
   &.icon-linkout {
     fill: rgba(0, 0, 0, 0.3);
     margin-left: @spacer/5;
-    min-width: 1em;
+    min-width: 1*@spacer;
   }
 }
 
@@ -1045,8 +1073,8 @@ p:empty {
   .visit-pubmed {
     svg {
       fill: @biologists-color;
-      width: 2em;
-      height: 2em;
+      width: 2*@spacer;
+      height: 2*@spacer;
     }
   }
 }
@@ -1060,7 +1088,7 @@ p:empty {
     box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     border-radius: 2px;
     display: flex;
-    margin: 0.5em;
+    margin: 0.5*@spacer;
     flex-grow: 1;
     .transition;
     &:hover {
@@ -1071,8 +1099,8 @@ p:empty {
     }
     a {
       text-decoration: none;
-      font-size: 1.2em;
-      padding: 1em 1em 1em 2em;
+      font-size: 1.2*@spacer;
+      padding: 1*@spacer 1*@spacer 1*@spacer 2*@spacer;
     }
 
     .icon-linkout {

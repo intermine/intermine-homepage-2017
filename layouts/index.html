@@ -20,11 +20,17 @@
                 <img src="images/disparate-data-in-unified-data-out-no-text.svg" width="600" height="231" alt="InterMine combines multiple data sources into a single queryable source">
             </div>
         </div>
+
         <div class="showcase">
 
-            {{partial "cross-intermine-search.html" .}}
-
             {{partial "registry.html" .}}
+
+            <div class="contributing">
+              <svg class="icon icon-externallink"><use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-info"></use></svg>
+              <p>Are you interested in contributing to InterMine?</p>
+              <a href="/contributing">Visit our contributor guide.</a>
+            </div>
+
 
             <h2>InterMine Features</h2>
             <div class="table-showcase">
@@ -45,7 +51,10 @@
 
                 </div>
             </div>
+
+            {{partial "cross-intermine-search.html" .}}
         </div>
+
     </main>
 
     {{partial "footer.html" . }}

@@ -27,3 +27,7 @@ To update the site's list of publications:
 2. Add the publication you're looking for to our lists - make sure to put it in the correct collection folder! (Don't type it all in to the website - use the [web plugin](https://www.zotero.org/support/getting_stuff_into_your_library)).
 3. To update the website, simply check this project out and run `hugo` to re-generate the publication list.
 4. Follow the deploying step above.
+
+## Icons
+
+Many of the icons shown are from the [Smashing Magazine Ballicons 3](https://www.smashingmagazine.com/2017/03/free-sparkly-icons-ballicons-eps-svg/) free set.

@@ -1,5 +1,5 @@
 {
-  "title" : "Developer docs & getting started",
+  "title" : "Developer docs",
   "link" :  "http://intermine.readthedocs.io/en/latest/",
   "image" : "console.svg"
 }

@@ -550,6 +550,40 @@ main {
   }
 }
 
+.contributing {
+  .rainbow-bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  .shadowed-box(1px);
+  align-self: center;
+  border: solid @seriously-pale-grey 1px;
+  margin: @spacer;
+
+  p {
+    margin: @spacer;
+  }
+  @media (max-width:@smaller-screen) {
+    width: 90%;
+    flex-wrap: wrap;
+    padding: @spacer/2;
+  }
+
+  .icon {
+    color: #00bcd4;
+    width: 1.5*@spacer;
+    height: 1.5*@spacer;
+    margin: 0.25*@spacer;
+  }
+  @media (max-width:760px) {
+    .info {
+      font-size: 1*@spacer;
+      justify-content: center;
+    }
+  }
+}
+
 .showcase {
   display: flex;
   flex-direction: column;
@@ -627,7 +661,7 @@ main {
   }
 
   .cross-intermine-search {
-    .rainbow-bottom;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -835,7 +869,7 @@ footer {
   &.icon-linkout {
     fill: rgba(0, 0, 0, 0.3);
     margin-left: @spacer/5;
-    min-width: 1em;
+    min-width: 1*@spacer;
   }
 }
 
@@ -900,6 +934,12 @@ footer {
   .resource-link {
     width: 25vw;
     max-width: 430px;
+
+    &.large {
+      max-width: 580px;
+      flex-grow: 2;
+      min-width: 430px;
+    }
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -966,18 +1006,90 @@ footer {
     margin-right: @spacer *2;
   }
 }
-// blackfriday, hugo's markdown engine, generates so many goshdarn empty <p> tags
-// that we have to hackily hide them using the p:empty below.
-// you should
-// also be wary of whitespace-filled <p> tags, which this won't hide, since
-// they're technically not empty.
-// <p> {{Something}}</p> could be enough to generate a whitespace <p> tag.
-// Fix it by removing that first whitespace, like this:
-// <p>{{Something}}</p>
-//argh.  I'm sorry.
 
-p:empty {
-  display: none;
+.main-articles {
+  display: flex;
+
+  .feature-col {
+    max-width: 60vw;
+    flex-grow: 3;
+    min-width: 430px;
+  }
+
+  .secondary-col {
+    min-width: 250px;
+    max-width: 40vw;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    &.resource-list .resource-link {
+      background-color: #CFD8DC;
+      margin: @spacer*2 0 0;
+      padding-bottom:@spacer;
+      p {
+        padding: @spacer/2 @spacer;
+        &:last-child {padding-bottom:@spacer;}
+      }
+      ol,ul {margin:@spacer;}
+
+      h2 {
+        background-color: #607D8B;
+        width: 100%;
+        padding: @spacer/4 @spacer/2;
+        box-sizing: border-box;
+        margin-top: -@spacer;
+        margin-bottom:0;
+
+        a {
+          color:#fff;
+          text-decoration: none;
+        }
+      }
+      h3, h4, h5 {margin-left:@spacer;}
+    }
+  }
+
+  .resource-list {
+    .resource-link {
+      align-items: flex-start;
+      margin-top: 0;
+      max-width: 100%;
+      width: auto;
+      flex-grow: 0;
+
+      p {
+        font-size: 100%;
+      }
+    }
+  }
+  @media(max-width:@smaller-screen) {
+    flex-direction: column;
+    align-items: center;
+
+    .secondary-col {
+      order: 1;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .feature-col {
+      order: 2;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .resource-list {
+      .resource-link {
+        max-width: 100%;
+
+        &.large {
+          max-width: 100%;
+        }
+      }
+    }
+  }
 }
 
 .header-collapsible-nav {
@@ -1045,14 +1157,13 @@ p:empty {
   .visit-pubmed {
     svg {
       fill: @biologists-color;
-      width: 2em;
-      height: 2em;
+      width: 2*@spacer;
+      height: 2*@spacer;
     }
   }
 }
 
 .contactpage {
-
   li {
     list-style-type: none;
     flex-grow: 1;
@@ -1060,30 +1171,69 @@ p:empty {
     box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     border-radius: 2px;
     display: flex;
-    margin: 0.5em;
+    margin: 0.5*@spacer;
     flex-grow: 1;
     .transition;
+
     &:hover {
       .transition;
       background-color: @biologists-color;
-      a {color:#fff;}
+
+      a {
+        color: #fff;
+      }
       box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     }
+
     a {
       text-decoration: none;
-      font-size: 1.2em;
-      padding: 1em 1em 1em 2em;
+      font-size: 1.2*@spacer;
+      padding: 1*@spacer 1*@spacer 1*@spacer 2*@spacer;
     }
 
     .icon-linkout {
       display: none;
     }
-
   }
 
   ul {
     display: flex;
     flex-wrap: wrap;
-    padding-left:0
+    padding-left: 0;
   }
+}
+
+.photo-with-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px darken(@seriously-pale-grey, 10%);
+  background-color: @seriously-pale-grey;
+  flex-shrink: 1;
+  margin-bottom: @spacer;
+
+  .caption {
+    margin: @spacer/2;
+  }
+
+  img {
+    margin-top: @spacer;
+    border-radius: 2px;
+    max-width: 100%;
+  }
+}
+
+// blackfriday, hugo's markdown engine, generates so many goshdarn empty <p> tags
+// that we have to hackily hide them using the p:empty below.
+// you should
+// also be wary of whitespace-filled <p> tags, which this won't hide, since
+// they're technically not empty.
+// <p> {{Something}}</p> could be enough to generate a whitespace <p> tag.
+// Fix it by removing that first whitespace, like this:
+// <p>{{Something}}</p>
+//argh.  I'm sorry.
+
+p:empty {
+  display: none;
 }
