@@ -7,11 +7,23 @@
   </url>
   
   <url>
+    <loc>http://intermine.org/contributing/learning/</loc>
+  </url>
+  
+  <url>
+    <loc>http://intermine.org/contributing/new-to-open-source/</loc>
+  </url>
+  
+  <url>
     <loc>http://intermine.org/contributors/previousinterminers/</loc>
   </url>
   
   <url>
     <loc>http://intermine.org/team/julie/</loc>
+  </url>
+  
+  <url>
+    <loc>http://intermine.org/contributing/tickets-to-try/</loc>
   </url>
   
   <url>
@@ -57,6 +69,18 @@
   
   <url>
     <loc>http://intermine.org/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://intermine.org/contributing/guidelines/</loc>
+  </url>
+  
+  <url>
+    <loc>http://intermine.org/contributing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://intermine.org/developers/contributing/</loc>
   </url>
   
   <url>

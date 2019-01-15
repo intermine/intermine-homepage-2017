@@ -13,7 +13,7 @@
 
 
 <body>
-    <header>
+  <header>
   <div class="logo"><a href="http://intermine.org">
       <img src="https://raw.githubusercontent.com/intermine/design-materials/ff1ec6bf/logos/intermine/intermine-300x37.png" width="300" height="37" alt="InterMine Home" /></a></div>
   <nav tabindex="1">
@@ -149,20 +149,28 @@
   </nav>
 </header>
 
-    <main class="single-resource">
-          <img src="http://intermine.org/images/console.svg" width="100" height="100" alt="Link to Developer docs" />
-          <div class="content">
-            <h2 class="colors developers">
-              Developer docs
-            </h2>
+    <main>
+      <h2>Contributing - tickets to try</h2>
+      <!-- Include stylesheet -->
 
-        <p>Documentation for new and veteran InterMine developers. Includes getting started tutorials, system requirements, configuration info, and troubleshooting tips.</p>
+<p><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/first-ticket-finder@v1.1.0/style.css" /></p>
+
+<!-- Include a link to ui.js-->
+
+<script src="https://cdn.jsdelivr.net/npm/first-ticket-finder@v1.1.0/src/ui.js">
+</script>
+
+<p>Interested in helping out? Here are some of the issues we&rsquo;re looking for help with. Please read <a href="/contributing/guidelines">our contributing guidelines</a> first!.</p>
+
+<!-- create a div to populate with issues -->
+
+<div id="intermineIssues"></div>
+
+<script>
+  OpenTagGrabber.init("intermineIssues","http://tag-grabber.apps.intermine.org/issues");
+</script>
 
 
-        <a class="more-details" href="http://intermine.readthedocs.io/en/latest/">Learn more</a>
-
-        <a class="back" href="http://intermine.orgdevelopers">Back to all content for developers</a>
-      </div>
     </main>
 
     <footer>

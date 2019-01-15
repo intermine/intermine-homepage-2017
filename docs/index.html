@@ -165,32 +165,8 @@
                 <img src="images/disparate-data-in-unified-data-out-no-text.svg" width="600" height="231" alt="InterMine combines multiple data sources into a single queryable source">
             </div>
         </div>
-        <div class="info">
-          <svg class="icon icon-externallink"><use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-info"></use></svg> Are you interested in contributing to InterMine? </div>
+
         <div class="showcase">
-
-            <div class="table-showcase cross-intermine-search">
-  <h2>Which InterMine is for you?</h2>
-  <p>Search for your favourite biological thing across all intermines</p>
-  <form id="crossInterMineSearch" action="http://cross-intermine-search-tool.herokuapp.com/">
-    <input type="text" placeholder="E.g. Diabetes, BRCA1, PPARG_HUMAN" id="search" />
-    <button type="submit">Search (launches a new page)</button>
-  </form>
-  <p class="quicklink-results">
-    Or jump straight to the results for <a href="http://cross-intermine-search-tool.herokuapp.com/#/?search=BRCA1">BRCA1</a> or <a href="http://cross-intermine-search-tool.herokuapp.com/#/?search=diabetes">diabetes</a>.
-  </p>
-</div>
-
-<script>
-  var searchForm = document.getElementById("crossInterMineSearch"),
-    url = "http://cross-intermine-search-tool.herokuapp.com/#/";
-  searchForm.addEventListener("submit", function(e) {
-    e.preventDefault();
-    var searchTerm = e.target.search.value;
-    window.open(url + "?search=" + e.target.search.value, "_blank");
-  });
-</script>
-
 
             
 
@@ -242,47 +218,7 @@ It currently includes updates of data from ZFIN, the zebrafish model organism da
         
     
     
-    
-        
-    
-        
-             <a href="http://bovinegenome.org/bovinemine" title="An integrated data warehouse for the Bovine Genome Database" class="intermine-link">
-                <span class="minename">BovineMine</span>
-            </a>
-        
-    
-        
-    
-        
-             <a href="http://mitominer.mrc-mbu.cam.ac.uk/release-4.0" title="MitoMiner is an integrated web resource of mitochondrial localisation evidence and phenotype data for mammals, zebrafish and yeasts." class="intermine-link">
-                <span class="minename">MitoMiner</span>
-            </a>
-        
-    
-        
-             <a href="https://mines.legumeinfo.org/soymine" title="A Soybean mine instance with genomic data from the Legume Information Systems (LIS) multi-species chado database and genetic data pulled from Soybase" class="intermine-link">
-                <span class="minename">SoyMine</span>
-            </a>
-        
-    
-        
-             <a href="http://urgi.versailles.inra.fr/GrapeMine" title="An integrated database for grapevine data" class="intermine-link">
-                <span class="minename">GrapeMine</span>
-            </a>
-        
-    
-        
-             <a href="http://www.cbrc.kaust.edu.sa/indigo" title="INDIGO enables the integration of annotations for the exploration and analysis of newly sequenced microbial genomes." class="intermine-link">
-                <span class="minename">IndigoMine</span>
-            </a>
-        
-    
-        
-             <a href="https://chomine.boku.ac.at/chomine" title="An integrated database for Cricetulus griseus and CHO cells" class="intermine-link">
-                <span class="minename">CHOmine</span>
-            </a>
-        
-    
+    <span id="random-mines"></span>
     
     
 
@@ -342,6 +278,15 @@ It currently includes updates of data from ZFIN, the zebrafish model organism da
             <p>This is a sample of the InterMine installations available - click on one to go straight to that service.</p>
         </div>
     </div>
+
+<script src="/js/randomMines.js"></script>
+
+
+            <div class="contributing">
+              <svg class="icon icon-externallink"><use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-info"></use></svg>
+              <p>Are you interested in contributing to InterMine?</p>
+              <a href="/contributing">Visit our contributor guide.</a>
+            </div>
 
 
             <h2>InterMine Features</h2>
@@ -417,7 +362,31 @@ imtables.loadDash(
 
                 </div>
             </div>
+
+            <div class="cross-intermine-search">
+  <h2>Which InterMine is for you?</h2>
+  <p>Search for your favourite biological thing across all intermines</p>
+  <form id="crossInterMineSearch" action="http://cross-intermine-search-tool.apps.intermine.org/">
+    <input type="text" placeholder="E.g. Diabetes, BRCA1, PPARG_HUMAN" id="search" />
+    <button type="submit">Search (launches a new page)</button>
+  </form>
+  <p class="quicklink-results">
+    Or jump straight to the results for <a href="http://cross-intermine-search-tool.apps.intermine.org/#/?search=BRCA1">BRCA1</a> or <a href="http://cross-intermine-search-tool.apps.intermine.org/#/?search=diabetes">diabetes</a>.
+  </p>
+</div>
+
+<script>
+  var searchForm = document.getElementById("crossInterMineSearch"),
+    url = "http://cross-intermine-search-tool.herokuapp.com/#/";
+  searchForm.addEventListener("submit", function(e) {
+    e.preventDefault();
+    var searchTerm = e.target.search.value;
+    window.open(url + "?search=" + e.target.search.value, "_blank");
+  });
+</script>
+
         </div>
+
     </main>
 
     <footer>

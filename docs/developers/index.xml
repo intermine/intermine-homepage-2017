@@ -29,7 +29,16 @@
     </item>
     
     <item>
-      <title>Developer docs &amp; getting started</title>
+      <title>Contributing to InterMine</title>
+      <link>http://intermine.org/developers/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/developers/contributing/</guid>
+      <description>If you&amp;rsquo;d like to start contributing to InterMine, whether you&amp;rsquo;re a student interested in GSoC, a developer from a lab running InterMine, a Hacktoberfest enthusiast, or something else - here&amp;rsquo;s what you need to know!</description>
+    </item>
+    
+    <item>
+      <title>Developer docs</title>
       <link>http://intermine.org/developers/developerdocs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
