@@ -20,6 +20,27 @@
     </item>
     
     <item>
+      <title>Learning about InterMine</title>
+      <link>http://intermine.org/contributing/learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/contributing/learning/</guid>
+      <description>Welcome! We&amp;rsquo;re excited to have you join the community. InterMine integrates biological data, but you don&amp;rsquo;t have to be a biologist to contribute to InterMine. Some of our entry-level issues only require knowledge of the relevant programming language, but others may require more in-depth understanding.
+If you&amp;rsquo;d like to learn a bit more about InterMine, we have a nice 5 minute video for you to sum things up:
+ If you prefer textual learning resources, you could look at the InterMine documentation for a technical overview of InterMine&amp;rsquo;s server, the FlyMine tutorials for a biologist/bioinformatician oriented overview, or you could hop straight into our Python tutorials to learn more about querying our data model.</description>
+    </item>
+    
+    <item>
+      <title>New to open source?</title>
+      <link>http://intermine.org/contributing/new-to-open-source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/contributing/new-to-open-source/</guid>
+      <description>Perhaps you&amp;rsquo;ve never made a pull request before, or you&amp;rsquo;ve used git a little but never collaboratively? Have a look through the open source guide to submitting contributions to give you a good idea of how things work.
+Some of our issues are marked first-timers-only - these are issues that may be relatively straightforward, where we&amp;rsquo;ll happily walk you through steps you&amp;rsquo;re unsure about. (psst, you can also search GitHub for all issues marked with this label, not just InterMine).</description>
+    </item>
+    
+    <item>
       <title>Previous InterMine Members</title>
       <link>http://intermine.org/contributors/previousinterminers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -38,6 +59,34 @@
     </item>
     
     <item>
+      <title>Contributing - tickets to try</title>
+      <link>http://intermine.org/contributing/tickets-to-try/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/contributing/tickets-to-try/</guid>
+      <description> Interested in helping out? Here are some of the issues we&amp;rsquo;re looking for help with. Please read our contributing guidelines first!.
+  OpenTagGrabber.init(&#34;intermineIssues&#34;,&#34;http://tag-grabber.apps.intermine.org/issues&#34;);  </description>
+    </item>
+    
+    <item>
+      <title>GSOC 2018</title>
+      <link>http://intermine.org/contributors/gsoc2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/contributors/gsoc2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GSOC 2017</title>
+      <link>http://intermine.org/contributors/gsoc2017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/contributors/gsoc2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title></title>
       <link>http://intermine.org/team/daniela/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -45,24 +94,6 @@
       <guid>http://intermine.org/team/daniela/</guid>
       <description>Software Engineer with 15+ years of experience in web applications development in a variety of industries. Experienced in J2EE open source frameworks, servers, libraries and web services.
 She joined the InterMine team in 2010, working for 3 years, primarily in the backend development, then she moved away to the game industry but she changed ideas very soon and came back thinking that genes and proteins are more fun than treasures and crowns!</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://intermine.org/team/josh/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://intermine.org/team/josh/</guid>
-      <description>Software engineer with a soft spot for Clojurescript, immutable data, and functional programming in general. Josh can often be spotted working late into the night, feverishly implementing the next exciting features in BlueGenes. Previously worked at Xerox.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://intermine.org/team/justin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://intermine.org/team/justin/</guid>
-      <description>Software engineer looking to accelerate the life sciences with user-oriented data, semantic and compute infrastructure. Particular interests include scientific data integration, disease, aging and synthetic biology. Developer of the SynBioMine synthetic biology data warehouse (synbiomine.org) and a member of ELIXIR FAIR initiatives such as Bioschemas. Previously a core developer and maintainer of open-source virtual worlds (working with Intel and the US Department of Energy, amongst others) and even more previously IBM.</description>
     </item>
     
     <item>
@@ -111,7 +142,26 @@ She joined the InterMine team in 2010, working for 3 years, primarily in the bac
     </item>
     
     <item>
-      <title>Developer docs &amp; getting started</title>
+      <title>Contributing Guidelines</title>
+      <link>http://intermine.org/contributing/guidelines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/contributing/guidelines/</guid>
+      <description>InterMine has a large variety of repositories in a number of different languages. We have a list of issues marked up with labels such as &amp;ldquo;Help Wanted&amp;rdquo;, &amp;ldquo;Beginner&amp;rdquo;, &amp;ldquo;Good first bug&amp;rdquo; that you can choose from, but you&amp;rsquo;re welcome to offer help on any issue if you think you understand what&amp;rsquo;s going on and what needs to be done.
+Picking up tasks If you find an issue that interests you, here&amp;rsquo;s what to do.</description>
+    </item>
+    
+    <item>
+      <title>Contributing to InterMine</title>
+      <link>http://intermine.org/developers/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/developers/contributing/</guid>
+      <description>If you&amp;rsquo;d like to start contributing to InterMine, whether you&amp;rsquo;re a student interested in GSoC, a developer from a lab running InterMine, a Hacktoberfest enthusiast, or something else - here&amp;rsquo;s what you need to know!</description>
+    </item>
+    
+    <item>
+      <title>Developer docs</title>
       <link>http://intermine.org/developers/developerdocs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -126,15 +176,6 @@ She joined the InterMine team in 2010, working for 3 years, primarily in the bac
       
       <guid>http://intermine.org/developers/developeremaillist/</guid>
       <description>Sign up, ask for help, get updates, or just browse the archives to see if a problem you&amp;rsquo;re having has happened before.</description>
-    </item>
-    
-    <item>
-      <title>GSOC 2017</title>
-      <link>http://intermine.org/contributors/gsoc2017/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://intermine.org/contributors/gsoc2017/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -153,7 +194,7 @@ She joined the InterMine team in 2010, working for 3 years, primarily in the bac
       
       <guid>http://intermine.org/mobile-apps/</guid>
       <description>InterMine&#39;s mobile apps allow you to carry the power of multiple InterMines in your pocket. They include a cross-InterMine search tool, as well as alowing you to browse lists, templates, and to create a selection of &#34;favourites&#34; - perhaps a set of publications to review or a collection of interesting genes.
-Android  Search genes across multiple InterMines, as well as viewing lists, templates, and creating favourites.     iOS   Developed by Nadia Yudina as part of Google Summer of Code 2017.</description>
+Android  Search genes across multiple InterMines, as well as viewing lists, templates, and creating favourites. Developed by Daria Komkova.</description>
     </item>
     
     <item>
@@ -184,30 +225,21 @@ Android  Search genes across multiple InterMines, as well as viewing lists, temp
     </item>
     
     <item>
+      <title>InterMine on GitHub</title>
+      <link>http://intermine.org/developers/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/developers/github/</guid>
+      <description>This is where the code lives! Feel free to fork, star, make issues and bug reports, or even make a pull request if you have a fix or feature for us.</description>
+    </item>
+    
+    <item>
       <title>Making data FAIR using InterMine</title>
       <link>http://intermine.org/projects/fair-bbsrc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://intermine.org/projects/fair-bbsrc/</guid>
       <description>This grant is funded by the BBSRC, and runs for three years starting July 2017, with a focus on making InterMine and its data more FAIR - that is, Findable, Accessible, Interoperable, and Reusable. Read more in our grant launch blog post</description>
-    </item>
-    
-    <item>
-      <title>Publications about Community-run InterMines</title>
-      <link>http://intermine.org/publications/otherintermines/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://intermine.org/publications/otherintermines/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Publications by the InterMine Team</title>
-      <link>http://intermine.org/publications/interminecore/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://intermine.org/publications/interminecore/</guid>
-      <description></description>
     </item>
     
     <item>

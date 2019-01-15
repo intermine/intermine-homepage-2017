@@ -15,7 +15,7 @@ Citing software is just as important as citing any othe important sources in you
 - Use an InterMine to gather data for your research
 - Used an InterMine API to create an interesting or exciting application or script
 
-Also, don't forget to let us know about it! We love hearing from our community members, and we'd love to add your publication or citation to our list! 
+Also, don't forget to let us know about it! We love hearing from our community members, and we'd love to add your publication or citation to our list! You can also join our open [Zotero group](https://www.zotero.org/groups/2117194/intermine/items/) and add publications directly. 
 
 ## Publications
 <p>Below is a partial list of publications by InterMine core team members or InterMine community members.</p>

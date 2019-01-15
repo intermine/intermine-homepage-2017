@@ -20,9 +20,18 @@
                 <img src="images/disparate-data-in-unified-data-out-no-text.svg" width="600" height="231" alt="InterMine combines multiple data sources into a single queryable source">
             </div>
         </div>
+
         <div class="showcase">
+
             {{partial "registry.html" .}}
-                
+
+            <div class="contributing">
+              <svg class="icon icon-externallink"><use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-info"></use></svg>
+              <p>Are you interested in contributing to InterMine?</p>
+              <a href="/contributing">Visit our contributor guide.</a>
+            </div>
+
+
             <h2>InterMine Features</h2>
             <div class="table-showcase">
                 {{partial "imtabledemo.html"}}
@@ -38,11 +47,14 @@
                         </svg> icon in the ontology term namespace and filtering the column to show only one term.</p>
                         <h4>Run queries in many languages</h4>
                         <p>Try clicking on the "Generate Python code" button - or use the dropdown to choose a different language. You can then easily copy/paste the queries to your scripts.</p>
-                        <p class="descriptor">Shown in table: GO terms related to the Drosophila gene "zen". Data drawn from <a href="http://www.flymine.org">FlyMine</a>.</p>                       
+                        <p class="descriptor">Shown in table: GO terms related to the Drosophila gene "zen". Data drawn from <a href="http://www.flymine.org">FlyMine</a>.</p>
 
                 </div>
             </div>
+
+            {{partial "cross-intermine-search.html" .}}
         </div>
+
     </main>
 
     {{partial "footer.html" . }}

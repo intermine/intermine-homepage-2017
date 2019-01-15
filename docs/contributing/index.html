@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>InterMine</title>
+    <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
     <link rel="stylesheet" href="http://intermine.org/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="http://intermine.org/js/menu.js"></script>
@@ -14,7 +15,7 @@
 <body>
   <header>
   <div class="logo"><a href="http://intermine.org">
-      <img src="https://cdn.rawgit.com/intermine/design-materials/ff1ec6bf/logos/intermine/intermine-300x37.png" width="300" height="37" alt="InterMine Home" /></a></div>
+      <img src="https://raw.githubusercontent.com/intermine/design-materials/ff1ec6bf/logos/intermine/intermine-300x37.png" width="300" height="37" alt="InterMine Home" /></a></div>
   <nav tabindex="1">
     <ul class="header-collapsible-nav" role="menubar">
       <li class="navigation-menu-link">
@@ -46,7 +47,7 @@
       <li tabindex="3" role="menu" aria-haspopup="true"> <h4 class="categories developers">Developers</h4>
 <ul>
     <li><a href="http://intermine.org/developers">Overview</a></li>
-    <li><a href="http://intermine.readthedocs.io/en/latest/">Developer docs &amp; getting started        
+    <li><a href="http://intermine.readthedocs.io/en/latest/">Developer docs &amp; getting started
         <svg class="icon icon-linkout">
             <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-externallink"></use></svg>
         </a></li>
@@ -70,9 +71,19 @@
         <svg class="icon icon-linkout">
                 <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-externallink"></use></svg>
     </a></li>
-</ul></li>
+    <li><a href="https://github.com/intermine">InterMine on GitHub
+        <svg class="icon icon-linkout">
+                <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-externallink"></use></svg>
+    </a></li>
+    <li><a href="http://intermine.org/contributing">Contributing guidelines</a></li>
+
+</ul>
+</li>
       <li tabindex="4" role="menu" aria-haspopup="true"> <h4 class="categories contact">Contact</h4>
 <ul>
+    <li><a href="/contact">
+           Overview
+    </a></li>
     <li><a href="https://intermineorg.wordpress.com/">
         <svg class="icon icon-wordpress">
             <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-wordpress"></use></svg>
@@ -96,7 +107,7 @@
             </a></li>
     <li><a href="http://chat.intermine.org">
         <svg class="icon icon-chat">
-            <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-chat"></use></svg> 
+            <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-chat"></use></svg>
             Chat
             <svg class="icon icon-linkout">
                     <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-externallink"></use></svg>
@@ -110,7 +121,7 @@
         </a></li>
     <li><a href="mailto:info@intermine.org">
         <svg class="icon icon-email">
-            <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-email"></use></svg> 
+            <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-email"></use></svg>
             info@intermine.org
             <svg class="icon icon-linkout">
                     <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-externallink"></use></svg></a></li>
@@ -139,14 +150,121 @@
     </ul>
   </nav>
 </header>
-    <main>
-      <h2></h2>
-      <p>Software engineer with a soft spot for Clojurescript, immutable data, and functional programming in general. Josh can often be spotted working late into the night, feverishly implementing the next exciting features in BlueGenes.  Previously worked at Xerox.</p>
+
+  <main>
+    <h2>
+          Contributing to InterMine
+        </h2>
+    <div class="photo-with-caption">
+      <img src="/images/intermine-community.jpg" />
+      <span class="caption">InterMine community meetup photo, April 2017</span>
+    </div>
+
+    <div class="main-articles">
+      <div class="feature-col resource-list">
+           
+          <div class="resource-link large">
 
 
-    </main>
+              <h2><a href="/contributing/learning">Learning about InterMine</a></h2>
 
-    <footer>
+            <p><p>Welcome! We&rsquo;re excited to have you join the community. InterMine integrates biological data, but you don&rsquo;t have to be a biologist to contribute to InterMine. Some of our entry-level issues only require knowledge of the relevant programming language, but others may require more in-depth understanding.</p>
+
+<p>If you&rsquo;d like to learn a bit more about InterMine, we have a nice 5 minute video for you to sum things up:</p>
+
+<iframe width="430" height="315" src="https://www.youtube-nocookie.com/embed/je4mYL0ER3Y" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>If you prefer textual learning resources, you could look at the <a href="https://intermine.readthedocs.io/en/latest/">InterMine documentation</a> for a technical overview of InterMine&rsquo;s server, the <a href="https://flymine.readthedocs.io/en/latest/getting-started/DocumentationOverview.html">FlyMine tutorials</a> for a biologist/bioinformatician oriented overview, or you could hop straight into our <a href="https://mybinder.org/v2/gh/intermine/intermine-ws-python-docs/master">Python tutorials</a> to learn more about querying our data model.</p>
+
+<p>You can also take a look at the <a href="/developers">Developers</a> section of this site.</p>
+</p>
+
+          </div>
+              
+          <div class="resource-link large">
+
+
+              <h2><a href="/contributing/tickets-to-try">Contributing - tickets to try</a></h2>
+
+            <p><!-- Include stylesheet -->
+
+<p><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/first-ticket-finder@v1.1.0/style.css" /></p>
+
+<!-- Include a link to ui.js-->
+
+<script src="https://cdn.jsdelivr.net/npm/first-ticket-finder@v1.1.0/src/ui.js">
+</script>
+
+<p>Interested in helping out? Here are some of the issues we&rsquo;re looking for help with. Please read <a href="/contributing/guidelines">our contributing guidelines</a> first!.</p>
+
+<!-- create a div to populate with issues -->
+
+<div id="intermineIssues"></div>
+
+<script>
+  OpenTagGrabber.init("intermineIssues","http://tag-grabber.apps.intermine.org/issues");
+</script>
+</p>
+
+          </div>
+             
+      </div>
+      <div class="secondary-col resource-list">
+           
+        <div class="resource-link ">
+          <h2><a href="/contributing/new-to-open-source">New to open source?</a></h2>
+          <p><p>Perhaps you&rsquo;ve never made a pull request before, or you&rsquo;ve used git a little but never collaboratively? Have a look through the <a href="https://opensource.guide/how-to-contribute/#how-to-submit-a-contribution">open source guide to submitting contributions</a> to give you a good idea of how things work.</p>
+
+<p>Some of our issues are marked first-timers-only - these are issues that may be relatively straightforward, where we&rsquo;ll happily walk you through steps you&rsquo;re unsure about. (psst, you can also <a href="https://github.com/search?utf8=%E2%9C%93&amp;q=first-timers-only+label%3Afirst-timers-only+state%3Aopen&amp;type=Issues&amp;ref=advsearch&amp;l=&amp;l=">search GitHub for all issues marked with this label</a>, not just InterMine).</p>
+</p>
+
+        </div>
+            
+        <div class="resource-link ">
+          <h2><a href="/contributing/guidelines">Contributing Guidelines</a></h2>
+          <p>
+
+<p>InterMine has a large variety of repositories in a number of different languages. We have <a href="/contributing/tickets-to-try">a list of issues marked up with labels such as &ldquo;Help Wanted&rdquo;, &ldquo;Beginner&rdquo;, &ldquo;Good first bug&rdquo;</a> that you can choose from, but you&rsquo;re welcome to offer help on any issue if you think you understand what&rsquo;s going on and what needs to be done.</p>
+
+<h3 id="picking-up-tasks">Picking up tasks</h3>
+
+<p>If you find an issue that interests you, here&rsquo;s what to do. Note that one of the key tasks is communication!</p>
+
+<ol>
+<li>Read through the issue and <strong>make sure you understand what to do</strong>. If you need to clarify details, it&rsquo;s okay to ask in the issue.</li>
+<li>Once you feel you&rsquo;re ready to work on the issue, <strong>comment on the issue</strong> to let us know you&rsquo;re working on it! This is important to ensure that no-one else picks up the ticket and works on it at the same time.</li>
+<li><strong>Work on the issue</strong> - make sure to conform to any guidelines there may be in the repo if relevant, e.g. write tests and make sure the pass in CI, comment and document your code, make sure the style formatting checks pass, etc. Ask for advice if needed.</li>
+<li>When you think your work is ready - <strong>make a pull request</strong>! You&rsquo;re a star! ⭐️</li>
+<li>We will <strong>review your work</strong>, checking for quality and correctness. It may take us a little while to review it, depending on what else is going on at the time. We may have feedback or changes required before we can merge your pull request.</li>
+<li>Once it&rsquo;s merged - bask in glory. You&rsquo;ve just committed code to an open source project!</li>
+</ol>
+
+<h3 id="interested-in-something-bigger-than-an-issue">Interested in something bigger than an issue?</h3>
+
+<ul>
+<li>Are you a student? Watch our <a href="https://intermineorg.wordpress.com/">blog</a>, <a href="https://intermine.readthedocs.io/en/latest/support/mailing-list/">mailing list</a>, or <a href="https://twitter.com/intermineorg/">twitter</a> account to find out more about working with us during <a href="https://summerofcode.withgoogle.com/">Google Summer of Code</a> (usually around feb/march every year). <a href="http://intermine.org/gsoc/">Visit the InterMine GSoC site</a>.</li>
+<li>If we&rsquo;re hiring, we generally announce vacancies on our <a href="https://intermine.readthedocs.io/en/latest/support/mailing-list/">mailing list</a>.</li>
+<li>If you have other ideas you&rsquo;d like to discuss, feel free to <a href="/contact">contact us</a> to discuss further.</li>
+</ul>
+
+<h3 id="general-guidelines">General guidelines</h3>
+
+<ul>
+<li>Be nice. Unpleasant behaviour in our community will not be tolerated.</li>
+<li>If you find documentation is unclear or missing, make a PR to fix it once you know what needs to be done.</li>
+<li>If an individual repository has contributing guidelines or style guidelines, they override any advice given on this page.</li>
+<li>In need of help? Try visiting our <a href="/contact">contact us</a> pages for ways to get more help. Also, feel free to pitch in if you think you know the answer to queries on the <a href="https://intermine.readthedocs.io/en/latest/support/mailing-list/">mailing list</a> or <a href="http://chat.intermine.org">chat</a>!</li>
+<li>Thank you for being awesome!</li>
+</ul>
+</p>
+
+        </div>
+         
+      </div>
+    </div>
+  </main>
+
+  <footer>
     <div class="sitemap-link-group biologists">
         <h4 class="categories biologists">Biologists</h4>
 <ul>
@@ -166,7 +284,7 @@
                 <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-externallink"></use></svg>
             </a></li>
 </ul>
- 
+
     
     
     </div>
@@ -174,7 +292,7 @@
             <h4 class="categories developers">Developers</h4>
 <ul>
     <li><a href="http://intermine.org/developers">Overview</a></li>
-    <li><a href="http://intermine.readthedocs.io/en/latest/">Developer docs &amp; getting started        
+    <li><a href="http://intermine.readthedocs.io/en/latest/">Developer docs &amp; getting started
         <svg class="icon icon-linkout">
             <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-externallink"></use></svg>
         </a></li>
@@ -198,11 +316,21 @@
         <svg class="icon icon-linkout">
                 <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-externallink"></use></svg>
     </a></li>
+    <li><a href="https://github.com/intermine">InterMine on GitHub
+        <svg class="icon icon-linkout">
+                <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-externallink"></use></svg>
+    </a></li>
+    <li><a href="http://intermine.org/contributing">Contributing guidelines</a></li>
+
 </ul>
+
         </div>
         <div class="sitemap-link-group contact">
                 <h4 class="categories contact">Contact</h4>
 <ul>
+    <li><a href="/contact">
+           Overview
+    </a></li>
     <li><a href="https://intermineorg.wordpress.com/">
         <svg class="icon icon-wordpress">
             <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-wordpress"></use></svg>
@@ -226,7 +354,7 @@
             </a></li>
     <li><a href="http://chat.intermine.org">
         <svg class="icon icon-chat">
-            <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-chat"></use></svg> 
+            <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-chat"></use></svg>
             Chat
             <svg class="icon icon-linkout">
                     <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-externallink"></use></svg>
@@ -240,7 +368,7 @@
         </a></li>
     <li><a href="mailto:info@intermine.org">
         <svg class="icon icon-email">
-            <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-email"></use></svg> 
+            <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-email"></use></svg>
             info@intermine.org
             <svg class="icon icon-linkout">
                     <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-externallink"></use></svg></a></li>
@@ -279,14 +407,17 @@
         </div>
         <h5 class="subheading">Affiliations</h5>
         <div class="affiliation-logos">
-            <a href="https://www.gen.cam.ac.uk/"><img src="http://intermine.org/images/cambridge-logo.png" alt="Part of the University of Cambridge" width="202" height="42" /></a>
             <a href="http://www.elixir-uk.org/"><img src="http://intermine.org/images/elixir-uk-logo.png" alt="InterMine is an ELIXIR-UK resource" width="80" height="80" /></a>
+            <a href="https://www.gen.cam.ac.uk/"><img src="http://intermine.org/images/cambridge-logo.png" alt="Part of the University of Cambridge" width="202" height="42" /></a>
         </div>
-        </ul>
-        <div><a href="http://intermine.org/credits">Credits</a></div>
-        
+        <div><a href="http://intermine.org/credits">Credits
+                 <svg class="icon icon-linkout">
+                      <use xlink:href="http://intermine.org/images/symbol-defs.svg#icon-externallink"></use></svg></a>
+        </div>
+        <br/>
     </div>
 </footer>
+
 
 </body>
 

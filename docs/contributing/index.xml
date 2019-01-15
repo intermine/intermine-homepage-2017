@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contributing to InterMine on InterMine - data integration, analysis, and warehousing</title>
+    <link>http://intermine.org/contributing/</link>
+    <description>Recent content in Contributing to InterMine on InterMine - data integration, analysis, and warehousing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    
+	<atom:link href="http://intermine.org/contributing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning about InterMine</title>
+      <link>http://intermine.org/contributing/learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/contributing/learning/</guid>
+      <description>Welcome! We&amp;rsquo;re excited to have you join the community. InterMine integrates biological data, but you don&amp;rsquo;t have to be a biologist to contribute to InterMine. Some of our entry-level issues only require knowledge of the relevant programming language, but others may require more in-depth understanding.
+If you&amp;rsquo;d like to learn a bit more about InterMine, we have a nice 5 minute video for you to sum things up:
+ If you prefer textual learning resources, you could look at the InterMine documentation for a technical overview of InterMine&amp;rsquo;s server, the FlyMine tutorials for a biologist/bioinformatician oriented overview, or you could hop straight into our Python tutorials to learn more about querying our data model.</description>
+    </item>
+    
+    <item>
+      <title>New to open source?</title>
+      <link>http://intermine.org/contributing/new-to-open-source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/contributing/new-to-open-source/</guid>
+      <description>Perhaps you&amp;rsquo;ve never made a pull request before, or you&amp;rsquo;ve used git a little but never collaboratively? Have a look through the open source guide to submitting contributions to give you a good idea of how things work.
+Some of our issues are marked first-timers-only - these are issues that may be relatively straightforward, where we&amp;rsquo;ll happily walk you through steps you&amp;rsquo;re unsure about. (psst, you can also search GitHub for all issues marked with this label, not just InterMine).</description>
+    </item>
+    
+    <item>
+      <title>Contributing - tickets to try</title>
+      <link>http://intermine.org/contributing/tickets-to-try/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/contributing/tickets-to-try/</guid>
+      <description> Interested in helping out? Here are some of the issues we&amp;rsquo;re looking for help with. Please read our contributing guidelines first!.
+  OpenTagGrabber.init(&#34;intermineIssues&#34;,&#34;http://tag-grabber.apps.intermine.org/issues&#34;);  </description>
+    </item>
+    
+    <item>
+      <title>Contributing Guidelines</title>
+      <link>http://intermine.org/contributing/guidelines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/contributing/guidelines/</guid>
+      <description>InterMine has a large variety of repositories in a number of different languages. We have a list of issues marked up with labels such as &amp;ldquo;Help Wanted&amp;rdquo;, &amp;ldquo;Beginner&amp;rdquo;, &amp;ldquo;Good first bug&amp;rdquo; that you can choose from, but you&amp;rsquo;re welcome to offer help on any issue if you think you understand what&amp;rsquo;s going on and what needs to be done.
+Picking up tasks If you find an issue that interests you, here&amp;rsquo;s what to do.</description>
+    </item>
+    
+  </channel>
+</rss>

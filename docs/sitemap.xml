@@ -7,6 +7,14 @@
   </url>
   
   <url>
+    <loc>http://intermine.org/contributing/learning/</loc>
+  </url>
+  
+  <url>
+    <loc>http://intermine.org/contributing/new-to-open-source/</loc>
+  </url>
+  
+  <url>
     <loc>http://intermine.org/contributors/previousinterminers/</loc>
   </url>
   
@@ -15,15 +23,19 @@
   </url>
   
   <url>
+    <loc>http://intermine.org/contributing/tickets-to-try/</loc>
+  </url>
+  
+  <url>
+    <loc>http://intermine.org/contributors/gsoc2018/</loc>
+  </url>
+  
+  <url>
+    <loc>http://intermine.org/contributors/gsoc2017/</loc>
+  </url>
+  
+  <url>
     <loc>http://intermine.org/team/daniela/</loc>
-  </url>
-  
-  <url>
-    <loc>http://intermine.org/team/josh/</loc>
-  </url>
-  
-  <url>
-    <loc>http://intermine.org/team/justin/</loc>
   </url>
   
   <url>
@@ -56,6 +68,22 @@
   </url>
   
   <url>
+    <loc>http://intermine.org/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://intermine.org/contributing/guidelines/</loc>
+  </url>
+  
+  <url>
+    <loc>http://intermine.org/contributing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://intermine.org/developers/contributing/</loc>
+  </url>
+  
+  <url>
     <loc>http://intermine.org/contributors/</loc>
   </url>
   
@@ -74,10 +102,6 @@
   
   <url>
     <loc>http://intermine.org/developers/</loc>
-  </url>
-  
-  <url>
-    <loc>http://intermine.org/contributors/gsoc2017/</loc>
   </url>
   
   <url>
@@ -106,6 +130,10 @@
   </url>
   
   <url>
+    <loc>http://intermine.org/developers/github/</loc>
+  </url>
+  
+  <url>
     <loc>http://intermine.org/projects/</loc>
   </url>
   
@@ -120,14 +148,6 @@
   
   <url>
     <loc>http://intermine.org/publications/</loc>
-  </url>
-  
-  <url>
-    <loc>http://intermine.org/publications/otherintermines/</loc>
-  </url>
-  
-  <url>
-    <loc>http://intermine.org/publications/interminecore/</loc>
   </url>
   
   <url>
