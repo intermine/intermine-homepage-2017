@@ -12,13 +12,7 @@
         {{end}}
     {{end}}
     <!-- some randomly selected mines from the registry -->
-    {{range $mine := (first 8 (shuffle $registry.instances))}}
-        {{if not (in (union $.Site.Data.homepage.mines.first $.Site.Data.homepage.mines.last) $mine.name)}}
-             <a href="{{$mine.url}}" title="{{$mine.description}}" class="intermine-link">
-                <span class="minename">{{$mine.name}}</span>
-            </a>
-        {{end}}
-    {{end}}
+    <span id="random-mines"></span>
     <!-- some manually curated mines -->
     {{range $mineName :=  $.Site.Data.homepage.mines.last}}
 
@@ -38,3 +32,5 @@
             <p>This is a sample of the InterMine installations available - click on one to go straight to that service.</p>
         </div>
     </div>
+
+<script src="/js/randomMines.js"></script>
