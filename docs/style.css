@@ -460,8 +460,8 @@ main {
     margin: 0;
   }
 }
-main > h2,
-main > p {
+main > p,
+main > h2 {
   margin: 0.5em;
 }
 .tagline {
@@ -1166,6 +1166,21 @@ footer .funders img {
   }
   .main-articles .resource-list .resource-link.large {
     max-width: 100%;
+  }
+}
+@media (max-width: 760px) {
+  .main-articles .feature-col {
+    order: 2;
+    width: 100%;
+    max-width: 200px;
+    min-width: 100%;
+  }
+  .main-articles .resource-list .resource-link {
+    max-width: 100%;
+  }
+  .main-articles .resource-list .resource-link.large {
+    max-width: 100%;
+    min-width: 100%;
   }
 }
 .header-collapsible-nav h4 {

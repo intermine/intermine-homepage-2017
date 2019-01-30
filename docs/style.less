@@ -431,8 +431,8 @@ main {
     margin: 0;
   }
 
-  > h2,
-  > p {
+  > p,
+  > h2 {
     margin: @spacer/2;
   }
 }
@@ -1027,12 +1027,20 @@ footer {
     &.resource-list .resource-link {
       background-color: #CFD8DC;
       margin: @spacer*2 0 0;
-      padding-bottom:@spacer;
+      padding-bottom: @spacer;
+
       p {
         padding: @spacer/2 @spacer;
-        &:last-child {padding-bottom:@spacer;}
+
+        &:last-child {
+          padding-bottom: @spacer;
+        }
       }
-      ol,ul {margin:@spacer;}
+
+      ol,
+      ul {
+        margin: @spacer;
+      }
 
       h2 {
         background-color: #607D8B;
@@ -1040,14 +1048,19 @@ footer {
         padding: @spacer/4 @spacer/2;
         box-sizing: border-box;
         margin-top: -@spacer;
-        margin-bottom:0;
+        margin-bottom: 0;
 
         a {
-          color:#fff;
+          color: #fff;
           text-decoration: none;
         }
       }
-      h3, h4, h5 {margin-left:@spacer;}
+
+      h3,
+      h4,
+      h5 {
+        margin-left: @spacer;
+      }
     }
   }
 
@@ -1086,6 +1099,25 @@ footer {
 
         &.large {
           max-width: 100%;
+        }
+      }
+    }
+  }
+  @media(max-width:@itsy-bitsy-screen) {
+    .feature-col {
+      order: 2;
+      width: 100%;
+      max-width: 200px;
+      min-width: 100%;
+    }
+
+    .resource-list {
+      .resource-link {
+        max-width: 100%;
+
+        &.large {
+          max-width: 100%;
+          min-width: 100%;
         }
       }
     }
@@ -1223,7 +1255,6 @@ footer {
     max-width: 100%;
   }
 }
-
 // blackfriday, hugo's markdown engine, generates so many goshdarn empty <p> tags
 // that we have to hackily hide them using the p:empty below.
 // you should
