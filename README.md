@@ -16,7 +16,7 @@ The homepage is generated using the static site generator [hugo](https://gohugo.
 
 ### Deploying
 
-If you want do deploy it on InterMine.org, see the [intermine.org documentation](https://github.com/intermine/intermine.github.io/blob/master/README.md)
+Anything on [intermine/intermine-homepage-2017](https://github.com/intermine/intermine-homepage-2017) master branch will automatically be deployed to InterMine.org, with the help of Travis CI. The code repo for intermine.org content is [intermine/intermine.github.io](https://github.com/intermine/intermine.github.io)
 
 ## Updating Publications
 
