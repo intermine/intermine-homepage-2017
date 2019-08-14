@@ -152,6 +152,222 @@
         "type": "github",
         "url": "https://github.com/kkarra"
       }
+    },
+    {
+      "name": "Himanshu Kumar",
+      "role": "developer",
+      "picture": "https://avatars2.githubusercontent.com/u/16867533?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/himanshukumar660"
+      }
+    },
+    {
+      "name": "Akashdeep Ramnaney",
+      "role": "developer",
+      "picture": "https://avatars3.githubusercontent.com/u/29121452?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/flaredragon"
+      }
+    },
+    {
+      "name": "Cory Cunningham",
+      "role": "developer",
+      "picture": "https://avatars1.githubusercontent.com/u/34924300?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/CoryWritesCode"
+      }
+    },
+    {
+      "name": "Himanshu",
+      "role": "developer",
+      "picture": "https://avatars2.githubusercontent.com/u/19166045?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/himanshuc3"
+      }
+    },
+    {
+      "name": "holoh",
+      "role": "developer",
+      "picture": "https://avatars2.githubusercontent.com/u/26636039?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/hollloh"
+      }
+    },
+    {
+      "name": "Varun Bhandia",
+      "role": "developer",
+      "picture": "https://avatars1.githubusercontent.com/u/27995669?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/VarunBhandia"
+      }
+    },
+    {
+      "name": "Omkar",
+      "role": "developer",
+      "picture": "https://avatars2.githubusercontent.com/u/45539371?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/omi10859"
+      }
+    },
+    {
+      "name": "Sanat Mishra",
+      "role": "developer",
+      "picture": "https://avatars1.githubusercontent.com/u/19981230?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/Sanat-Mishra"
+      }
+    },
+    {
+      "name": "Valerie Obenchain",
+      "role": "developer",
+      "picture": "https://avatars3.githubusercontent.com/u/2466173?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/vobencha"
+      }
+    },
+    {
+      "name": "Nitesh Turaga",
+      "role": "developer",
+      "picture": "https://avatars0.githubusercontent.com/u/2746443?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/nturaga"
+      }
+    },
+    {
+      "name": "Hervé Pagès",
+      "role": "developer",
+      "picture": "https://avatars2.githubusercontent.com/u/8810451?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/hpages"
+      }
+    },
+    {
+      "name": "Marcel Ramos",
+      "role": "developer",
+      "picture": "https://avatars1.githubusercontent.com/u/4392950?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/LiNk-NY"
+      }
+    },
+    {
+      "name": "Suthira",
+      "role": "developer",
+      "picture": "https://avatars0.githubusercontent.com/u/19764028?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/sowla"
+      }
+    },
+    {
+      "name": "Leandro Doctors",
+      "role": "developer",
+      "picture": "https://avatars0.githubusercontent.com/u/1922297?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/allentiak"
+      }
+    },
+    {
+      "name": "Vibhor Sehgal",
+      "role": "developer",
+      "picture": "https://avatars2.githubusercontent.com/u/10993808?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/sehgalvibhor"
+      }
+    },
+    {
+      "name": "Tripp Horbinski",
+      "role": "developer",
+      "picture": "https://avatars0.githubusercontent.com/u/17712060?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/tripq"
+      }
+    },
+    {
+      "name": "Leo",
+      "role": "developer",
+      "picture": "https://avatars2.githubusercontent.com/u/18539354?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/harleo"
+      }
+    },
+    {
+      "name": "Guilherme Devincenzi",
+      "role": "developer",
+      "picture": "https://avatars0.githubusercontent.com/u/26184196?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/gdevincenzi"
+      }
+    },
+    {
+      "name": "Artem Krinitsyn",
+      "role": "developer",
+      "picture": "https://avatars2.githubusercontent.com/u/21139056?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/artiemq"
+      }
+    },
+    {
+      "name": "Matthieu Vion",
+      "role": "developer",
+      "picture": "https://avatars3.githubusercontent.com/u/6715182?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/MattMattV"
+      }
+    },
+    {
+      "name": "Gagan Ganapathy",
+      "role": "developer",
+      "picture": "https://avatars2.githubusercontent.com/u/22097366?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/CodHeK"
+      }
+    },
+    {
+      "name": "Xiangpeng Hao",
+      "role": "developer",
+      "picture": "https://avatars0.githubusercontent.com/u/6504314?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/XiangpengHao"
+      }
+    },
+    {
+      "name": "Aditya Tokar",
+      "role": "developer",
+      "picture": "https://avatars1.githubusercontent.com/u/16613832?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/aditokar"
+      }
+    },
+    {
+      "name": "SushmaK",
+      "role": "developer",
+      "picture": "https://avatars2.githubusercontent.com/u/14278142?v=4",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/KukkadapuSushma"
+      }
     }
   ]
 }
