@@ -10,5 +10,6 @@ deploy:
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   repo: yochannah/intermine.github.io
+  target_branch: master
   on:
     branch: travis-deploy-tests
