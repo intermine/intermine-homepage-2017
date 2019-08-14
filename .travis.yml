@@ -1,0 +1,17 @@
+# Install the apt prerequisites
+before_install:
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.36.1/hugo_0.36.1_Linux-64bit.deb
+    - sudo dpkg -i hugo*.deb
+
+# Build the website
+script:
+  - hugo
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: docs
+  target-branch: gh-pages
+  on:
+    branch: master
