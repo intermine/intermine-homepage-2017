@@ -3,8 +3,8 @@ before_install:
   sudo apt-get install hugo
 script:
   - hugo
-before_deploy:   
-  - cp data/README.md docs/README.md
+before_deploy:
+  - cp static/README.md docs/README.md
 deploy:
   provider: pages
   skip_cleanup: true
