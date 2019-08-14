@@ -11,4 +11,4 @@ deploy:
   keep_history: true
   repo: yochannah/intermine.github.io
   on:
-    branch: master
+    branch: travis-deploy-tests
