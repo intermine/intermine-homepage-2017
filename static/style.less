@@ -916,10 +916,13 @@ footer {
     a {
       display: flex;
       flex-direction: column;
+      align-items:center;
+      justify-content: center;
       color: @dark-font;
 
       img {
         .round-image;
+        margin-right: auto;margin-left: 
       }
       margin: @spacer/2;
     }
@@ -1255,6 +1258,16 @@ footer {
     max-width: 100%;
   }
 }
+
+.tableOfContents {ul {
+  list-style-type:none;
+   padding-left:@spacer/2;
+}
+h3 {margin-left:@spacer/3*2}
+}
+
+
+
 // blackfriday, hugo's markdown engine, generates so many goshdarn empty <p> tags
 // that we have to hackily hide them using the p:empty below.
 // you should
