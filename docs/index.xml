@@ -69,6 +69,15 @@ Some of our issues are marked first-timers-only - these are issues that may be r
     </item>
     
     <item>
+      <title>GSOC 2019</title>
+      <link>http://intermine.org/contributors/gsoc2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/contributors/gsoc2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>GSOC 2018</title>
       <link>http://intermine.org/contributors/gsoc2018/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -84,6 +93,15 @@ Some of our issues are marked first-timers-only - these are issues that may be r
       
       <guid>http://intermine.org/contributors/gsoc2017/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://intermine.org/community-calls/outreach-calls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/community-calls/outreach-calls/</guid>
+      <description>Community Outreach Calls If you&amp;rsquo;re an organisation that runs an InterMine, there&amp;rsquo;s a good chance you have (or wish to have!) a community around you that may need engagement, training, support, and encouragement to join in. We run quarterly Community Outreach calls, where we talk about different ways to run a successful, happy community.</description>
     </item>
     
     <item>
@@ -104,6 +122,15 @@ Previously, Adrián has worked in a variety of places in both the private and pu
       <guid>http://intermine.org/team/daniela/</guid>
       <description>Software Engineer with 15+ years of experience in web applications development in a variety of industries. Experienced in J2EE open source frameworks, servers, libraries and web services.
 She joined the InterMine team in 2010, working for 3 years, primarily in the backend development, then she moved away to the game industry but she changed ideas very soon and came back thinking that genes and proteins are more fun than treasures and crowns!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://intermine.org/team/herald/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/team/herald/</guid>
+      <description>A passionate programmer who ended up at Intermine by chance following his interest in Clojure(Script). Is mostly versed in frontend development, but doesn&#39;t mind as long as he gets to write code in a fun language.</description>
     </item>
     
     <item>
@@ -130,7 +157,7 @@ She joined the InterMine team in 2010, working for 3 years, primarily in the bac
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://intermine.org/team/yo/</guid>
-      <description>Software engineer with a focus on front-end technologies such as Javascript, ClojureScript, and User Interfaces. May be spotted blogging, tweeting from her own account, @intermineorg, @gmodproject, or updating the InterMine homepage. Loves interacting with open source communities. Previously, Yo worked at Capital One and K-Now, a spin-off from the University of Sheffield. In her spare time you can find her running, cycling, or reading speculative fiction.</description>
+      <description>GSoC Organisation Admin, software engineer with a focus on front-end technologies such as Javascript, ClojureScript, and User Interfaces. May be spotted blogging, tweeting from her own account, @intermineorg, @gmodproject, or updating the InterMine homepage. Loves interacting with open source communities. She&#39;s also a Software Sustainability Institute Fellow, and is studying effects of community and usability on open source projects for an EngD with the University of Manchester. In her spare time you can find her running, cycling, or reading speculative fiction.</description>
     </item>
     
     <item>
@@ -152,6 +179,16 @@ She joined the InterMine team in 2010, working for 3 years, primarily in the bac
     </item>
     
     <item>
+      <title>Code of Conduct</title>
+      <link>http://intermine.org/code-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/code-of-conduct/</guid>
+      <description>InterMine Code of Conduct Like the technical community as a whole, the InterMine team and community is made up of a mixture of professionals and volunteers from all over the world, working on every aspect of the mission - including mentorship, teaching, and connecting people.
+Diversity is one of our huge strengths, but it can also lead to communication issues and unhappiness. To that end, we have a few ground rules that we ask people to adhere to.</description>
+    </item>
+    
+    <item>
       <title>Contributing Guidelines</title>
       <link>http://intermine.org/contributing/guidelines/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -168,6 +205,16 @@ Picking up tasks If you find an issue that interests you, here&amp;rsquo;s what 
       
       <guid>http://intermine.org/developers/contributing/</guid>
       <description>If you&amp;rsquo;d like to start contributing to InterMine, whether you&amp;rsquo;re a student interested in GSoC, a developer from a lab running InterMine, a Hacktoberfest enthusiast, or something else - here&amp;rsquo;s what you need to know!</description>
+    </item>
+    
+    <item>
+      <title>Developer calls</title>
+      <link>http://intermine.org/community-calls/developer-calls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/community-calls/developer-calls/</guid>
+      <description>InterMine developer calls are held roughly once a month, on the first tuesday of the month, generally at 17:00 UK time (with occasional time shifts around daylight savings clock changes). These calls are generally techie-oriented and consist of topics such as:
+ Upcoming technical updates to InterMine. Discussions regarding the InterMine data model. General updates, e.g. upcoming training events, Google Summer of Code, conferences.  The call is open to anyone, but developers and InterMine admins are especially encouraged to attend.</description>
     </item>
     
     <item>
@@ -258,8 +305,9 @@ Android  Search genes across multiple InterMines, as well as viewing lists, temp
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://intermine.org/credits/</guid>
-      <description>InterMine Homepage Copyright InterMine 2017 Site This site is generated using the static site generator hugo and hosted on GitHub pages.
-Icons SVG icons used on the site are courtesy of IcoMoon and academicons (pubmed icon). Organism icons on the home page are made by Freepik from www.flaticon.com.</description>
+      <description>InterMine Homepage Copyright InterMine 2017-2019 Site This site is generated using the static site generator hugo and hosted on GitHub pages.
+Icons SVG icons used on the site are courtesy of IcoMoon and academicons (pubmed icon). Organism icons on the home page are made by Freepik from www.flaticon.com.
+Contributors and Team See contributors and team.</description>
     </item>
     
     <item>
@@ -268,8 +316,8 @@ Icons SVG icons used on the site are courtesy of IcoMoon and academicons (pubmed
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://intermine.org/tutorials/</guid>
-      <description>Here&amp;rsquo;s a short list of video tutorials produced by community members. If you&amp;rsquo;d like yours added to the list please contact us!
- FlyMine intro videos - for the Drosophila-minded among us. Thalemine tutorials - A. thaliana-based tutorials. TargetMine tutorials Tutorials for an InterMine designed to help identify drug targets. YeastMine videos - SGD has quite a broad range of tutorials based on S. Cerevisiae data. MouseMine at MGI - M.</description>
+      <description>Training workshops and Exercises We typically carry out a few training workshops each year - keep your eye on our calendar or [twitter feed]https://twitter.com/intermineorg) to find out when registration is open. The materials are available online and designed to be worked through in a self-led or tutor-led manner. These include:
+ Intro to data analysis with the InterMine user interface 🐍 Data analysis workflows in Python  Python Pax6 Workflow (unsolved):  Python Pax6 Workflow (with answers):   🇷 Data analysis workflows in R  R Pax6 Workflow (unsolved)  R Pax6 Workflow (with answers)   🇷 Advanced exercises: producing figures and data visualisations in R  Enrichment and visualisations (unsolved):  Enrichment and visualisations (with answers):    Videos Here&amp;rsquo;s a short list of video tutorials produced by community members.</description>
     </item>
     
   </channel>

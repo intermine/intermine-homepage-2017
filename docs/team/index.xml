@@ -50,6 +50,15 @@ She joined the InterMine team in 2010, working for 3 years, primarily in the bac
     
     <item>
       <title></title>
+      <link>http://intermine.org/team/herald/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://intermine.org/team/herald/</guid>
+      <description>A passionate programmer who ended up at Intermine by chance following his interest in Clojure(Script). Is mostly versed in frontend development, but doesn&#39;t mind as long as he gets to write code in a fun language.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://intermine.org/team/rachel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -72,7 +81,7 @@ She joined the InterMine team in 2010, working for 3 years, primarily in the bac
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://intermine.org/team/yo/</guid>
-      <description>Software engineer with a focus on front-end technologies such as Javascript, ClojureScript, and User Interfaces. May be spotted blogging, tweeting from her own account, @intermineorg, @gmodproject, or updating the InterMine homepage. Loves interacting with open source communities. Previously, Yo worked at Capital One and K-Now, a spin-off from the University of Sheffield. In her spare time you can find her running, cycling, or reading speculative fiction.</description>
+      <description>GSoC Organisation Admin, software engineer with a focus on front-end technologies such as Javascript, ClojureScript, and User Interfaces. May be spotted blogging, tweeting from her own account, @intermineorg, @gmodproject, or updating the InterMine homepage. Loves interacting with open source communities. She&#39;s also a Software Sustainability Institute Fellow, and is studying effects of community and usability on open source projects for an EngD with the University of Manchester. In her spare time you can find her running, cycling, or reading speculative fiction.</description>
     </item>
     
   </channel>

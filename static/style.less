@@ -431,8 +431,11 @@ main {
     margin: 0;
   }
 
-  > p,
   > h2 {
+    margin: @spacer/4;
+  }
+
+  > p {
     margin: @spacer/2;
   }
 }
@@ -916,13 +919,14 @@ footer {
     a {
       display: flex;
       flex-direction: column;
-      align-items:center;
+      align-items: center;
       justify-content: center;
       color: @dark-font;
 
       img {
         .round-image;
-        margin-right: auto;margin-left: 
+        margin-right: auto;
+        margin-left: auto;
       }
       margin: @spacer/2;
     }
@@ -1259,15 +1263,16 @@ footer {
   }
 }
 
-.tableOfContents {ul {
-  list-style-type:none;
-   padding-left:@spacer/2;
+.tableOfContents {
+  ul {
+    list-style-type: none;
+    padding-left: @spacer/2;
+  }
+
+  h3 {
+    margin-left: @spacer/3*2;
+  }
 }
-h3 {margin-left:@spacer/3*2}
-}
-
-
-
 // blackfriday, hugo's markdown engine, generates so many goshdarn empty <p> tags
 // that we have to hackily hide them using the p:empty below.
 // you should

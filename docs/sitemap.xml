@@ -27,6 +27,10 @@
   </url>
   
   <url>
+    <loc>http://intermine.org/contributors/gsoc2019/</loc>
+  </url>
+  
+  <url>
     <loc>http://intermine.org/contributors/gsoc2018/</loc>
   </url>
   
@@ -35,11 +39,19 @@
   </url>
   
   <url>
+    <loc>http://intermine.org/community-calls/outreach-calls/</loc>
+  </url>
+  
+  <url>
     <loc>http://intermine.org/team/adrian/</loc>
   </url>
   
   <url>
     <loc>http://intermine.org/team/daniela/</loc>
+  </url>
+  
+  <url>
+    <loc>http://intermine.org/team/herald/</loc>
   </url>
   
   <url>
@@ -72,6 +84,14 @@
   </url>
   
   <url>
+    <loc>http://intermine.org/code-of-conduct/</loc>
+  </url>
+  
+  <url>
+    <loc>http://intermine.org/community-calls/</loc>
+  </url>
+  
+  <url>
     <loc>http://intermine.org/contact/</loc>
   </url>
   
@@ -92,8 +112,7 @@
   </url>
   
   <url>
-    <loc>http://intermine.org/credits/</loc>
-    <priority>0</priority>
+    <loc>http://intermine.org/community-calls/developer-calls/</loc>
   </url>
   
   <url>
@@ -146,11 +165,6 @@
   </url>
   
   <url>
-    <loc>http://intermine.org/mobile-apps/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://intermine.org/publications/</loc>
   </url>
   
@@ -160,11 +174,6 @@
   
   <url>
     <loc>http://intermine.org/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://intermine.org/tutorials/</loc>
     <priority>0</priority>
   </url>
   
