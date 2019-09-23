@@ -558,7 +558,9 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60%;
+  width: 90%;
+  flex-wrap: wrap;
+
   .shadowed-box(1px);
   align-self: center;
   border: solid @seriously-pale-grey 1px;
@@ -567,9 +569,10 @@ main {
   p {
     margin: @spacer;
   }
+
+
   @media (max-width:@smaller-screen) {
     width: 90%;
-    flex-wrap: wrap;
     padding: @spacer/2;
   }
 
