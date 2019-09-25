@@ -30,7 +30,7 @@ If you believe someone is violating the code of conduct, we ask that you report 
 
 ## Reporting Guidelines
 
- In the first instance, this is Yo Yehudi - yo@intermine.org. If she’s non-responsive, or your issue is with her, please speak to Julie Sullivan - julie@intermine.org.
+ In the first instance, this is Yo Yehudi - yo@intermine.org. If she’s non-responsive, or your issue is with her, please speak to Daniela Butano - daniela@intermine.org.
 
 ## Attribution
 
