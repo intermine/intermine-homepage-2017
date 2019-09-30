@@ -2,6 +2,15 @@
   "title": "Previous InterMine Members",
   "weight": 1,
   "members": [
+  {
+    "name" : "Julie Sullivan",
+    "role" : "InterMine member",
+    "picture" : "https://avatars2.githubusercontent.com/u/1663057?v=4",
+    "link" :
+      {
+        "type" : "github",
+        "url" : "http://github.com/julie-sullivan/"}
+  },
   { "name": "Justin Clark-Casey",
     "role": "InterMine member",
     "picture": "https://avatars0.githubusercontent.com/u/12761716?v=4",
