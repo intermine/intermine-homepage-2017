@@ -19,6 +19,7 @@ If you find an issue that interests you, here's what to do. Note that one of the
 
 ### General guidelines
 
+- In busy periods, we may reassign inactive issues (with no PRs/comments/commits) after 3-4 days. Please don't feel bad if this happens! You're still welcome to contribute to other issues when you have the time. 
 - Be nice. Unpleasant behaviour in our community will not be tolerated. InterMine has a [Code of Conduct](/code-of-conduct) that all contributors are expected to follow.
 - If you find documentation is unclear or missing, make a PR to fix it once you know what needs to be done.
 - If an individual repository has contributing guidelines or style guidelines, they override any advice given on this page.
