@@ -1,6 +1,15 @@
 {
   "title": "InterMine Community Contributors",
   "members": [{
+      "name": "Divyanshu Mahajan",
+      "role": "developer",
+      "picture": "https://avatars.githubusercontent.com/dmahajan980",
+      "link": {
+        "type": "github",
+        "url": "https://github.com/dmahajan980"
+      }
+    },
+    {
       "name": "sammyjava",
       "role": "developer",
       "picture": "https://avatars1.githubusercontent.com/u/5657219?v=4",
