@@ -458,7 +458,10 @@ main {
 @media (max-width: 760px) {
   main {
     margin: 0;
+    padding:0 0.5em;
+    
   }
+  
 }
 main > h2 {
   margin: 0.25em;
@@ -555,6 +558,8 @@ main > p {
   .intermine-links a.intermine-link:nth-of-type(n+7) {
     display: none;
   }
+  
+  
 }
 .intermine-links a.intermine-link .minename {
   color: #2b2b2b;
