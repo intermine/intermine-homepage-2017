@@ -3,7 +3,9 @@
 
 ## Training workshops and Exercises
 
-We typically carry out a few training workshops each year - keep your eye on our [calendar](https://intermineorg.wordpress.com/events/) or [twitter feed](https://twitter.com/intermineorg) to find out when registration is open. The [materials are available online](http://intermine.org/training-workshops/) and designed to be worked through in a self-led or tutor-led manner. These include:  
+
+We typically carry out a few training workshops each year - keep your eye on our [calendar](https://intermineorg.wordpress.com/events/) or [twitter feed](https://twitter.com/intermineorg/) to find out when registration is open. The [materials are available online](http://intermine.org/training-workshops/) and designed to be worked through in a self-led or tutor-led manner. These include:  
+
 
 
 ## Materials
@@ -34,3 +36,4 @@ Here's a short list of video tutorials produced by community members. If you'd l
 - [TargetMine tutorials](http://targetmine.mizuguchilab.org/tutorials) Tutorials for an InterMine designed to help identify drug targets.
 - [YeastMine videos](https://www.youtube.com/watch?v=fnWv6qRl_DA&list=PL0VHJdmmIuj-b00aNRfqwMe9TvkfWWcyZ) - SGD has quite a broad range of tutorials based on S. Cerevisiae data.
 - [MouseMine at MGI](https://www.youtube.com/watch?v=FtlsoM8TGGs&t=139s) - M. musculus InterMine intro
+- [Python tutorials](https://mybinder.org/v2/gh/intermine/intermine-ws-python-docs/11613565708ef555a34a11f5856907ca2d2856e3) - Tutorials to help you get familiarised with the intermine-python package. The tutorials are in the form of Jupyter-Notebooks.
