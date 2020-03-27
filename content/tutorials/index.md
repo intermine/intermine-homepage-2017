@@ -28,3 +28,4 @@ Here's a short list of video tutorials produced by community members. If you'd l
 - [TargetMine tutorials](http://targetmine.mizuguchilab.org/tutorials) Tutorials for an InterMine designed to help identify drug targets.
 - [YeastMine videos](https://www.youtube.com/watch?v=fnWv6qRl_DA&list=PL0VHJdmmIuj-b00aNRfqwMe9TvkfWWcyZ) - SGD has quite a broad range of tutorials based on S. Cerevisiae data.
 - [MouseMine at MGI](https://www.youtube.com/watch?v=FtlsoM8TGGs&t=139s) - M. musculus InterMine intro
+- [Python tutorials](https://hub.gke.mybinder.org/user/intermine-inter--ws-python-docs-dj5qvykk/tree) - Tutorials to help you get familiarised with the intermine-python package. The tutorials are in the form of Jupyter-Notebooks.
