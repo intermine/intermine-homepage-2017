@@ -32,6 +32,7 @@ Here's a short list of video tutorials produced by community members. If you'd l
 
 ## Rating for tutorials
 
-submit your feedbacks regarding the tutorials/videos you have just completed, including feedback on video structure, content, and instructor using this Google form!
+Submit your feedbacks regarding the tutorials/videos you have just completed, including feedback on video structure, content, and instructor using this Google form!
 
-- [Tutorial Evaluation](https://docs.google.com/forms/d/e/1FAIpQLSe4sJbmWfzBGYQRObbDvP7_thCCkzglikOsbjmuRyhZC5aEKw/viewform?usp=sf_link)
+{{<forms "https://docs.google.com/forms/d/e/1FAIpQLSe4sJbmWfzBGYQRObbDvP7_thCCkzglikOsbjmuRyhZC5aEKw/viewform?embedded=true" >}}
+
