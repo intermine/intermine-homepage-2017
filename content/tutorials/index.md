@@ -3,9 +3,7 @@
 
 ## Training workshops and Exercises
 
-
-We typically carry out a few training workshops each year - keep your eye on our [calendar](https://intermineorg.wordpress.com/events/) or [twitter feed](https://twitter.com/intermineorg/) to find out when registration is open. The [materials are available online](http://intermine.org/training-workshops/) and designed to be worked through in a self-led or tutor-led manner. These include:  
-
+We typically carry out a few training workshops each year - keep your eye on our [calendar](https://intermineorg.wordpress.com/events/) or [twitter feed](https://twitter.com/intermineorg) to find out when registration is open. The [materials are available online](http://intermine.org/training-workshops/) and designed to be worked through in a self-led or tutor-led manner. These include:  
 
 
 ## Materials
@@ -32,7 +30,6 @@ We typically carry out a few training workshops each year - keep your eye on our
 Here's a short list of video tutorials produced by community members. If you'd like yours added to the list please contact us!
 
 - [FlyMine intro videos](http://intermine.readthedocs.io/en/latest/help/) - for the Drosophila-minded among us.
-- [Thalemine tutorials](https://www.araport.org/tutorials) - A. thaliana-based tutorials.
 - [TargetMine tutorials](http://targetmine.mizuguchilab.org/tutorials) Tutorials for an InterMine designed to help identify drug targets.
 - [YeastMine videos](https://www.youtube.com/watch?v=fnWv6qRl_DA&list=PL0VHJdmmIuj-b00aNRfqwMe9TvkfWWcyZ) - SGD has quite a broad range of tutorials based on S. Cerevisiae data.
 - [MouseMine at MGI](https://www.youtube.com/watch?v=FtlsoM8TGGs&t=139s) - M. musculus InterMine intro
