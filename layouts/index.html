@@ -11,11 +11,10 @@
             <div class="details">
                 <div class="explanation">
                     <p class="main-text">InterMine integrates biological data sources, making it easy to query and analyse data.</p>
-                    <p class="supporting-text">InterMine is <a href="https://github.com/intermine/intermine">open source</a> (LGPL 2.1) and free to
-                        use. </p>
+                    <p class="supporting-text">InterMine is <a href="https://github.com/intermine/intermine">open source</a> (LGPL 2.1) and free to use. </p>
                     <p class="supporting-text">It's a software system that you can <a href="http://intermine.readthedocs.io/en/latest/get-started/">install
                          on your own servers</a> to make data available on the web. </p>
-                         <p class="supporting-text">There are many different InterMines worldwide, covering a broad range of model organisms and life science research areas.</p>
+                    <p class="supporting-text">There are many different InterMines worldwide, covering a broad range of model organisms and life science research areas.</p>
                 </div>
                 <img src="images/disparate-data-in-unified-data-out-no-text.svg" width="600" height="231" alt="InterMine combines multiple data sources into a single queryable source">
             </div>
@@ -23,13 +22,12 @@
 
         <div class="showcase">
 
-            {{partial "registry.html" .}}
-
+            {{partial "registry.html" .}} {{partial "linkstutorial.html" .}}
             <div class="contributing">
-              <svg class="icon icon-externallink"><use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-info"></use></svg>
-              <p>Are you interested in contributing to InterMine?</p>
-              <a href="/contributing">Visit our contributor guide,</a>
-              <p> or admire </p> <a href="/contributors"> our amazing contributors</a>. 
+                <svg class="icon icon-externallink"><use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-info"></use></svg>
+                <p>Are you interested in contributing to InterMine?</p>
+                <a href="/contributing">Visit our contributor guide,</a>
+                <p> or admire </p> <a href="/contributors"> our amazing contributors</a>.
             </div>
 
 
@@ -39,16 +37,15 @@
                 <div class="explanation">
                     <h3>Dynamic data tables</h3>
 
-                    <p>InterMine's tables allow you to easily drill down into data. It's easy to filter data, add additional
-                        columns, navigate to report pages.</p>
+                    <p>InterMine's tables allow you to easily drill down into data. It's easy to filter data, add additional columns, navigate to report pages.</p>
                     <h4>Try it yourself!</h4>
                     <p>Try clicking on the
                         <svg class="icon icon-bar-chart">
                             <use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-bar-chart"></use>
                         </svg> icon in the ontology term namespace and filtering the column to show only one term.</p>
-                        <h4>Run queries in many languages</h4>
-                        <p>Try clicking on the "Generate Python code" button - or use the dropdown to choose a different language. You can then easily copy/paste the queries to your scripts.</p>
-                        <p class="descriptor">Shown in table: GO terms related to the Drosophila gene "zen". Data drawn from <a href="http://www.flymine.org">FlyMine</a>.</p>
+                    <h4>Run queries in many languages</h4>
+                    <p>Try clicking on the "Generate Python code" button - or use the dropdown to choose a different language. You can then easily copy/paste the queries to your scripts.</p>
+                    <p class="descriptor">Shown in table: GO terms related to the Drosophila gene "zen". Data drawn from <a href="http://www.flymine.org">FlyMine</a>.</p>
 
                 </div>
             </div>

@@ -15,3 +15,9 @@
                 <use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-externallink"></use></svg>
             </a></li>
 </ul>
+<script>
+    var array = document.getElementsByClassName("icon icon-linkout");
+    for (let i = 0; i < array.length; i++) {
+        array[i].parentElement.target = "_blank";
+    }
+</script>

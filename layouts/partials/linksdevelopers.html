@@ -33,3 +33,9 @@
     <li><a href="{{.Site.BaseURL}}/contributing">Contributing guidelines</a></li>
 
 </ul>
+<script>
+    var array = document.getElementsByClassName("icon icon-linkout");
+    for (let i = 0; i < array.length; i++) {
+        array[i].parentElement.target = "_blank";
+    }
+</script>
