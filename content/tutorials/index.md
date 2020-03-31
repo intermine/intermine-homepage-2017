@@ -29,3 +29,10 @@ Here's a short list of video tutorials produced by community members. If you'd l
 - [YeastMine videos](https://www.youtube.com/watch?v=fnWv6qRl_DA&list=PL0VHJdmmIuj-b00aNRfqwMe9TvkfWWcyZ) - SGD has quite a broad range of tutorials based on S. Cerevisiae data.
 - [MouseMine at MGI](https://www.youtube.com/watch?v=FtlsoM8TGGs&t=139s) - M. musculus InterMine intro
 - [Python tutorials](https://mybinder.org/v2/gh/intermine/intermine-ws-python-docs/11613565708ef555a34a11f5856907ca2d2856e3) - Tutorials to help you get familiarised with the intermine-python package. The tutorials are in the form of Jupyter-Notebooks.
+
+## Rating for tutorials
+
+Submit your feedbacks regarding the tutorials/videos you have just completed, including feedback on video structure, content, and instructor using this Google form!
+
+{{<forms "https://docs.google.com/forms/d/e/1FAIpQLSe4sJbmWfzBGYQRObbDvP7_thCCkzglikOsbjmuRyhZC5aEKw/viewform?embedded=true" >}}
+
