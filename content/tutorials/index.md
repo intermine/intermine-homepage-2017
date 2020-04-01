@@ -16,8 +16,14 @@ We typically carry out a few training workshops each year - keep your eye on our
   - Enrichment and visualisations (unsolved): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/intermine/interminer-workshop/master?filepath=Enrichment%20Analysis%20and%20Visualisations-unsolved.ipynb)
   - Enrichment and visualisations (with answers): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/intermine/interminer-workshop/master?filepath=Enrichment%20Analysis%20and%20Visualisations.ipynb)
 
+## Best Practices
+
+Learn from experienced trainers and share what you have learned by doing some exercises on [the Intermine Training Best Practices page](https://flymine.readthedocs.io/en/latest/tutorial/index.html).
 
 
+## Mailing List
+
+[The InterMine developers mailing list](https://lists.intermine.org/mailman/listinfo/dev) is the place to ask questions and receive updates related to Intermine training. It is also the official mailing list of the Intermine.
 
 ## Videos
 
