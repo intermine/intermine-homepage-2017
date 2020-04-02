@@ -1290,3 +1290,31 @@ footer {
 p:empty {
   display: none;
 }
+
+.tutorialpageFlexContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.tutorialpageFlexContainer > div{
+  min-width: 200px;
+  max-width: 30vw;
+  padding: 1vw;
+}
+
+.tutorialpageFlexContainer > div > ul{
+  
+  padding: 0;
+}
+
+
+/* Too narrow to accomodate items */
+@media all and (max-width: 640px) {
+  
+  .tutorialpageFlexContainer {
+      flex-flow: column;
+    }
+  .tutorialpageFlexContainer > div{
+    max-width: 100%;
+    padding: 1vw;
+  }
+}

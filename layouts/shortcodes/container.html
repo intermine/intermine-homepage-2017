@@ -1,0 +1,8 @@
+<!-- Reason for this shortcode existing: can't create div in content 
+-->
+
+<div {{ with .Get "class"}} class="{{.}}"{{end}} >
+    
+{{.Inner}}
+
+</div>
