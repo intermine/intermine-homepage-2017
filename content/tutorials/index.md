@@ -21,7 +21,7 @@ We typically carry out a few training workshops each year - keep your eye on our
 
 ## Videos
 
-Here's a short list of video tutorials produced by community members. If you'd like yours added to the list please contact us!
+Here's a short list of video tutorials produced by community members. If you'd like yours added to the list please [contact us](http://intermine.org/contact/)!
 
 - [FlyMine intro videos](http://intermine.readthedocs.io/en/latest/help/) - for the Drosophila-minded among us.
 - [Thalemine tutorials](https://www.araport.org/tutorials) - A. thaliana-based tutorials.
