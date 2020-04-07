@@ -620,6 +620,7 @@ main > p {
 .showcase .mine-showcase,
 .showcase .table-showcase {
   display: flex;
+
 }
 .showcase .mine-showcase .descriptor,
 .showcase .table-showcase .descriptor {
