@@ -1,6 +1,6 @@
 {
   "title": "Outreachy 2020",
-  "weight" : 4,
+  "weight" : 2,
   "members": [{
     "name": "John Mendez",
     "role": "Data browser developer",
@@ -48,3 +48,4 @@
     }
   }]
 }
+
