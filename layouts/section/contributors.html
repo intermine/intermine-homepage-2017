@@ -12,7 +12,7 @@
         <div>{{.Content}}</div>
         <div>
 
-            {{ range .Data.Pages }}
+            {{ range .Data.Pages.ByWeight }}
             <div class="community-member-list">
                   <h3>{{ .Title }}</h3>
                     <ul>
