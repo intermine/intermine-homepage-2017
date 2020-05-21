@@ -20,7 +20,7 @@
                       {{range $member := .Params.members}}
                         <li>
                           <a href="{{$member.link.url}}" class="{{$member.link.type}}">
-                            <img src="{{ $member.picture }}" width="113" height="113"/>                            
+                            <img src="{{ $member.picture }}" alt="Contributors or Members profile picture" width="113" height="113"/>                            
                             <span>
                               <svg class="icon icon-{{$member.link.type}}"><use xlink:href='{{$baseurl}}/images/symbol-defs.svg#icon-{{$member.link.type}}'></use></svg>
                               {{$member.name}}
