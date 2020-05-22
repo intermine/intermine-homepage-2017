@@ -1,19 +1,19 @@
 <header>
   <div class="logo"><a href="{{.Site.BaseURL}}">
       <img src="https://raw.githubusercontent.com/intermine/design-materials/ff1ec6bf/logos/intermine/intermine-300x37.png" width="300" height="37" alt="InterMine Home" /></a></div>
-  <nav tabindex="1">
+  <nav>
     <ul class="header-collapsible-nav" role="menubar">
-      <li class="navigation-menu-link">
-        <svg class="icon icon-homepage">
+      <li class="navigation-menu-link" role="none">
+        <svg class="icon icon-homepage" role="menuitem">
           <use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-menu"></use>
         </svg>
       </li>
     <!-- there is total overlap with biologists -->
     <!--      <li tabindex="3" role="menu" aria-haspopup="true"> {{partial "linksbioinformaticians" .}} </li>-->
-      <li tabindex="2" role="menu" aria-haspopup="true"> {{partial "linksbiologists" .}} <button id="closeNav" aria-label="Close">x</button></li>
-      <li tabindex="3" role="menu" aria-haspopup="true"> {{partial "linksdevelopers" .}}</li>
-      <li tabindex="4" role="menu" aria-haspopup="true"> {{partial "linkscontact" .}} </li>
-      <li tabindex="5" role="menu" aria-haspopup="true"> {{partial "linksresources" .}} </li>
+      <li role="none"> {{partial "linksbiologists" .}} <button id="closeNav" aria-label="Close">x</button></li>
+      <li role="none"> {{partial "linksdevelopers" .}}</li>
+      <li role="none"> {{partial "linkscontact" .}} </li>
+      <li role="none"> {{partial "linksresources" .}} </li>
     </ul>
   </nav>
 </header>
