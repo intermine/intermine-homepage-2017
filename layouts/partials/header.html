@@ -11,16 +11,32 @@
   <nav>
     <ul class="header-collapsible-nav" role="menubar">
      <li class="navigation-menu-link" role="none">
-        <svg class="icon icon-homepage" role="menuitem">
+        <svg class="icon icon-homepage">
           <use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-menu"></use>
         </svg>
       </li>
     <!-- there is total overlap with biologists -->
     <!--      <li tabindex="3" role="menu" aria-haspopup="true"> {{partial "linksbioinformaticians" .}} </li>-->
-      <li role="none"> {{partial "linksbiologists" .}} <button id="closeNav" aria-label="Close">x</button></li>
-      <li role="none"> {{partial "linksdevelopers" .}}</li>
-      <li role="none"> {{partial "linkscontact" .}} </li>
-      <li role="none"> {{partial "linksresources" .}} </li>
+      <li role="menuitem"
+      aria-label="Biologists"
+      aria-haspopup="true" 
+      aria-expanded="false"
+      > {{partial "linksbiologists" .}} <button id="closeNav" aria-label="Close">x</button></li>
+      <li role="menuitem"
+      aria-label="Developers"
+      aria-haspopup="true" 
+      aria-expanded="false"
+      > {{partial "linksdevelopers" .}}</li>
+      <li role="menuitem"
+      aria-label="Contact"
+      aria-haspopup="true" 
+      aria-expanded="false"
+      > {{partial "linkscontact" .}} </li>
+      <li role="menuitem"
+      aria-label="Resources"
+      aria-haspopup="true" 
+      aria-expanded="false"
+      > {{partial "linksresources" .}} </li>
     </ul>
   </nav>
 </header>
