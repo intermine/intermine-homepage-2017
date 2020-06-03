@@ -4,7 +4,7 @@ The InterMine core team is based in Cambridge, UK, roughly 8am until 5pm most we
 
 ## Students
 
-If you're interested in working with us as a student, please visit our [Google Summer of Code site](http://intermine.org/gsoc/).
+If you're interested in working with us as a student, please visit our [InterMine Internships page](http://intermine.org/internships/).
 
 ## Community calls
 
