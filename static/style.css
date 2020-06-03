@@ -147,7 +147,7 @@ body {
   background-color: rgba(0, 0, 0, 0.04);
 }
 a {
-  color: #03A9F4;
+  color: #0329F4;
   transition-property: all;
   transition-delay: 0.5s;
   transition-duration: 0.6s;
@@ -161,7 +161,7 @@ a:hover {
   transition-delay: 0s;
 }
 a:visited {
-  color: #673AB7;
+  color: #512e90;
   transition-property: all;
   transition-delay: 0.5s;
   transition-duration: 0.6s;
