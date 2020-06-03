@@ -1,7 +1,8 @@
 var x = function () {
     document.addEventListener("DOMContentLoaded", function () {
 
-        var navMenu = document.querySelectorAll(".header-collapsible-nav > li");
+        var navMenu =  document.querySelectorAll(".header-collapsible-nav > li");
+        var menuHeadings = document.querySelectorAll(".header-collapsible-nav > li > h4");
         var header = document.querySelector("header");
 
         function hideSubMenu(elem) {
@@ -19,13 +20,13 @@ var x = function () {
             });
         }
 
-        function hideTouchMenu(elem) {
+       function hideTouchMenu(elem) {
             header.classList.remove("menu-open")
             header.querySelectorAll(".categories").forEach(function (li) {
                 li.classList.remove("show");
             });
         }
-
+       
         navMenu.forEach(function (menu) {
             var dropdown = menu.querySelector("ul");
 
@@ -38,46 +39,6 @@ var x = function () {
                         hideSubMenu(dropdown);
                     });
                 }
-            });
-
-            //listen for keyboard focus
-            menu.addEventListener("focus", function () {
-                if (!this.classList.contains("navigation-menu-link")) {
-                    //they've clicked one of the actual elements
-                    showTouchMenu();
-                    if (!this.classList.contains("open")) {
-                        this.classList.add("open");
-                        showSubMenu(dropdown);
-                    } else {
-                        this.classList.remove("open");
-                        hideSubMenu(dropdown);
-                    }
-                } else {
-                    //they've clicked the hamburger to open menu
-                    showTouchMenu();
-                }
-                menu.addEventListener("blur", function () {
-                    hideTouchMenu();
-                    this.classList.remove("open");
-                    hideSubMenu(dropdown);
-                });
-
-                //keyboard controls for the menu. may need to remove events too
-                var keydown = menu.addEventListener("keydown", function (e) {
-                    var k = e.keyCode,
-                        down = 40;
-                    up = "38";
-
-                    if (k == down) {
-                        //TODO move down
-                    } else {
-                        if (k == up) {
-                            //TODO MOVE UP
-                        }
-                    }
-
-                });
-
             });
 
             //for touch.
@@ -99,10 +60,27 @@ var x = function () {
             });
         });
 
+        menuHeadings.forEach(function (heading){
+            heading.addEventListener('focus', function() {
+                showSubMenu(heading.nextElementSibling);
+              })
+
+              if (heading.nextElementSibling) {
+                const subMenu = heading.nextElementSibling
+                const subMenuLinks = subMenu.querySelectorAll('a')
+                const lastLinkIndex = subMenuLinks.length - 1
+                const lastLink = subMenuLinks[lastLinkIndex]
+            
+                lastLink.addEventListener('blur', function() {
+                    hideSubMenu(heading.nextElementSibling);
+                  })
+              }
+        })
+
         //close button for touch
         document.getElementById("closeNav").addEventListener("click", function () {
             hideTouchMenu();
-        });
+        }); 
 
-    });
+    }); 
 }();

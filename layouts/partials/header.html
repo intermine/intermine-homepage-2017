@@ -1,19 +1,41 @@
 <header>
-  <div class="logo"><a href="{{.Site.BaseURL}}">
-      <img src="https://raw.githubusercontent.com/intermine/design-materials/ff1ec6bf/logos/intermine/intermine-300x37.png" width="300" height="37" alt="InterMine Home" /></a></div>
-  <nav tabindex="1">
+  <div class="logo">
+    <a href="{{.Site.BaseURL}}">
+      <img
+      src="https://raw.githubusercontent.com/intermine/design-materials/ff1ec6bf/logos/intermine/intermine-300x37.png"
+      width="300"
+      height="37"
+      alt="InterMine Home" />
+    </a>
+  </div>
+  <nav>
     <ul class="header-collapsible-nav" role="menubar">
-      <li class="navigation-menu-link">
+     <li class="navigation-menu-link" role="none">
         <svg class="icon icon-homepage">
           <use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-menu"></use>
         </svg>
       </li>
     <!--      <li tabindex="3" role="menu" aria-haspopup="true"> {{partial "linksbioinformaticians" .}} </li>-->
-      <li tabindex="2" role="menu" aria-haspopup="true"> {{partial "linksbiologists" .}}</li>
-      <li tabindex="3" role="menu" aria-haspopup="true"> {{partial "linksdevelopers" .}}</li>
-      <li tabindex="4" role="menu" aria-haspopup="true"> {{partial "linkscontact" .}} </li>
-      <li tabindex="5" role="menu" aria-haspopup="true"> {{partial "linksresources" .}} </li>
-        <li id="close-nav-container"> <button id="closeNav" aria-label="Close">x</button></li>
+      <li role="menuitem"
+      aria-label="Biologists"
+      aria-haspopup="true"
+      aria-expanded="false"
+      > {{partial "linksbiologists" .}} <button id="closeNav" aria-label="Close">x</button></li>
+      <li role="menuitem"
+      aria-label="Developers"
+      aria-haspopup="true"
+      aria-expanded="false"
+      > {{partial "linksdevelopers" .}}</li>
+      <li role="menuitem"
+      aria-label="Contact"
+      aria-haspopup="true"
+      aria-expanded="false"
+      > {{partial "linkscontact" .}} </li>
+      <li role="menuitem"
+      aria-label="Resources"
+      aria-haspopup="true"
+      aria-expanded="false"
+      > {{partial "linksresources" .}} </li>
     </ul>
   </nav>
 </header>
