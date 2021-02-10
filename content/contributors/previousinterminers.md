@@ -3,6 +3,15 @@
   "weight": 1,
   "members": [
   {
+    "name" : "Yo Yehudi",
+    "role" : "InterMine member",
+    "picture" : "https://avatars.githubusercontent.com/u/9271438?v=4",
+    "link" :
+      {
+        "type" : "github",
+        "url" : "http://github.com/yochannah/"}
+  },
+  {
     "name" : "Julie Sullivan",
     "role" : "InterMine member",
     "picture" : "https://avatars2.githubusercontent.com/u/1663057?v=4",
