@@ -4,12 +4,14 @@
 
 If you use the InterMine framework in your research, we would appreciate it if you cite the following publications:
 
-- InterMine: a flexible data warehouse system for the integration and analysis of heterogeneous biological data. Smith RN et al. (2012). Bioinformatics. [View on PubMed](https://www.ncbi.nlm.nih.gov/pubmed/23023984)
-- InterMine: extensive web services for modern biology. Kalderimis A et al. (2014). Nucleic Acids Res. [View on PubMed](https://www.ncbi.nlm.nih.gov/pubmed/24753429)
+* InterMine: a flexible data warehouse system for the integration and analysis of heterogeneous biological data. Smith RN, Aleksic J, Butano D, Carr A, Contrino S, Hu F, Lyne M, Lyne R, Kalderimis A, Rutherford K, Stepan R, Sullivan J, Wakeling M, Watkins X, Micklem G. Bioinformatics (2012) 28 (23): 3163-3165. [View on PubMed](https://www.ncbi.nlm.nih.gov/pubmed/23023984)
 
+* InterMine: extensive web services for modern biology. Kalderimis A, Lyne R, Butano D, Contrino S, Lyne M, Heimbach J, Hu F, Smith R, StÄ›pÃ¡n R, Sullivan J, Micklem G. Nucleic Acids Res. 2014 Jul; 42 (Web Server issue): W468-72 [View on PubMed](https://www.ncbi.nlm.nih.gov/pubmed/24753429)
+
+See the InterMine [zotero](https://www.zotero.org/groups/2117194/intermine/) group for the full list of InterMine publications.
 
 ## Citing Us
-Citing software is just as important as citing any other important sources in your research. If you're not sure whether or not to cite something, [Shouldacite](http://mr-c.github.io/shouldacite/index.html) can help you decide if you should (hint, the answer's probably yes!). If you use InterMine to do any of the following activities, please cite InterMine following our [citation guidelines](/about-intermine/#how-to-cite-us):
+Citing software is just as important as citing any other important sources in your research. If you're not sure whether or not to cite something, [Shouldacite](http://mr-c.github.io/shouldacite/index.html) can help you decide if you should (hint, the answer's probably yes!). Please cite us if you use InterMine to do any of the following activities:
 
 - Create your own instance of InterMine
 - Use an InterMine to gather data for your research
