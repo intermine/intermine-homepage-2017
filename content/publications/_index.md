@@ -9,7 +9,7 @@ If you use the InterMine framework in your research, we would appreciate it if y
 
 
 ## Citing Us
-Citing software is just as important as citing any other important sources in your research. If you're not sure whether or not to cite something, [Shouldacite](http://mr-c.github.io/shouldacite/index.html) can help you decide if you should (hint, the answer's probably yes!). If you use InterMine to do any of the following activities, please cite InterMine following our [citation guidelines](http://intermine.readthedocs.io/en/latest/about/#how-to-cite-us):
+Citing software is just as important as citing any other important sources in your research. If you're not sure whether or not to cite something, [Shouldacite](http://mr-c.github.io/shouldacite/index.html) can help you decide if you should (hint, the answer's probably yes!). If you use InterMine to do any of the following activities, please cite InterMine following our [citation guidelines](/about-intermine/#how-to-cite-us):
 
 - Create your own instance of InterMine
 - Use an InterMine to gather data for your research
