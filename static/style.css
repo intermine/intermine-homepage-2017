@@ -147,7 +147,7 @@ body {
   background-color: rgba(0, 0, 0, 0.04);
 }
 a {
-  color: #0329F4;
+  color: #03A9F4;
   transition-property: all;
   transition-delay: 0.5s;
   transition-duration: 0.6s;
@@ -161,7 +161,7 @@ a:hover {
   transition-delay: 0s;
 }
 a:visited {
-  color: #512e90;
+  color: #673AB7;
   transition-property: all;
   transition-delay: 0.5s;
   transition-duration: 0.6s;
@@ -1249,6 +1249,10 @@ footer .funders img {
   width: 2em;
   height: 2em;
 }
+.highlight-publication {
+  background-color: #fbe90f;
+  padding: 0.5em 1em;
+}
 .contactpage li {
   list-style-type: none;
   background-color: #e5e5e5;
@@ -1312,7 +1316,3 @@ footer .funders img {
 p:empty {
   display: none;
 }
-
-header.menu-open { 
-  transition:none; 
-} 
