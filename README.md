@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/intermine/intermine-homepage-2017.svg?branch=master)](https://travis-ci.org/intermine/intermine-homepage-2017)
-
 # InterMine Homepage
 
 New design for 2017.
