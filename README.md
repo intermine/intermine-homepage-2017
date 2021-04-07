@@ -17,12 +17,7 @@ The homepage is generated using the static site generator [hugo](https://gohugo.
 
 ### Deploying
 
-Anything on [intermine/intermine-homepage-2017](https://github.com/intermine/intermine-homepage-2017) master branch will automatically be deployed to InterMine.org, with the help of Travis CI. The code repo for intermine.org content is [intermine/intermine.github.io](https://github.com/intermine/intermine.github.io)
-
-#### The `static` folder
-
-There are two files in the static folder that are only there in order to be deployed in the intermine.gitgub.io repo - these files are static/readme.md and static/sample-CNAME. Do not remove them - remocing the readme will mean there is no pointer to this repo for intermine.github.io, and removing the CNAME file will stop any content on gh-paged from pointing to intermine.org. Look at .travis.yml if you want to see what is done with these two files upon deployment.
-
+Anything on [intermine/intermine-homepage-2017](https://github.com/intermine/intermine-homepage-2017) master branch will automatically be deployed to InterMine.org, with the help of GitHub Actions and Pages for hosting. The code repo for intermine.org content is [intermine/intermine.github.io](https://github.com/intermine/intermine.github.io).
 
 ## Updating Publications
 
