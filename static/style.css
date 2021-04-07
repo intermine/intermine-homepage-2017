@@ -1313,6 +1313,9 @@ footer .funders img {
 .tableOfContents h3 {
   margin-left: 0.66666667em;
 }
+.text-center {
+  text-align: center !important;
+}
 p:empty {
   display: none;
 }
