@@ -1,7 +1,7 @@
 {"title":"Site Credits",
 "layout" : "single"}
 
-## InterMine Homepage Copyright InterMine 2017-2019
+## InterMine Homepage Copyright InterMine 2017-2021
 
 ### Site
 This site is generated using the static site generator [hugo](http://gohugo.io/) and hosted on [GitHub pages](https://pages.github.com/).
