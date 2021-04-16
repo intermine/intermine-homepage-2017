@@ -1,4 +1,4 @@
-This site is mostly managed by the InterMine core team, but if you would like to contribute or have an idea, feel free to [contact us](http://intermine.readthedocs.io/en/latest/about/contact-us/) or create an issue on the repo. 
+This site is mostly managed by the InterMine core team, but if you would like to contribute or have an idea, feel free to [contact us](http://intermine.org/contact/) or create an issue on the repo.
 
 ## If you would like to pick up an [issue](https://github.com/intermine/intermine-homepage-2017/issues)
 
