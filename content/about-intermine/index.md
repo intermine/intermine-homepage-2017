@@ -8,6 +8,7 @@ InterMine has been developed with the support of the Wellcome Trust [067205], [0
 
 The publicly available InterMine instances include:
 
+* [HumanMine](https://www.humanmine.org)  - an integrated data warehouse of Homo sapiens genomic data
 * [FlyMine](https://www.flymine.org)  - a data warehouse of integrated fruit fly genetic, genomic and proteomic data
 * [YeastMine](http://yeastmine.yeastgenome.org) - an integrated data warehouse of yeast genomic data, developed by SGD
 * [RatMine](http://ratmine.mcw.edu/ratmine) - an integrated data warehouse of rat genomic data, developed by RGD
