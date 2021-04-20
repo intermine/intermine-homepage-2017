@@ -15,7 +15,7 @@
 
       {{ $citations := getJSON "https://api.zotero.org/groups/2117194/collections/WE489M9J/items?itemType=-attachment&sort=date" }}
 
-      <h3>Publications by the InterMine Team</h3>
+      <h3>Publications by the InterMine Team and Community</h3>
       <ul class="publication-section">
         {{ $baseurl := .Site.BaseURL }}
         {{range $publication:= $citations}}
