@@ -20,6 +20,14 @@
         "type" : "github",
         "url" : "http://github.com/julie-sullivan/"}
   },
+
+  { "name": "Kim Rutherford",
+    "role": "InterMine member",
+    "picture": "https://avatars.githubusercontent.com/u/90474?v=4",
+    "link": { "type": "github", "url": "https://github.com/kimrutherford" } },
+  { "name": "Matthew Wakeling",
+    "role": "InterMine member",
+    "localpicture": "matthewW.jpg" },
   { "name": "Justin Clark-Casey",
     "role": "InterMine member",
     "picture": "https://avatars0.githubusercontent.com/u/12761716?v=4",
