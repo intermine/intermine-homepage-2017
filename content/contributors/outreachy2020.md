@@ -1,7 +1,7 @@
 {
   "title": "Outreachy 2020",
   "weight" : 2,
-  "members": [
+  "members": [{
   {
     "name": "Hanan Younes",
     "role": "developer",
