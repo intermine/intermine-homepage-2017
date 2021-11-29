@@ -41,7 +41,7 @@
   { "name": "Mike Lyne",
     "role": "InterMine member",
     "picture": "https://avatars1.githubusercontent.com/u/1152769?v=4",
-    "link": { "type": "github", "url": "https://github.com/mlyne" } }
+    "link": { "type": "github", "url": "https://github.com/mlyne" } },
   { "name": "Radek Stepan",
     "role": "InterMine member",
     "picture": "https://avatars0.githubusercontent.com/u/195584?v=4",
@@ -57,5 +57,5 @@
   { "name" : "Yo Yehudi",
     "role" : "InterMine member",
     "picture" : "https://avatars.githubusercontent.com/u/9271438?v=4",
-    "link" : { "type" : "github", "url" : "http://github.com/yochannah/" } },
+    "link" : { "type" : "github", "url" : "http://github.com/yochannah/" } }
     ]}
