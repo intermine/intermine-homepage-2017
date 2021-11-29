@@ -1,7 +1,7 @@
 {
   "title": "Outreachy 2020",
   "weight" : 2,
-  "members": [{
+  "members": [
   {
     "name": "Hanan Younes",
     "role": "developer",
@@ -9,7 +9,8 @@
     "link": {
       "type": "github",
       "url": "https://github.com/hyounes4560"
-    },
+    }
+  },
   {
     "name": "John Mendez",
     "role": "Data browser developer",
@@ -20,7 +21,7 @@
 
     }
   },
-    {
+   {
     "name": "Pooja Gaur",
     "role": "InterMine CLI developer",
     "picture": "https://avatars1.githubusercontent.com/u/43316760?s=400&u=e01658d8f5af0e4ca9012d2508a3888b9de6b091&v=4",
@@ -38,14 +39,15 @@
       "url": "https://github.com/Persdre"
     }
   },
-    {
+  {
     "name": "Roshni_18 ",
     "role": "UX designer",
     "picture": "https://avatars0.githubusercontent.com/u/45714224?s=400&u=bdfe2e5f835051b9a023945dbbda25ed80fc55f0&v=4",
     "link": {
       "type": "github",
       "url": "https://github.com/tinycosmos"
-    },
+    }
+  },
   {
     "name": "Sakshi Srivastava",
     "role": "Data Visualisation developer",
@@ -55,7 +57,7 @@
       "url": "https://github.com/Sakshisrivastava413"
     }
   },
-    {
+  {
     "name": "SammiM3",
     "role": "developer",
     "picture": "https://avatars.githubusercontent.com/u/43521418?v=4",
