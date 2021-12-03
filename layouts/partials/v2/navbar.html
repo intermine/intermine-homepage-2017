@@ -1,0 +1,26 @@
+<nav class="im-navbar">
+    <div class='im-navbar-first-section-outer'>
+        <div class="im-navbar-first-section">
+            <div class="logo-container">
+                <a href="/">
+                    <img 
+                        class='im-navbar-logo'
+                        src="{{.Site.BaseURL}}/images/logo/logo_for_dark_background.png"
+                        alt="InterMine's Logo"
+                    />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="im-navbar-second-section-outer">
+        <div class="im-navbar-second-section">
+            <div class="im-navbar-menu-item-container">
+                {{ range .Site.Data.navbar.navbarItems }}
+                    <div class="im-navbar-menu-item">
+                        {{ .title }}
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</nav>

@@ -1,3 +1,115 @@
+.im-landing-section {
+  color: #fff;
+  display: flex;
+  min-height: calc(100vh - 84px);
+}
+.im-landing-first-section-outer {
+  align-items: flex-end;
+  background: #000;
+  display: flex;
+  justify-content: flex-end;
+  flex: 0 0 35%;
+}
+.im-landing-first-section {
+  flex: 1;
+  max-width: 35rem;
+  padding-left: 1rem;
+  width: 100%;
+}
+.im-landing-second-section-outer {
+  background: #222;
+  display: flex;
+  flex: 0 0 65%;
+  flex-direction: column;
+}
+.im-landing-second-section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  max-width: 65rem;
+  width: 100%;
+}
+.im-landing-tagline-container {
+  padding-bottom: 10rem;
+}
+.im-landing-tagline {
+  color: #eee;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.im-landing-tagline-para {
+  color: #aaa;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-top: 2rem;
+}
+.im-landing-image-container {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  height: 100%;
+  padding: 4rem;
+}
+.im-landing-image {
+  width: 100%;
+  object-fit: contain;
+}
+.im-navbar {
+  color: #fff;
+  display: flex;
+}
+.im-navbar-first-section-outer {
+  align-items: center;
+  background: #000;
+  display: flex;
+  justify-content: flex-end;
+  flex: 0 0 35%;
+}
+.im-navbar-first-section {
+  flex: 1;
+  max-width: 35rem;
+  padding-left: 1rem;
+  width: 100%;
+}
+.im-navbar-second-section-outer {
+  background: #222;
+  flex: 0 0 65%;
+}
+.im-navbar-second-section {
+  max-width: 65rem;
+  width: 100%;
+}
+.im-navbar-logo {
+  height: 1.5rem;
+}
+.im-navbar-menu-item-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.im-navbar-menu-item {
+  padding: 2rem 1.5rem;
+}
+.im-navbar-menu-item:hover {
+  background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.im-container-outer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.im-container-inner {
+  width: 100%;
+  max-width: 1600px;
+}
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 .transition {
   transition-property: all;
   transition-delay: 0.5s;
@@ -305,7 +417,7 @@ header .navigation-menu-link {
     transition-delay: 0.5s;
     transition-duration: 0.6s;
     height: 2em;
-    padding: 0.25em 1em;
+    padding: 1em/4 1em;
   }
 }
 @media (max-width: 760px) {
@@ -462,10 +574,10 @@ main {
   }
 }
 main > h2 {
-  margin: 0.25em;
+  margin: 1em/4;
 }
 main > p {
-  margin: 0.5em;
+  margin: 1em/2;
 }
 .tagline {
   margin: 0 -1em;
@@ -477,7 +589,7 @@ main > p {
 }
 @media (max-width: 1060px) {
   .tagline {
-    margin: 0.5em;
+    margin: 1em/2;
   }
 }
 .tagline:nth-child(2) {
@@ -526,10 +638,10 @@ main > p {
   border-radius: 2px;
   text-decoration: none;
   background-color: #e9e9e9;
-  margin: 0.25em;
+  margin: 1em/4;
   display: block;
   color: #111;
-  padding: 0.25em 0.5em;
+  padding: 1em/4 1em/2;
   border: solid 1px #d0d0d0;
   text-align: center;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.075);
@@ -588,7 +700,7 @@ main > p {
 @media (max-width: 1060px) {
   .contributing {
     width: 90%;
-    padding: 0.5em;
+    padding: 1em/2;
   }
 }
 .contributing .icon {
@@ -752,7 +864,7 @@ main > p {
   border-radius: 2px;
   text-align: right;
   display: block;
-  padding: 0.5em;
+  padding: 1em/2;
 }
 .more-details:after {
   content: ">>";
@@ -824,7 +936,7 @@ footer .sitemap-link-group {
 }
 footer .sitemap-link-group h4.categories {
   border: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em/2;
 }
 footer .sitemap-link-group .subheading {
   margin: 0;
@@ -844,7 +956,7 @@ footer .sitemap-link-group li a {
   border-bottom: solid #e9e9e9 3px;
 }
 footer .sitemap-link-group li a .icon {
-  margin-right: 0.5em;
+  margin-right: 1em/2;
 }
 footer .sitemap-link-group li a:visited {
   color: #111;
@@ -903,7 +1015,7 @@ footer .funders img {
 }
 .icon.icon-linkout {
   fill: rgba(0, 0, 0, 0.3);
-  margin-left: 0.2em;
+  margin-left: 1em/5;
   min-width: 1em;
 }
 .team-list {
@@ -919,7 +1031,7 @@ footer .funders img {
   .team-member {
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0.5em;
+    padding: 1em/2;
   }
   .team-member img {
     margin: 1em 0;
@@ -939,7 +1051,7 @@ footer .funders img {
   background-color: #d0d0d0;
 }
 .team-member .icon {
-  margin-right: 0.5em;
+  margin-right: 1em/2;
 }
 .team-member ul {
   display: flex;
@@ -990,7 +1102,7 @@ footer .funders img {
   align-items: center;
   justify-content: center;
   color: #111;
-  margin: 0.5em;
+  margin: 1em/2;
 }
 .community-member-list ul a img {
   align-self: center;
@@ -1046,7 +1158,7 @@ footer .funders img {
 .resource-list .resource-link p {
   text-align: justify;
   font-size: 90%;
-  margin: 0.25em 0 0;
+  margin: 1em/4 0 0;
 }
 .resource-list .resource-link .more-details {
   align-self: flex-end;
@@ -1117,7 +1229,7 @@ footer .funders img {
   padding-bottom: 1em;
 }
 .main-articles .secondary-col.resource-list .resource-link p {
-  padding: 0.5em 1em;
+  padding: 1em/2 1em;
 }
 .main-articles .secondary-col.resource-list .resource-link p:last-child {
   padding-bottom: 1em;
@@ -1129,7 +1241,7 @@ footer .funders img {
 .main-articles .secondary-col.resource-list .resource-link h2 {
   background-color: #607D8B;
   width: 100%;
-  padding: 0.25em 0.5em;
+  padding: 1em/4 1em/2;
   box-sizing: border-box;
   margin-top: -1em;
   margin-bottom: 0;
@@ -1231,7 +1343,7 @@ footer .funders img {
 .publication-list .publication-section li {
   border-bottom: solid 1px #ccc;
   border-top: solid 1px #eee;
-  padding: 0.5em 1em;
+  padding: 1em/2 1em;
   display: flex;
 }
 .publication-list .publication-section li > a {
@@ -1242,7 +1354,7 @@ footer .funders img {
   background-color: #e9e9e9;
 }
 .publication-list .publication-section li p {
-  margin: 0.5em 0;
+  margin: 1em/2 0;
 }
 .publication-list .visit-pubmed svg {
   fill: #03A9F4;
@@ -1251,7 +1363,7 @@ footer .funders img {
 }
 .highlight-publication {
   background-color: #fbe90f;
-  padding: 0.5em 1em;
+  padding: 1em/2 1em;
 }
 .contactpage li {
   list-style-type: none;
@@ -1299,7 +1411,7 @@ footer .funders img {
   margin-bottom: 1em;
 }
 .photo-with-caption .caption {
-  margin: 0.5em;
+  margin: 1em/2;
 }
 .photo-with-caption img {
   margin-top: 1em;
@@ -1308,10 +1420,10 @@ footer .funders img {
 }
 .tableOfContents ul {
   list-style-type: none;
-  padding-left: 0.5em;
+  padding-left: 1em/2;
 }
 .tableOfContents h3 {
-  margin-left: 0.66666667em;
+  margin-left: 1em/3*2;
 }
 .text-center {
   text-align: center !important;
@@ -1319,3 +1431,4 @@ footer .funders img {
 p:empty {
   display: none;
 }
+/*# sourceMappingURL=style.css.map */

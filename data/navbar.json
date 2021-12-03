@@ -1,0 +1,24 @@
+{
+    "navbarItems": [
+        {
+            "id": "biologists",
+            "title": "Biologists",
+            "children": []
+        },
+        {
+            "id": "developers",
+            "title": "Developers",
+            "children": []
+        },
+        {
+            "id": "contacts",
+            "title": "Contacts",
+            "children": []
+        },
+        {
+            "id": "resources",
+            "title": "Resources",
+            "children": []
+        }
+    ]
+}
