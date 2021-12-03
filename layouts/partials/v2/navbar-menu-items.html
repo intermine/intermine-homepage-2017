@@ -1,0 +1,11 @@
+{{ if gt (len .children) 0}}
+<div class="im-menu-item-children-container">
+    <div class="im-menu-item-children-wrapper">
+        {{range .children}}
+        <a href="{{.href}}" class="im-menu-item-child">
+            {{.title}}
+        </a>
+        {{end}}
+    </div>
+</div>
+{{end}}

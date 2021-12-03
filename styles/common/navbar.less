@@ -38,10 +38,41 @@
 }
 
 .im-navbar-menu-item {
-   padding: 2rem 1.5rem; 
+   padding: 2rem 1.5rem;
+   font-weight: 800;
 }
 
-.im-navbar-menu-item:hover {
-   background: rgba(0, 0, 0, 0.2);
-   cursor: pointer;
+.im-navbar-menu-item {
+    position: relative;
+}
+
+.im-menu-item-children-hidden .im-menu-item-children-container {
+    display: none;
+}
+
+.im-menu-item-children-container {
+    padding: 1rem 0;
+    position: absolute;
+}
+
+.im-menu-item-children-wrapper {
+    background: #fff;
+    border-radius: 0.5rem;
+    color: #000;
+    min-width: 10rem;
+    padding: 0.25rem
+}
+
+.im-menu-item-child {
+    display: block;
+    border-radius: 0.25rem;
+    color: #222;
+    cursor: pointer;
+    padding: 0.5rem ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.im-menu-item-child:hover {
+    background: rgba(192, 216, 72, 0.3);
 }
