@@ -4,9 +4,10 @@
   "description": "InterMine's Homepage",
   "main": "index.js",
   "scripts": {
-    "generate-styles": "lessc ./styles/style.less ./static/style.css",
+    "generate-styles": "lessc ./styles/style.less ./static/style.css -x",
     "watch-styles": "less-watch-compiler --config less-watch-compiler.config.json",
-    "dev": "concurrently 'hugo server' 'npm run watch-styles'"
+    "dev": "concurrently 'hugo server' 'npm run watch-styles'",
+    "build": "npm run generate-styles && hugo"
   },
   "repository": {
     "type": "git",
