@@ -1,0 +1,29 @@
+{
+  "name": "intermine-homepage-2017",
+  "version": "2.0.0",
+  "description": "InterMine's Homepage",
+  "main": "index.js",
+  "scripts": {
+    "generate-styles": "lessc ./static/style.less ./static/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intermine/intermine-homepage-2017.git"
+  },
+  "keywords": [
+    "Intermine",
+    "Bluegenes",
+    "Intermine",
+    "Homepage"
+  ],
+  "author": "InterMine Team",
+  "license": "GNU Lesser General Public License v2.1",
+  "bugs": {
+    "url": "https://github.com/intermine/intermine-homepage-2017/issues"
+  },
+  "homepage": "https://github.com/intermine/intermine-homepage-2017#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "less": "^4.1.2"
+  }
+}
