@@ -4,7 +4,9 @@
   "description": "InterMine's Homepage",
   "main": "index.js",
   "scripts": {
-    "generate-styles": "lessc ./static/style.less ./static/style.css"
+    "generate-styles": "lessc ./styles/style.less ./static/style.css",
+    "watch-styles": "less-watch-compiler --config less-watch-compiler.config.json",
+    "dev": "concurrently 'hugo server' 'npm run watch-styles'"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
   "homepage": "https://github.com/intermine/intermine-homepage-2017#readme",
   "dependencies": {},
   "devDependencies": {
-    "less": "^4.1.2"
+    "less": "^4.1.2",
+    "less-watch-compiler": "^1.16.3"
   }
 }
