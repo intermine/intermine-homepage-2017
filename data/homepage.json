@@ -17,5 +17,20 @@
             "modMine",
             "ChickpeaMine"
         ]
-    }
+    },
+    "allMines": [
+        "YeastMine",
+        "WormMine",
+        "FlyMine",
+        "ZebrafishMine",
+        "HumanMine",
+        "RatMine",
+        "MouseMine",
+        "TargetMine",
+        "PlanMine",
+        "PhytoMine",
+        "HymenopteraMine",
+        "modMine",
+        "ChickpeaMine"
+    ]
 }
