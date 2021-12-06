@@ -1,24 +1,28 @@
-{{ $registry := getJSON "http://registry.intermine.org/service/instances" }}
+<div class="im-mines-cards-container">
+    {{range $mineName :=  $.Site.Data.homepage.allMines}}
+    {{ $mine := getJSON (print "http://registry.intermine.org/service/instances/" $mineName)}}
+    {{ $mineInstance := $mine.instance }}
 
-<div class="mine-showcase two">
-    <div class="intermine-links">
-        {{range $mineName :=  $.Site.Data.homepage.mines.first}}
-        {{$mine := getJSON (print "http://registry.intermine.org/service/instances/" $mineName)}}
-        {{if eq $mine.instance.status "Running" }}
-        <a href="{{$mine.instance.url}}" title="{{$mine.instance.description}}" class="intermine-link">
-            <span class="minename">{{$mine.instance.name}}</span>
-        </a>
-        {{end}}
-        {{end}}
-        <span id="random-mines"></span>
-        {{range $mineName :=  $.Site.Data.homepage.mines.last}}
-
-        {{$mine := getJSON (print "http://registry.intermine.org/service/instances/" $mineName)}}
-        {{if eq $mine.instance.status "Running" }}
-        <a href="{{$mine.instance.url}}" title="{{$mine.instance.description}}" class="intermine-link">
-            <span class="minename">{{$mine.instance.name}}</span>
-        </a>
-        {{end}}
-        {{end}}
-
+    {{if eq $mineInstance.status "Running" }}
+    <div class="im-mines-card-container">
+        <div class="im-mines-card-header-container">
+            <img class="im-mines-card-avatar" src='{{ index $mineInstance.images "logo" }}'
+                onerror="if (this.src != 'https://cdn.rawgit.com/intermine/design-materials/78a13db5/logos/intermine/squareish/45x45.png') this.src = 'https://cdn.rawgit.com/intermine/design-materials/78a13db5/logos/intermine/squareish/45x45.png'" />
+            <div class="im-mines-card-title">
+                {{$mineInstance.name}}
+            </div>
+        </div>
+        <div class="im-mines-card-content">
+            {{ truncate 200 (safeHTML $mineInstance.description) }}
+        </div>
+        <div class="im-mines-card-action-container">
+            <a target="_blank" href="{{$mineInstance.url}}" title="{{$mineInstance.description}}"
+                class="im-btn im-ghost-btn im-info-btn">
+                View
+            </a>
+        </div>
     </div>
+    {{end}}
+    {{end}}
+
+</div>
