@@ -1,0 +1,24 @@
+{{ $registry := getJSON "http://registry.intermine.org/service/instances" }}
+
+<div class="mine-showcase two">
+    <div class="intermine-links">
+        {{range $mineName :=  $.Site.Data.homepage.mines.first}}
+        {{$mine := getJSON (print "http://registry.intermine.org/service/instances/" $mineName)}}
+        {{if eq $mine.instance.status "Running" }}
+        <a href="{{$mine.instance.url}}" title="{{$mine.instance.description}}" class="intermine-link">
+            <span class="minename">{{$mine.instance.name}}</span>
+        </a>
+        {{end}}
+        {{end}}
+        <span id="random-mines"></span>
+        {{range $mineName :=  $.Site.Data.homepage.mines.last}}
+
+        {{$mine := getJSON (print "http://registry.intermine.org/service/instances/" $mineName)}}
+        {{if eq $mine.instance.status "Running" }}
+        <a href="{{$mine.instance.url}}" title="{{$mine.instance.description}}" class="intermine-link">
+            <span class="minename">{{$mine.instance.name}}</span>
+        </a>
+        {{end}}
+        {{end}}
+
+    </div>

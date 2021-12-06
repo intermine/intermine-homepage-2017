@@ -1,24 +1,18 @@
-<nav class="im-navbar">
-    <div class='im-navbar-first-section-outer'>
-        <div class="im-navbar-first-section">
-            <div class="logo-container">
-                <a href="/">
-                    <img class='im-navbar-logo' src="{{.Site.BaseURL}}/images/logo/InterMineLogoForLightBackground.png"
-                        alt="InterMine's Logo" />
-                </a>
-            </div>
+<nav class="im-container-outer im-container-pl im-light-bg">
+    <div class="im-container-inner im-navbar-wrapper">
+        <div class="im-logo-container">
+            <a href="/">
+                <img class='im-navbar-logo' src="{{.Site.BaseURL}}/images/logo/InterMineLogoForLightBackground.png"
+                    alt="InterMine's Logo" />
+            </a>
         </div>
-    </div>
-    <div class="im-navbar-second-section-outer">
-        <div class="im-navbar-second-section">
-            <div class="im-navbar-menu-item-container">
-                {{ range .Site.Data.navbar.navbarItems }}
-                <div class="im-navbar-menu-item im-menu-item-children-hidden" id="{{ .id }}">
-                    {{ .title }}
-                    {{ partial "v2/navbar-menu-items" (dict "children"  .children "id" .id) . }}
-                </div>
-                {{ end }}
+        <div class="im-navbar-menu-item-container">
+            {{ range .Site.Data.navbar.navbarItems }}
+            <div class="im-navbar-menu-item im-menu-item-children-hidden" id="{{ .id }}">
+                {{ .title }}
+                {{ partial "v2/navbar-menu-items" (dict "children"  .children "id" .id) . }}
             </div>
+            {{ end }}
         </div>
     </div>
 </nav>
