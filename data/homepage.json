@@ -19,11 +19,14 @@
         ]
     },
     "allMines": [
+        "FlyMine",
+        "HumanMine",
+        "CovidMine",
+        "ThaleMine",
+        "AllianceMine",
         "YeastMine",
         "WormMine",
-        "FlyMine",
         "ZebrafishMine",
-        "HumanMine",
         "RatMine",
         "MouseMine",
         "TargetMine",
