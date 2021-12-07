@@ -29,6 +29,13 @@
   width: 100%;
   object-fit: contain;
 }
+.im-landing-cta {
+  margin-top: 2rem;
+  width: 100%;
+  justify-content: center;
+  text-transform: uppercase;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 .im-section-1-para {
   font-size: 2.5rem;
   max-width: 45rem;
@@ -94,6 +101,22 @@
   display: flex;
   justify-content: center;
   padding: 2rem;
+}
+.im-contribution-section {
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #121213;
+  color: #fff;
+  display: flex;
+  padding-bottom: 4rem;
+  min-height: 30rem;
+}
+.im-contribution-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
 }
 .im-navbar-wrapper {
   color: #000;
@@ -196,6 +219,16 @@
   height: 1rem;
   width: 1rem;
 }
+.im-link,
+.im-link:active,
+.im-link:visited {
+  color: #007bff;
+  text-decoration: none;
+}
+.im-link:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
 .im-btn {
   align-items: center;
   border: 0;
@@ -205,6 +238,21 @@
   font-weight: bold;
   text-align: center;
   text-decoration: none;
+}
+.im-btn-contained {
+  padding: 1rem 2rem;
+}
+.im-btn-contained:hover {
+  opacity: 0.8;
+}
+.im-btn-contained:active {
+  opacity: 1;
+}
+.im-btn-contained.im-btn-primary,
+.im-btn-contained.im-btn-primary:visited,
+.im-btn-contained.im-btn-primary:active {
+  color: #000;
+  background-color: #C0D848;
 }
 .im-ghost-btn {
   padding: 0.5rem 1rem;
