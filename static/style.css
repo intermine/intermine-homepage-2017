@@ -42,10 +42,12 @@
 }
 .im-section-2-para {
   margin-bottom: 2rem;
+  font-size: 1.2rem;
 }
 .im-mines-cards-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .im-mines-card-container {
   border: 1px solid #eee;
@@ -55,7 +57,7 @@
   min-height: 20rem;
   flex-direction: column;
   transition: 0.3s;
-  width: 20rem;
+  width: 18rem;
 }
 .im-mines-card-container:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
@@ -83,6 +85,15 @@
   display: flex;
   justify-content: flex-end;
   padding: 1rem 0.5rem;
+}
+.im-section-2-title-bg {
+  background-image: url('/images/png/minesNamePattern-2.png');
+  background-size: 30rem;
+}
+.im-registry-action-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
 }
 .im-navbar-wrapper {
   color: #000;
@@ -170,7 +181,7 @@
   flex: 1;
 }
 .im-section-content-container {
-  padding: 3rem 1.5rem 0;
+  padding: 3rem 1.5rem 0 3rem;
 }
 .im-flex {
   display: flex;
@@ -181,11 +192,18 @@
 .im-flex-1 {
   flex: 1;
 }
+.im-icon {
+  height: 1rem;
+  width: 1rem;
+}
 .im-btn {
+  align-items: center;
   border: 0;
   border-radius: 0.25rem;
   cursor: pointer;
+  display: inline-flex;
   font-weight: bold;
+  text-align: center;
   text-decoration: none;
 }
 .im-ghost-btn {
@@ -193,6 +211,7 @@
 }
 .im-ghost-btn.im-info-btn {
   color: #005bff;
+  fill: #005bff;
 }
 .im-ghost-btn.im-info-btn:hover {
   background: rgba(0, 91, 255, 0.05);
