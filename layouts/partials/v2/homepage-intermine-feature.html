@@ -1,0 +1,60 @@
+<div class="im-container-outer im-light-bg im-container-pl">
+    <div class="im-container-inner">
+        <div class="im-section-wrapper">
+            <div class="im-section-title-container im-flex im-flex-col">
+                <div class="im-section-title">
+                    # InterMine Features
+                </div>
+                <div class="im-features-container">
+                    <h3 class="im-feature-heading">
+                        <svg class="im-feature-icon im-icon-blue">
+                            <use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#dynamic-table"></use>
+                        </svg>
+                        Dynamic Data Tables
+                    </h3>
+                    <p class="im-features-para">
+                        InterMine's tables allow you to easily drill down into data. It's easy to filter data, add
+                        additional columns, navigate
+                        to report pages.
+                    </p>
+                </div>
+                <div class="im-features-container">
+                    <h3 class="im-feature-heading">
+                        <svg class="im-feature-icon im-icon-violet">
+                            <use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#try-it-yourself"></use>
+                        </svg>
+                        Try it yourself!
+                    </h3>
+                    <p class="im-features-para">
+                        Try clicking on the&nbsp;<svg class="im-icon" style="fill: #777; transform: translateY(2px);">
+                            <use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-bar-chart"></use>
+                        </svg> icon in the ontology term namespace and filtering the column to show only one term.</p>
+                    </p>
+                </div>
+                <div class="im-features-container">
+                    <h3 class="im-feature-heading">
+                        <svg class="im-feature-icon im-icon-blue">
+                            <use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#terminal"></use>
+                        </svg>
+                        Run queries in many languages
+                    </h3>
+                    <p class="im-features-para">
+                        Try clicking on the "Generate Python code" button - or use the dropdown to choose a different
+                        language. You can then
+                        easily copy/paste the queries to your scripts.
+                        <i>
+                            Shown in table: GO terms related to the Drosophila gene "zen". Data drawn from <a
+                                class="im-link" href="https://www.flymine.org/flymine">FlyMine.</a>
+                        </i>
+                    </p>
+                </div>
+            </div>
+            <div class="im-section-content-container">
+
+                <div style="border: 5px solid #222; padding: 1rem;">
+                    {{ partial "imtabledemo.html" . }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
