@@ -2,7 +2,9 @@
   "title": "Former InterMine Members",
   "weight": 1,
   "members": [
-  { "name": "Alex Kalderimis",
+
+
+{ "name": "Alex Kalderimis",
     "role": "InterMine member",
     "picture": "https://avatars2.githubusercontent.com/u/436846?v=4",
     "link": { "type": "github", "url": "https://github.com/alexkalderimis" } },
@@ -54,6 +56,9 @@
     "role": "InterMine member",
     "picture": "https://avatars.githubusercontent.com/u/3329765?v=4",
     "link": { "type": "github", "url": "https://github.com/xwatkins" } },
+  { "name": "Andrew Varley",
+    "role": "InterMine member",
+    "picture": "http://www.gravatar.com/avatar/?d=mp" } },
   { "name" : "Yo Yehudi",
     "role" : "InterMine member",
     "picture" : "https://avatars.githubusercontent.com/u/9271438?v=4",
