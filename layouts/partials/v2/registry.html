@@ -16,13 +16,23 @@
             {{ truncate 200 (safeHTML $mineInstance.description) }}
         </div>
         <div class="im-mines-card-action-container">
-            <a target="_blank" href="{{$mineInstance.url}}" title="{{$mineInstance.description}}"
+            <a target="_blank" href="{{$mineInstance.url}}" title="Click to view {{$mineInstance.name}}"
                 class="im-btn im-ghost-btn im-info-btn">
-                View
+                View&nbsp;<svg class="im-icon">
+                    <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#external-link"></use>
+                </svg>
             </a>
         </div>
     </div>
     {{end}}
     {{end}}
+</div>
 
+<div class="im-registry-action-container">
+    <a target="_blank" href="http://registry.intermine.org/" class="im-btn im-ghost-btn im-info-btn">
+        View All Mines&nbsp;<svg class="im-icon">
+            <use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#external-link"></use>
+        </svg>
+    </a>
+</div>
 </div>
