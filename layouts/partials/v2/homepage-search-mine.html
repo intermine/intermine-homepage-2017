@@ -1,0 +1,42 @@
+<div class="im-container-outer im-light-10-bg im-container-pl im-container-pb">
+    <div class="im-container-inner">
+        <div class="im-section-wrapper ">
+            <form id="crossInterMineSearch" class="im-search-mine-container"
+                action="http://cross-intermine-search-tool.apps.intermine.org/">
+                <div class="im-search-mine-title">
+                    Which InterMine is for you?
+                </div>
+                <div class="im-search-mine-sub">
+                    Search for your favourite biological thing across all InterMines
+                </div>
+                <div class="im-search-container">
+                    <div class="im-search-box">
+                        <input type="text" class="im-search-box-input"
+                            aria-label=" type to Search for your favourite biological thing across all intermines"
+                            placeholder="E.g. Diabetes, BRCA1, PPARG_HUMAN" id="search" />
+                    </div>
+                    <button class="im-search-btn" type="submit" aria-label="Search launches a new page">Search
+                        (launches a new
+                        page)</button>
+                </div>
+
+                <div class="im-search-mine-sub">
+                    Or jump straight to the results for <a target="_blank" class="im-link"
+                        href="http://cross-intermine-search-tool.apps.intermine.org/#/?search=BRCA1">BRCA1</a> or <a
+                        class="im-link" target="_blank"
+                        href="http://cross-intermine-search-tool.apps.intermine.org/#/?search=diabetes">diabetes</a>.
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    var searchForm = document.getElementById("crossInterMineSearch"),
+        url = "http://cross-intermine-search-tool.apps.intermine.org/#/";
+    searchForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var searchTerm = e.target.search.value;
+        window.open(url + "?search=" + e.target.search.value, "_blank");
+    });
+</script>
