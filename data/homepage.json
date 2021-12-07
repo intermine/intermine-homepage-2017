@@ -27,13 +27,6 @@
         "YeastMine",
         "WormMine",
         "ZebrafishMine",
-        "RatMine",
-        "MouseMine",
-        "TargetMine",
-        "PlanMine",
-        "PhytoMine",
-        "HymenopteraMine",
-        "modMine",
-        "ChickpeaMine"
+        "RatMine"
     ]
 }
