@@ -3,10 +3,7 @@
   "weight": 1,
   "members": [
 
-
-
-
-{ "name": "Alex Kalderimis",
+  { "name": "Alex Kalderimis",
     "role": "InterMine member",
     "picture": "https://avatars2.githubusercontent.com/u/436846?v=4",
     "link": { "type": "github", "url": "https://github.com/alexkalderimis" } },
@@ -58,6 +55,10 @@
     "role": "InterMine member",
     "picture": "https://avatars.githubusercontent.com/u/90474?v=4",
     "link": { "type": "github", "url": "https://github.com/kimrutherford" } },
+  { "name": "Mark Woodbridge",
+    "role": "InterMine member",
+    "picture": "https://avatars.githubusercontent.com/u/1724545?v=4",
+    "link": { "type": "github", "url": "https://github.com/mwoodbri" } },
   { "name": "Markus Brosch",
     "role": "InterMine member",
     "picture": "http://www.gravatar.com/avatar/?d=mp" },
@@ -73,14 +74,32 @@
     "role": "InterMine member",
     "picture": "https://avatars1.githubusercontent.com/u/1152769?v=4",
     "link": { "type": "github", "url": "https://github.com/mlyne" } },
+  { "name": "Peter Mclaren",
+    "role": "InterMine member",
+    "picture": "http://www.gravatar.com/avatar/?d=mp" },
+  { "name": "Philip North",
+    "role": "InterMine member",
+    "picture": "http://www.gravatar.com/avatar/?d=mp" },
   { "name": "Radek Stepan",
     "role": "InterMine member",
     "picture": "https://avatars0.githubusercontent.com/u/195584?v=4",
     "link": { "type": "github", "url": "https://github.com/radekstepan" } },
+  { "name": "Raj Paidi",
+    "role": "InterMine member",
+    "picture": "http://www.gravatar.com/avatar/?d=mp" },
   { "name": "Richard Smith",
     "role": "InterMine member",
     "picture": "https://avatars0.githubusercontent.com/u/1056125?v=4",
     "link": { "type": "github", "url": "https://github.com/rnsmith" } },
+  { "name": "Ros Russell",
+    "role": "InterMine member",
+    "picture": "http://www.gravatar.com/avatar/?d=mp" },
+  { "name": "Thomas Riley",
+    "role": "InterMine member",
+    "picture": "http://www.gravatar.com/avatar/?d=mp" },
+  { "name": "Wenyan Ji",
+    "role": "InterMine member",
+    "picture": "http://www.gravatar.com/avatar/?d=mp" },
   { "name": "Xavier Watkins",
     "role": "InterMine member",
     "picture": "https://avatars.githubusercontent.com/u/3329765?v=4",
@@ -88,5 +107,8 @@
   { "name" : "Yo Yehudi",
     "role" : "InterMine member",
     "picture" : "https://avatars.githubusercontent.com/u/9271438?v=4",
-    "link" : { "type" : "github", "url" : "http://github.com/yochannah/" } }
-    ]}
+    "link" : { "type" : "github", "url" : "http://github.com/yochannah/" } },
+  { "name": "Zoltan Asztalos",
+    "role": "InterMine member",
+    "picture": "http://www.gravatar.com/avatar/?d=mp" }
+  ]}
