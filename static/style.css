@@ -347,6 +347,18 @@
 .im-ghost-btn.im-info-btn:hover {
   background: rgba(0, 91, 255, 0.05);
 }
+.im-footer {
+  background: #121212;
+  color: #999;
+}
+.im-footer-wrapper {
+  display: flex;
+  padding: 3rem 1.5rem 3rem 0;
+}
+.im-footer-logo {
+  height: 3rem;
+  filter: contrast(0);
+}
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
