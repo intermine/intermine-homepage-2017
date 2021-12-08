@@ -18,10 +18,12 @@
 }
 
 .im-navbar-menu-item {
+    cursor: default;
     font-weight: 800;
-   padding: 2rem 1.5rem;
-   position: relative;
+    padding: 2rem 1.5rem;
+    position: relative;
 }
+
 
 
 .im-menu-item-children-hidden .im-menu-item-children-container {
@@ -31,26 +33,48 @@
 .im-menu-item-children-container {
     padding: 1rem 0;
     position: absolute;
+    right: 0
 }
+.im-menu-item-children-container::after {
+    content: '';
+    top: 0.5rem;
+    right: 3rem;
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+}
+
 
 .im-menu-item-children-wrapper {
     background: #fff;
     border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     color: #000;
-    min-width: 10rem;
+    min-width: 23rem;
     padding: 0.25rem
 }
 
-.im-menu-item-child {
-    display: block;
-    border-radius: 0.25rem;
+.im-navbar-menu-item .im-menu-item-child {
+    align-items: center;
+    display: flex;
+    border-radius: 0.5rem;
     color: #222;
     cursor: pointer;
     padding: 0.5rem ;
+    position: relative;
     text-decoration: none;
     font-weight: bold;
+    transition: 0.3s;
 }
+
 
 .im-menu-item-child:hover {
     background: rgba(192, 216, 72, 0.3);
+}
+
+.im-external-ico {
+    margin-left: auto
 }

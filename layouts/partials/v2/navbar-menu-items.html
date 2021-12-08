@@ -2,9 +2,21 @@
 <div class="im-menu-item-children-container">
     <div class="im-menu-item-children-wrapper">
         {{range .children}}
-        <a href="{{.href}}" class="im-menu-item-child">
-            {{.title}}
+        {{ if .isExternalLink }}
+        <a href="{{.href}}" target="_blank" class="im-menu-item-child">
+            <svg class="im-icon">
+                <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#{{.iconId}}"></use>
+            </svg>&nbsp; {{.title}} &nbsp;<svg class="im-icon im-external-ico">
+                <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#external-link"></use>
+            </svg>
         </a>
+        {{ else }}
+        <a href="{{.href}}" class="im-menu-item-child">
+            <svg class="im-icon">
+                <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#{{.iconId }}"></use>
+            </svg>&nbsp; {{.title}}
+        </a>
+        {{ end }}
         {{end}}
     </div>
 </div>
