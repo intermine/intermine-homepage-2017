@@ -49,6 +49,7 @@
 }
 .im-section-2-para {
   margin-bottom: 2rem;
+  line-height: 1.5;
   font-size: 1.2rem;
 }
 .im-mines-cards-container {
@@ -61,7 +62,7 @@
   border-radius: 0.5rem;
   display: flex;
   margin: 0 2rem 2rem 0;
-  min-height: 20rem;
+  min-height: 15rem;
   flex-direction: column;
   transition: 0.3s;
   width: 18rem;
@@ -86,7 +87,8 @@
 .im-mines-card-content {
   color: #333;
   flex: 1;
-  padding: 1.5rem;
+  line-height: 1.2;
+  padding: 0.5rem 1.5rem;
 }
 .im-mines-card-action-container {
   display: flex;
@@ -94,7 +96,7 @@
   padding: 1rem 0.5rem;
 }
 .im-section-2-title-bg {
-  background-image: url('/images/png/minesNamePattern-2.png');
+  background-image: url('/images/png/minesNamePattern-4.png');
   background-size: 30rem;
 }
 .im-registry-action-container {
@@ -104,6 +106,7 @@
 }
 .im-contribution-section {
   align-items: center;
+  background-image: url('/images/jpg/code-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #121213;
@@ -131,6 +134,7 @@
 }
 .im-features-para {
   color: #777;
+  line-height: 1.5;
 }
 .im-feature-icon {
   height: 1.5rem;
@@ -348,16 +352,25 @@
   background: rgba(0, 91, 255, 0.05);
 }
 .im-footer {
-  background: #121212;
+  background: #202020;
   color: #999;
 }
 .im-footer-wrapper {
+  padding: 8rem 1.5rem 8rem 0;
+}
+.im-footer-logo-wrapper {
   display: flex;
-  padding: 3rem 1.5rem 3rem 0;
+  flex-direction: column;
+  max-width: 25rem;
+  width: 100%;
 }
 .im-footer-logo {
-  height: 3rem;
-  filter: contrast(0);
+  width: 4rem;
+  margin-bottom: 2rem;
+}
+.im-footer-intro-text {
+  color: #aaa;
+  font-size: 0.875rem;
 }
 * {
   box-sizing: border-box;

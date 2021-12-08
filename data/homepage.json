@@ -10,7 +10,6 @@
             "MouseMine"
         ],
         "last": [
-            "TargetMine",
             "PlanMine",
             "PhytoMine",
             "HymenopteraMine",
@@ -22,11 +21,11 @@
         "FlyMine",
         "HumanMine",
         "CovidMine",
-        "ThaleMine",
-        "AllianceMine",
-        "YeastMine",
         "WormMine",
-        "ZebrafishMine",
+        "TargetMine",
+        "YeastMine",
+        "AllianceMine",
+        "ThaleMine",
         "RatMine"
     ]
 }

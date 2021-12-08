@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="im-mines-card-content">
-            {{ truncate 200 (safeHTML $mineInstance.description) }}
+            {{ truncate 150 (safeHTML $mineInstance.description) }}
         </div>
         <div class="im-mines-card-action-container">
             <a target="_blank" href="{{$mineInstance.url}}" title="Click to view {{$mineInstance.name}}"
