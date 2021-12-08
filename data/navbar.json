@@ -188,68 +188,77 @@
                     "title": "Documentation",
                     "href": "/documentation",
                     "isExternalLink": false,
-                    "iconId": "book"
+                    "iconId": "code"
                 },
                 {
                     "id": "publication",
                     "title": "Publication",
                     "href": "/publications",
                     "isExternalLink": false,
-                    "iconId": "stack"
+                    "iconId": "book"
                 },
                 {
                     "id": "about-intermine",
                     "title": "About InterMine",
                     "href": "/about-intermine",
-                    "isExternalLink": false
+                    "isExternalLink": false,
+                    "iconId": "open-source"
                 },
                 {
                     "id": "team",
                     "title": "InterMine Team",
                     "href": "/team",
-                    "isExternalLink": false
+                    "isExternalLink": false,
+                    "iconId": "team"
                 },
                 {
                     "id": "projects",
                     "title": "Projects",
                     "href": "/projects",
-                    "isExternalLink": false
+                    "isExternalLink": false,
+                    "iconId": "stack"
                 },
                 {
                     "id": "resource-contributors",
                     "title": "Contributors",
                     "href": "/contributors",
-                    "isExternalLink": false
+                    "isExternalLink": false,
+                    "iconId": "parent"
                 },
                 {
                     "id": "code-of-conduct",
                     "title": "Code of Conduct",
                     "href": "/code-of-conduct",
-                    "isExternalLink": false
+                    "isExternalLink": false,
+                    "iconId": "quill-pen"
                 },
                 {
                     "id": "privacy-policy",
                     "title": "Privacy Policy",
                     "href": "/privacy-policy",
-                    "isExternalLink": false
+                    "isExternalLink": false,
+                    "iconId": "privacy"
                 },
                 {
                     "id": "logo-branding",
                     "title": "Logos and Branding",
                     "href": "https://intermineorg.wordpress.com/logos/",
-                    "isExternalLink": true
+                    "isExternalLink": true,
+                    "iconId": "intermine-logo-block"
                 },
                 {
                     "id": "resource-intermine-github",
                     "title": "InterMine on GitHub",
                     "href": "https://github.com/intermine",
-                    "isExternalLink": true
+                    "isExternalLink": true,
+                    "iconId": "icon-github"
                 },
                 {
                     "id": "event-calendar",
                     "title": "Event Calendar",
                     "href": "https://intermineorg.wordpress.com/events/",
-                    "isExternalLink": true
+                    "isExternalLink": true,
+                    "iconId": "calendar"
                 }
             ]
         }
