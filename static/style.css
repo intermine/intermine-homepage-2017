@@ -6,7 +6,7 @@
   display: flex;
 }
 .im-landing-tagline-container {
-  max-width: 37rem;
+  width: 32rem;
   padding-bottom: 10rem;
 }
 .im-landing-tagline {
@@ -36,16 +36,32 @@
   width: 100%;
   text-transform: uppercase;
 }
-.im-section-1-para {
-  font-size: 2.5rem;
-  max-width: 45rem;
-  margin-left: auto;
-  padding: 22rem 1.5rem 5rem;
-  text-align: right;
+@media screen and (max-width: 75em) {
+  .im-landing-tagline {
+    font-size: 2rem;
+  }
+  .im-landing-tagline-para {
+    font-size: 1rem;
+  }
+  .im-landing-tagline-container {
+    width: 20rem;
+    padding-bottom: 5rem;
+  }
+  .im-landing-image-container {
+    padding: 4rem 1.5rem 4rem;
+  }
 }
-.im-section-1-title-bg {
-  background-image: url('/images/svg/organisms-collection-light.svg');
-  background-size: 10rem;
+@media screen and (max-width: 50em) {
+  .im-landing-section-wrapper {
+    flex-direction: column-reverse;
+  }
+  .im-landing-tagline-container {
+    width: 100%;
+    padding-right: 1.5rem;
+  }
+  .im-landing-image-container {
+    padding: 4rem 1.5rem 4rem 0;
+  }
 }
 .im-section-2-para {
   margin-top: 3rem;
@@ -65,7 +81,7 @@
   min-height: 15rem;
   flex-direction: column;
   transition: 0.3s;
-  width: 18rem;
+  flex: 1 0 18rem;
 }
 .im-mines-card-container:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
@@ -103,6 +119,22 @@
   display: flex;
   justify-content: center;
   padding: 2rem;
+}
+@media screen and (max-width: 75em) {
+  .im-section-2 {
+    flex-direction: column;
+    padding-right: 1.5rem;
+  }
+  .im-section-2 .im-section-title-container {
+    width: 100%;
+    max-width: unset;
+  }
+  .im-section-2 .im-section-content-container {
+    padding: 3rem 0;
+  }
+  .im-mines-card-container {
+    margin: 0 1rem 1rem 0;
+  }
 }
 .im-contribution-section {
   align-items: center;

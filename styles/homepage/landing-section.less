@@ -10,7 +10,7 @@
 }
 
 .im-landing-tagline-container {
-    max-width: 37rem;
+    width: 32rem;
     padding-bottom: 10rem;
 }
 
@@ -44,4 +44,39 @@
     margin-top: 2rem;
     width: 100%;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 75em) {
+    .im-landing-tagline {
+        font-size: 2rem;
+    }
+
+    .im-landing-tagline-para {
+        font-size: 1rem;
+    }
+
+    .im-landing-tagline-container {
+        width: 20rem;
+        padding-bottom: 5rem;
+    }
+
+    .im-landing-image-container {
+        padding: 4rem 1.5rem 4rem;
+    }
+
+}
+
+@media screen and (max-width: 50em) {
+    .im-landing-section-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .im-landing-tagline-container {
+        width: 100%;
+        padding-right: 1.5rem;
+    }
+
+    .im-landing-image-container {
+        padding: 4rem 1.5rem 4rem 0;
+    }
 }

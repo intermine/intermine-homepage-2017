@@ -13,11 +13,10 @@ function initMenu() {
 
     for(i = 0; i < elementsID.length; i+= 1) {
         var element = document.querySelector('#' + elementsID[i])
-        console.log('Adding to', element)
         element.addEventListener('mouseenter', mouseEnter)
         element.addEventListener('mouseleave', mouseLeave)
     }
 }
 
-// window.addEventListener('DOMContentLoade', initMenu)
 initMenu()
+

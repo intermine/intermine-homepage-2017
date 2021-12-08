@@ -18,7 +18,7 @@
     min-height: 15rem;
     flex-direction: column;
     transition: 0.3s;
-    width: 18rem;
+    flex: 1 0 18rem;
 }
 
 .im-mines-card-container:hover {
@@ -65,4 +65,26 @@
     display: flex;
     justify-content: center;
     padding: 2rem;
+}
+
+
+@media screen and (max-width: 75em) {
+    .im-section-2 {
+        flex-direction: column;
+        padding-right: 1.5rem;
+    }
+
+    .im-section-2 .im-section-title-container  {
+        width: 100%;
+        max-width: unset;
+    }
+
+    .im-section-2 .im-section-content-container {
+        padding: 3rem 0;
+    }
+
+    .im-mines-card-container {
+        margin: 0 1rem 1rem 0;
+        
+    } 
 }
