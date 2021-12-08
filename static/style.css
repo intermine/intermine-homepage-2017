@@ -96,8 +96,8 @@
   padding: 1rem 0.5rem;
 }
 .im-section-2-title-bg {
-  background-image: url('/images/png/minesNamePattern-2.png');
-  background-size: 30rem;
+  background-image: url('/images/svg/organisms-collection-light.svg');
+  background-size: 10rem;
 }
 .im-registry-action-container {
   display: flex;
@@ -234,14 +234,14 @@
 }
 .im-menu-item-children-container::after {
   content: '';
-  top: 0.5rem;
+  top: 0.2rem;
   right: 3rem;
   position: absolute;
   width: 0;
   height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid white;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-bottom: 1rem solid white;
 }
 .im-menu-item-children-wrapper {
   background: #fff;
@@ -257,7 +257,7 @@
   border-radius: 0.5rem;
   color: #222;
   cursor: pointer;
-  padding: 0.5rem;
+  padding: 1rem;
   position: relative;
   text-decoration: none;
   font-weight: bold;
@@ -374,9 +374,10 @@
 .im-footer {
   background: #202020;
   color: #999;
+  margin: 0;
 }
 .im-footer-wrapper {
-  padding: 8rem 1.5rem 8rem 0;
+  padding: 8rem 1.5rem 0 0;
 }
 .im-footer-logo-wrapper {
   display: flex;
@@ -391,6 +392,62 @@
 .im-footer-intro-text {
   color: #aaa;
   font-size: 0.875rem;
+}
+.im-footer-section-1 {
+  display: flex;
+}
+.im-footer-funding {
+  border-top: 1px solid #333;
+  padding-top: 2rem;
+}
+.im-footer-links-container {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+.im-footer-link-ul {
+  list-style: none;
+  margin: 0 2rem 1rem 0;
+}
+.im-footer-link-li-header {
+  color: #ddd;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.im-footer-link-li .im-link {
+  color: #aaa;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+.im-footer-funding-logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.im-footer-affiliation-logo {
+  height: 3rem;
+  margin: 0 2rem 2rem 0;
+}
+.im-footer-contact-credit {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+.im-footer-contact-credit .im-link {
+  color: #999;
+}
+.im-icon-link,
+.im-icon-link:hover {
+  text-decoration: none;
+}
+.im-footer-contact-credit .im-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  fill: #999;
+  margin-right: 0.5rem;
+}
+.im-footer-contact-credit .im-icon:hover {
+  fill: #fff;
 }
 * {
   box-sizing: border-box;

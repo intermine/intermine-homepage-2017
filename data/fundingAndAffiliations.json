@@ -1,0 +1,38 @@
+[
+    {
+        "id": "wellcome",
+        "src": "images/png/wellcome.png",
+        "alt": "Wellcome",
+        "href": "https://wellcome.org/"
+    },
+    {
+        "id": "bbsrc",
+        "src": "images/png/bbsrc.png",
+        "alt": "Biotechnology and Biological Sciences Research Council",
+        "href": "https://bbsrc.ukri.org/"
+    },
+    {
+        "id": "nhgri",
+        "src": "images/png/nhgri.png",
+        "alt": "National Human Genome Research Institute",
+        "href": "https://www.genome.gov/"
+    },
+    {
+        "id": "elixir",
+        "src": "images/png/elixir.png",
+        "alt": "Elixir",
+        "href": "https://elixir-europe.org/platforms/interoperability/rirs"
+    },
+    {
+        "id": "elixir-uk",
+        "src": "images/png/elixir-uk.webp",
+        "alt": "Elixir UK",
+        "href": "https://elixiruknode.org/"
+    },
+    {
+        "id": "uoc",
+        "src": "images/png/uoc.png",
+        "alt": "University of Cambridge",
+        "href": "https://www.gen.cam.ac.uk/"
+    }
+]

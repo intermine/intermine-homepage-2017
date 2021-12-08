@@ -1,18 +1,63 @@
 <footer class="im-container-outer im-footer im-container-pl">
     <div class="im-container-inner">
         <div class="im-footer-wrapper">
-            <div class="im-footer-logo-wrapper">
-                <img src="{{.Site.BaseURL}}/images/png/intermine-logo-small.png" alt="InterMine's Logo"
-                    class="im-footer-logo" />
-                <p class="im-footer-intro-text">
-                    InterMine is open source (LGPL 2.1) and free to use. It's a software system that you can install on
-                    your own servers to
-                    make data available on the web.
-                </p>
-            </div>
-        </div>
-        <div class="im-footer-funders">
+            <div class="im-footer-section-1">
+                <div class="im-footer-logo-wrapper">
+                    <img src="{{.Site.BaseURL}}/images/png/intermine-logo-small.png" alt="InterMine's Logo"
+                        class="im-footer-logo" />
+                    <p class="im-footer-intro-text">
+                        InterMine is open source (LGPL 2.1) and free to use. It's a software system that you can install
+                        on
+                        your own servers to
+                        make data available on the web.
+                    </p>
+                </div>
 
+                <div class="im-footer-links-container">
+                    {{ range .Site.Data.navbar.navbarItems }}
+                    <ul class="im-footer-link-ul">
+                        <li class="im-footer-link-li-header">{{ .title }}</li>
+                        {{ range .children }}
+                        <li class="im-footer-link-li">
+                            <a class="im-link" href="{{.href}}">
+                                {{ .title }}
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="im-footer-funding">
+                <h6>
+                    Funding & affiliations
+                </h6>
+                <div class="im-footer-funding-logo-container">
+                    {{ range .Site.Data.fundingAndAffiliations }}
+                    <a href="{{ .href }}" target="_blank">
+                        <img class="im-footer-affiliation-logo" src="{{.Site.BaseURL}}/{{.src}}" alt="{{.alt}}">
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="im-footer-contact-credit">
+                <a class="im-link" href="/credits">Credits</a>
+                <div class="im-footer-contact-container">
+                    {{ range .Site.Data.navbar.navbarItems }}
+                    {{ if eq .id "contacts" }}
+                    {{ range .children }}
+                    {{ if ne .id "contact-overview" "contact-dev-email-list" "contact-community-calls"}}
+                    <a target="_blank" class="im-icon-link" href="{{.href}}" title="{{.title}}">
+                        <svg class="im-icon">
+                            <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#{{.iconId}}"></use>
+                        </svg>
+                    </a>
+                    {{end}}
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
         </div>
     </div>
 </footer>
