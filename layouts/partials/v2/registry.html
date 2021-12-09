@@ -10,7 +10,7 @@
             "headerFallBackImgSrc" "https://cdn.rawgit.com/intermine/design-materials/78a13db5/logos/intermine/squareish/45x45.png"
             "title" $mineInstance.name
             "content" (truncate 150 (safeHTML $mineInstance.description))
-            "target" "_blank"
+            "isExternalLink" true
             "href" $mineInstance.url
             "actionAnchorTitle" (print "Click to view " $mineInstance.name)
             "actionTitle" "View"

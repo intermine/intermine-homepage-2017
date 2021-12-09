@@ -683,9 +683,13 @@
   display: flex;
   padding: 1.5rem;
 }
+.im-card-avatar-svg,
 .im-card-avatar {
   height: 1.5rem;
   margin-right: 1rem;
+}
+.im-card-avatar-svg {
+  width: 1.5rem;
 }
 .im-card-title {
   font-size: 1rem;
@@ -745,6 +749,12 @@
   .im-mobile-app-apps-section {
     flex-direction: column;
   }
+}
+.im-developer-section {
+  padding-bottom: 5rem;
+}
+.im-developer-section .im-card-container {
+  background: #f0f0f0;
 }
 * {
   box-sizing: border-box;

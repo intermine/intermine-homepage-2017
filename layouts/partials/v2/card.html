@@ -1,7 +1,13 @@
 <div class="im-card-container">
     <div class="im-card-header-container">
+        {{ if .headerSVG_ID }}
+        <svg class="im-card-avatar-svg">
+            <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#{{.headerSVG_ID}}"></use>
+        </svg>
+        {{ else }}
         <img class="im-card-avatar" src='{{ .headerIconSrc }}'
             onerror="if (this.src != '{{ .headerFallBackImgSrc }}') this.src = '{{ .headerFallBackImgSrc }}'" />
+        {{ end }}
         <div class="im-card-title">
             {{ .title }}
         </div>
@@ -10,10 +16,10 @@
         {{ .content }}
     </div>
     <div class="im-card-action-container">
-        <a target="{{ .target }}" href="{{ .href}}" title="{{ .actionAnchorTitle }}"
+        <a target="{{ if .isExternalLink }}_blank{{ end }}" href="{{ .href}}" title="{{ .actionAnchorTitle }}"
             class="im-btn im-ghost-btn im-info-btn">
-            {{ .actionTitle }}
-            {{ if eq .target "_blank" }}
+            {{ .actionTitle }}&nbsp;
+            {{ if .isExternalLink }}
             <svg class="im-icon">
                 <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#external-link"></use>
             </svg>
