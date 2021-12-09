@@ -78,3 +78,23 @@
 .im-external-ico {
     margin-left: auto
 }
+
+.im-mobile-navbar-menu-container {
+    display: none;
+    margin-left: auto;
+    padding: 1rem;
+}
+
+.im-navbar-menu-item.im-menu-item-children-hidden:hover .im-menu-item-children-container{
+    display: block;
+}
+
+@media screen and (max-width: 50rem) {
+    .im-navbar-menu-item-container {
+        display: none;
+    }
+
+    .im-mobile-navbar-menu-container {
+        display: block;
+    }
+}

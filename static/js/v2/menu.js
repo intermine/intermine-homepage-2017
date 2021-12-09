@@ -1,11 +1,24 @@
 var elementsID = ['biologists', 'developers', 'contacts', 'resources']
 
-function  mouseEnter(event) {
-    event.currentTarget.classList.remove('im-menu-item-children-hidden')
+function closeMenuOnClick(event) {
+    if(event.target && event.target.classList[0] !== 'im-navbar-menu-item') {
+        setTimeout(() => {
+            for(i = 0; i < elementsID.length; i+= 1) {
+                var element = document.querySelector('#' + elementsID[i])
+                element.classList.add('im-menu-item-children-hidden')
+            }
+            window.removeEventListener('click', closeMenuOnClick)
+        }, 100)
+    }
 }
 
-function mouseLeave(event) {
-    event.currentTarget.classList.add('im-menu-item-children-hidden')
+function menuOnClick (event) {
+    for(i = 0; i < elementsID.length; i+= 1) {
+        var element = document.querySelector('#' + elementsID[i])
+        element.classList.add('im-menu-item-children-hidden')
+    }
+    event.currentTarget.classList.remove('im-menu-item-children-hidden')
+    window.addEventListener('click', closeMenuOnClick)
 }
 
 function initMenu() {
@@ -13,10 +26,22 @@ function initMenu() {
 
     for(i = 0; i < elementsID.length; i+= 1) {
         var element = document.querySelector('#' + elementsID[i])
-        element.addEventListener('mouseenter', mouseEnter)
-        element.addEventListener('mouseleave', mouseLeave)
+        if(element) {
+            element.addEventListener('click', menuOnClick)
+        }
     }
 }
 
+function initMobileMenu() {
+    var mobileMenuHam = document.querySelector('#im-mobile-ham')
+    if(mobileMenuHam) {
+        mobileMenuHam.addEventListener('click', function() {
+            mobileMenuHam.classList.toggle('active')
+        })
+    }
+
+}
+
 initMenu()
+initMobileMenu()
 
