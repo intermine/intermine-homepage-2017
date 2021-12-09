@@ -20,11 +20,11 @@
                         {{ range .children }}
                         <li class="im-footer-link-li">
                             {{ if .isExternalLink }}
-                            <a target="_blank" class="im-link" href="{{.href}}">
-                                {{ .title }} <svg class="im-icon">
-                                    <use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#external-link"></use>
-                                </svg>
-                            </a>
+                            {{ partial "v2/external-link" (dict 
+                                    "href" .href 
+                                    "anchorTitle" .title 
+                                    "title" .title 
+                                ) . }}
                             {{ else }}
                             <a class="im-link" href="{{.href}}">
                                 {{ .title }}

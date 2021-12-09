@@ -16,14 +16,18 @@
         {{ .content }}
     </div>
     <div class="im-card-action-container">
-        <a target="{{ if .isExternalLink }}_blank{{ end }}" href="{{ .href}}" title="{{ .actionAnchorTitle }}"
-            class="im-btn im-ghost-btn im-info-btn">
-            {{ .actionTitle }}&nbsp;
-            {{ if .isExternalLink }}
-            <svg class="im-icon">
-                <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#external-link"></use>
-            </svg>
-            {{ end }}
+        {{ if .isExternalLink }}
+        {{ partial "v2/external-link" (dict 
+            "href" .href 
+            "class" "im-btn im-ghost-btn im-info-btn" 
+            "anchorTitle" .actionAnchorTitle 
+            "title" .actionTitle 
+        ) . }}
+
+        {{ else }}
+        <a href="{{ .href}}" title="{{ .actionAnchorTitle }}" class="im-btn im-ghost-btn im-info-btn">
+            {{ .actionTitle }}
         </a>
+        {{ end }}
     </div>
 </div>

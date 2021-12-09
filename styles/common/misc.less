@@ -23,8 +23,23 @@
     text-decoration: none;
 }
 
-.im-link svg {
-    transform: translateY(2px);
+.im-link.im-dark,
+.im-link:active.im-dark,
+.im-link:visited.im-dark {
+    color: #0bf;
+    fill: #0bf;
+    text-decoration: none;
+}
+
+
+
+.im-link {
+    align-items: center;
+    display: inline-flex;
+
+    svg {
+        margin-left: 0.25rem
+    }
 }
 
 .im-link:hover {
