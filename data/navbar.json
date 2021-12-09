@@ -92,7 +92,7 @@
                     "title": "Support Chat",
                     "href": "http://chat.intermine.org",
                     "isExternalLink": true,
-                    "iconId": "chat"
+                    "iconId": "discord"
                 },
                 {
                     "id": "intermine-github",
@@ -154,7 +154,7 @@
                     "title": "Chat",
                     "href": "http://chat.intermine.org",
                     "isExternalLink": true,
-                    "iconId": "chat"
+                    "iconId": "discord"
                 },
                 {
                     "id": "contact-intermine-github",
