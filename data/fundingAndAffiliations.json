@@ -6,16 +6,28 @@
         "href": "https://wellcome.org/"
     },
     {
+        "id": "uk-innovation",
+        "src": "images/png/uk-innovate.png",
+        "alt": "Innovate UK",
+        "href": "https://www.gov.uk/government/organisations/innovate-uk"
+    },
+    {
         "id": "bbsrc",
         "src": "images/png/bbsrc.png",
         "alt": "Biotechnology and Biological Sciences Research Council",
         "href": "https://bbsrc.ukri.org/"
     },
     {
-        "id": "nhgri",
-        "src": "images/png/nhgri.png",
-        "alt": "National Human Genome Research Institute",
-        "href": "https://www.genome.gov/"
+        "id": "uk-medical",
+        "src": "images/png/uk-medical.png",
+        "alt": "Medical Research Council",
+        "href": "https://mrc.ukri.org/"
+    },
+    {
+        "id": "eosc",
+        "src": "images/png/eosc.png",
+        "alt": "EOSC-Life",
+        "href": "https://www.eosc-life.eu/"
     },
     {
         "id": "elixir",
@@ -28,6 +40,12 @@
         "src": "images/png/elixir-uk.webp",
         "alt": "Elixir UK",
         "href": "https://elixiruknode.org/"
+    },
+    {
+        "id": "nhgri",
+        "src": "images/png/nhgri.png",
+        "alt": "National Human Genome Research Institute",
+        "href": "https://www.genome.gov/"
     },
     {
         "id": "uoc",
