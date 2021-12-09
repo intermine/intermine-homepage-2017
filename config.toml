@@ -1,4 +1,4 @@
 baseurl = "http://intermine.org"
 languageCode = "en-gb"
-title = "InterMine - data integration, analysis, and warehousing"
+title = "InterMine"
 publishDir = "docs"

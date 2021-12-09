@@ -1,6 +1,7 @@
 <head>
     <meta charset="utf-8">
-    <title>InterMine</title>
+    <title>{{ if .IsHome }}Home - {{ else }}{{ if .Page.Title }}{{ .Page.Title }} - {{ end }}{{ end }}{{ .Site.Title }}
+    </title>
     <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
     <link rel="stylesheet" href="{{.Site.BaseURL}}/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
