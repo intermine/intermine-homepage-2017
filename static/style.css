@@ -432,7 +432,11 @@
 .im-link:active,
 .im-link:visited {
   color: #007bff;
+  fill: #007bff;
   text-decoration: none;
+}
+.im-link svg {
+  transform: translateY(2px);
 }
 .im-link:hover {
   color: #007bff;

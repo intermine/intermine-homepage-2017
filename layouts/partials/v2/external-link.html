@@ -1,0 +1,6 @@
+<a target="_blank" href="{{ .href }}" class="im-link {{ .class }}">
+    {{.title}}
+    <svg class="im-icon {{ .svgClass }}">
+        <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#external-link"></use>
+    </svg>
+</a>
