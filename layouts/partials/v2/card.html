@@ -1,0 +1,23 @@
+<div class="im-card-container">
+    <div class="im-card-header-container">
+        <img class="im-card-avatar" src='{{ .headerIconSrc }}'
+            onerror="if (this.src != '{{ .headerFallBackImgSrc }}') this.src = '{{ .headerFallBackImgSrc }}'" />
+        <div class="im-card-title">
+            {{ .title }}
+        </div>
+    </div>
+    <div class="im-card-content">
+        {{ .content }}
+    </div>
+    <div class="im-card-action-container">
+        <a target="{{ .target }}" href="{{ .href}}" title="{{ .actionAnchorTitle }}"
+            class="im-btn im-ghost-btn im-info-btn">
+            {{ .actionTitle }}
+            {{ if eq .target "_blank" }}
+            <svg class="im-icon">
+                <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#external-link"></use>
+            </svg>
+            {{ end }}
+        </a>
+    </div>
+</div>

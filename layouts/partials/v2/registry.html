@@ -1,29 +1,21 @@
-<div class="im-mines-cards-container">
+<div class="im-cards-container">
     {{range $mineName :=  $.Site.Data.homepage.allMines}}
     {{ $mine := getJSON (print "http://registry.intermine.org/service/instances/" $mineName)}}
     {{ $mineInstance := $mine.instance }}
 
     {{if eq $mineInstance.status "Running" }}
-    <div class="im-mines-card-container">
-        <div class="im-mines-card-header-container">
-            <img class="im-mines-card-avatar" src='{{ index $mineInstance.images "logo" }}'
-                onerror="if (this.src != 'https://cdn.rawgit.com/intermine/design-materials/78a13db5/logos/intermine/squareish/45x45.png') this.src = 'https://cdn.rawgit.com/intermine/design-materials/78a13db5/logos/intermine/squareish/45x45.png'" />
-            <div class="im-mines-card-title">
-                {{$mineInstance.name}}
-            </div>
-        </div>
-        <div class="im-mines-card-content">
-            {{ truncate 150 (safeHTML $mineInstance.description) }}
-        </div>
-        <div class="im-mines-card-action-container">
-            <a target="_blank" href="{{$mineInstance.url}}" title="Click to view {{$mineInstance.name}}"
-                class="im-btn im-ghost-btn im-info-btn">
-                View&nbsp;<svg class="im-icon">
-                    <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#external-link"></use>
-                </svg>
-            </a>
-        </div>
-    </div>
+    {{ partial "v2/card" 
+        (dict 
+            "headerIconSrc" (index $mineInstance.images "logo") 
+            "headerFallBackImgSrc" "https://cdn.rawgit.com/intermine/design-materials/78a13db5/logos/intermine/squareish/45x45.png"
+            "title" $mineInstance.name
+            "content" (truncate 150 (safeHTML $mineInstance.description))
+            "target" "_blank"
+            "href" $mineInstance.url
+            "actionAnchorTitle" (print "Click to view " $mineInstance.name)
+            "actionTitle" "View"
+        )
+    }}
     {{end}}
     {{end}}
 </div>
