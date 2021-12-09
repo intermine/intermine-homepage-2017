@@ -667,7 +667,7 @@
   transition: 0.5s;
 }
 .im-post-wrapper {
-  padding: 5rem 1.5rem;
+  padding: 5rem 1.5rem 0;
 }
 .im-post-title {
   font-size: 5.5rem;
@@ -679,6 +679,24 @@
   font-size: 1.5rem;
   margin-bottom: 5rem;
   padding-left: 40rem;
+}
+@media screen and (max-width: 75rem) {
+  .im-post-title {
+    font-size: 4rem;
+    max-width: 25rem;
+  }
+  .im-post-intro {
+    padding-left: 25rem;
+  }
+}
+@media screen and (max-width: 50rem) {
+  .im-post-title {
+    font-size: 4rem;
+    max-width: 100%;
+  }
+  .im-post-intro {
+    padding-left: 0;
+  }
 }
 .im-mobile-app-apps-section {
   border-radius: 1rem;
@@ -718,6 +736,11 @@
 .im-app-download-link {
   display: block;
   margin-top: auto;
+}
+@media screen and (max-width: 40rem) {
+  .im-mobile-app-apps-section {
+    flex-direction: column;
+  }
 }
 * {
   box-sizing: border-box;

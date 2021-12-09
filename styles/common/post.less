@@ -1,6 +1,6 @@
 
 .im-post-wrapper {
-    padding: 5rem 1.5rem;
+    padding: 5rem 1.5rem 0;
 }
 
 .im-post-title {
@@ -14,4 +14,27 @@
     font-size: 1.5rem;
     margin-bottom: 5rem;
     padding-left: 40rem;
+}
+
+
+@media screen and (max-width: 75rem) {
+    .im-post-title {
+        font-size: 4rem;
+        max-width: 25rem;
+    }
+
+    .im-post-intro {
+        padding-left: 25rem;
+    }
+}
+
+@media screen and (max-width: 50rem) {
+    .im-post-title {
+        font-size: 4rem;
+        max-width: 100%;
+    }
+
+    .im-post-intro {
+        padding-left: 0;
+    }
 }
