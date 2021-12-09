@@ -144,7 +144,6 @@
   background-color: #121213;
   color: #fff;
   display: flex;
-  padding-bottom: 4rem;
   min-height: 30rem;
 }
 .im-contribution-text {
@@ -153,7 +152,13 @@
   text-align: center;
   width: 100%;
 }
-.im-features-container {
+@media screen and (max-width: 50em) {
+  .im-contribution-section {
+    min-height: 20rem;
+    padding: 2rem;
+  }
+}
+.im-feature-container {
   padding: 3rem 0 1rem;
   max-width: 25rem;
 }
@@ -164,7 +169,7 @@
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
-.im-features-para {
+.im-feature-para {
   color: #777;
   line-height: 1.5;
 }
@@ -179,6 +184,39 @@
 .im-icon-violet {
   fill: #673AB7;
 }
+.im-feature-demo-table-container {
+  border: 3px solid #222;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  overflow: auto;
+  padding: 1rem;
+}
+@media screen and (max-width: 75em) {
+  .im-feature-section .im-section-wrapper {
+    flex-direction: column;
+    padding-right: 1.5rem;
+  }
+  .im-feature-section .im-section-title-container {
+    width: 100%;
+    max-width: unset;
+  }
+  .im-features-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .im-feature-container {
+    margin-right: 1rem;
+    flex: 1 0 25rem;
+    max-width: unset;
+    width: 25rem;
+  }
+  .im-feature-section .im-section-content-container {
+    padding: 3rem 0;
+  }
+}
+.im-search-section {
+  padding: 3rem 1.5rem;
+}
 .im-search-mine-container {
   align-items: center;
   display: flex;
@@ -191,6 +229,7 @@
   color: #222;
   font-size: 2rem;
   font-weight: bold;
+  text-align: center;
 }
 .im-search-mine-sub {
   color: #777;
@@ -233,6 +272,14 @@
 }
 .im-search-btn:active {
   background-color: #000;
+}
+@media screen and (max-width: 38rem) {
+  .im-search-container {
+    flex-direction: column;
+  }
+  .im-search-mine-title {
+    margin-bottom: 0.5rem;
+  }
 }
 .im-navbar-wrapper {
   color: #000;
@@ -480,6 +527,28 @@
 }
 .im-footer-contact-credit .im-icon:hover {
   fill: #fff;
+}
+@media screen and (max-width: 75rem) {
+  .im-footer-section-1 {
+    flex-direction: column;
+  }
+  .im-footer-link-ul {
+    flex: 1 0 14rem;
+  }
+  .im-footer-links-container {
+    justify-content: flex-start;
+    padding-top: 3rem;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 38rem) {
+  .im-footer-affiliation-logo {
+    height: 2rem;
+  }
+  .im-footer-contact-credit .im-icon {
+    height: 1rem;
+    width: 1rem;
+  }
 }
 * {
   box-sizing: border-box;

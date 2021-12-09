@@ -1,3 +1,7 @@
+.im-search-section {
+    padding: 3rem 1.5rem;
+}
+
 .im-search-mine-container {
     align-items: center;
     display: flex;
@@ -11,6 +15,7 @@
     color: #222;
     font-size: 2rem;
     font-weight: bold;
+    text-align: center;
 }
 
 .im-search-mine-sub {
@@ -61,4 +66,14 @@
 
 .im-search-btn:active {
     background-color: #000;
+}
+
+@media screen and (max-width: 38rem) {
+    .im-search-container {
+        flex-direction: column;
+    }
+     
+    .im-search-mine-title {
+        margin-bottom: 0.5rem;
+    }
 }
