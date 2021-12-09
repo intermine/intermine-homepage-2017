@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    {{ partial "head.html" . }}
+
+    <body>
+        {{ partial "v2/navbar.html" . }}
+        <!-- Code that all your templates share, like a header -->
+
+        {{ block "main" . }}
+        <!-- The part of the page that begins to differ between templates -->
+        {{ end }}
+
+        {{ partial "v2/footer.html" . }}
+    </body>
+
+</html>

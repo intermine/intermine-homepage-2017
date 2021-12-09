@@ -124,7 +124,7 @@
                 {
                     "id": "contact-overview",
                     "title": "Overview",
-                    "href": "/contacts",
+                    "href": "/contact",
                     "isExternalLink": false,
                     "iconId": "donut"
                 },

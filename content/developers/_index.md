@@ -1,3 +1,7 @@
 {
-  "title" : "Developers"
+  "title" : "Developers",
+  "layout": "baseof"
 }
+
+
+This is developer page
