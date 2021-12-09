@@ -6,4 +6,31 @@
             <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
         </svg>
     </button>
+
+    <div class="im-mobile-navbar-menu" id="im-mobile-navbar-menu">
+        {{ range .Site.Data.navbar.navbarItems }}
+        <div class="im-navbar-menu-item">
+            {{ .title }}
+
+            {{range .children}}
+            {{ if .isExternalLink }}
+            <a href="{{.href}}" target="_blank" class="im-menu-item-child">
+                <svg class="im-icon">
+                    <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#{{.iconId}}"></use>
+                </svg>&nbsp; {{.title}} &nbsp;<svg class="im-icon im-external-ico">
+                    <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#external-link"></use>
+                </svg>
+            </a>
+            {{ else }}
+            <a href="{{.href}}" class="im-menu-item-child">
+                <svg class="im-icon">
+                    <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#{{.iconId }}"></use>
+                </svg>&nbsp; {{.title}}
+            </a>
+            {{ end }}
+            {{end}}
+
+        </div>
+        {{ end }}
+    </div>
 </div>

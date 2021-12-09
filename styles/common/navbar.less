@@ -11,20 +11,24 @@
     height: 1.5rem;
 }
 
+// Same class is used for mobile menu item.
+// If you do any changes here make sure
+// those changes are also align with mobile menu
 .im-navbar-menu-item-container {
     display: flex;
     flex: 1;
     justify-content: flex-end;
 }
 
+// Same class is used for mobile menu item.
+// If you do any changes here make sure
+// those changes are also align with mobile menu
 .im-navbar-menu-item {
     cursor: default;
     font-weight: 800;
     padding: 2rem 1.5rem;
     position: relative;
 }
-
-
 
 .im-menu-item-children-hidden .im-menu-item-children-container {
     display: none;
@@ -57,6 +61,9 @@
     padding: 0.25rem
 }
 
+// Same class is used for mobile menu item.
+// If you do any changes here make sure
+// those changes are also align with mobile menu
 .im-navbar-menu-item .im-menu-item-child {
     align-items: center;
     display: flex;
@@ -93,8 +100,17 @@
     .im-navbar-menu-item-container {
         display: none;
     }
-
+    
     .im-mobile-navbar-menu-container {
         display: block;
+    }
+    
+    .im-mobile-menu-open {
+        overflow: hidden;
+    }
+    
+    #im-navbar.active {
+        background: #fff;
+        transition: 0s;
     }
 }

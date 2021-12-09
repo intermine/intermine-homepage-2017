@@ -34,9 +34,14 @@ function initMenu() {
 
 function initMobileMenu() {
     var mobileMenuHam = document.querySelector('#im-mobile-ham')
+    var menu = document.querySelector('#im-mobile-navbar-menu')
+    var navbar = document.querySelector('#im-navbar')
     if(mobileMenuHam) {
         mobileMenuHam.addEventListener('click', function() {
+            document.body.classList.toggle('im-mobile-menu-open')
             mobileMenuHam.classList.toggle('active')
+            menu.classList.toggle('active')
+            navbar.classList.toggle('active')
         })
     }
 

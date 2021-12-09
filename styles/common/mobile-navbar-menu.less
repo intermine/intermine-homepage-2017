@@ -61,3 +61,29 @@
         }
     }
 }
+
+.im-mobile-navbar-menu {
+    background: #fff;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 57px;
+    bottom: 100%;
+    bottom: 100vh;
+    transition: 0.3s;
+
+    .im-navbar-menu-item {
+        padding: 0;
+        margin: 1.5rem
+    }
+}
+
+.im-mobile-navbar-menu.active {
+    bottom: 0 ;
+    overflow: auto;
+}
+
+#im-navbar {
+    transition: 0.5s;
+}
