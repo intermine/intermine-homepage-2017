@@ -57,21 +57,24 @@
                     "title": "Developer Docs",
                     "href": "/im-docs/",
                     "isExternalLink": false,
-                    "iconId": "code-doc"
+                    "iconId": "code-doc",
+                    "description": "Documentation for new and veteran InterMine developers. Includes getting started tutorials, system requirements, configuration info, and troubleshooting tips."
                 },
                 {
                     "id": "api-docs",
                     "title": "API Docs",
                     "href": "http://iodocs.apps.intermine.org/",
                     "isExternalLink": true,
-                    "iconId": "code"
+                    "iconId": "code",
+                    "description": "Dive straight into our API with interactive live documentation."
                 },
                 {
                     "id": "api-client-library",
                     "title": "API Clients",
                     "href": "/im-docs/docs/web-services/index#api-and-client-libraries",
                     "isExternalLink": false,
-                    "iconId": "terminal"
+                    "iconId": "terminal",
+                    "description": "We have client libraries to make querying InterMine super-easy! There’s one for each of R, Python, Perl, JavaScript (node or browser), Ruby, and Java."
                 },
                 {
                     "id": "developer-calls",
@@ -85,35 +88,40 @@
                     "title": "Contributing Guideline",
                     "href": "/contributing",
                     "isExternalLink": false,
-                    "iconId": "guide"
+                    "iconId": "guide",
+                    "description": "If you’d like to start contributing to InterMine, whether you’re a student interested in GSoC, a developer from a lab running InterMine, a Hacktoberfest enthusiast, or something else - here’s what you need to know!"
                 },
                 {
                     "id": "support-chat",
                     "title": "Support Chat",
                     "href": "http://chat.intermine.org",
                     "isExternalLink": true,
-                    "iconId": "discord"
+                    "iconId": "discord",
+                    "description": "Chat in real time with InterMiners (UK day time) or with the rest of the community. There’s a general chit-chat channel for important stuff like cat pictures, and a support channel for technical queries."
                 },
                 {
                     "id": "intermine-github",
                     "title": "InterMine on GitHub",
                     "href": "https://github.com/intermine",
                     "isExternalLink": true,
-                    "iconId": "icon-github"
+                    "iconId": "icon-github",
+                    "description": "This is where the code lives! Feel free to fork, star, make issues and bug reports, or even make a pull request if you have a fix or feature for us."
                 },
                 {
                     "id": "dev-email-list",
                     "title": "Developer Email List",
-                    "href": "https://lists.intermine.org/pipermail/dev/",
+                    "href": "https://lists.intermine.org/mailman/listinfo/dev",
                     "isExternalLink": true,
-                    "iconId": "icon-email"
+                    "iconId": "icon-email",
+                    "description": "Sign up, ask for help, get updates, or just browse the archives to see if a problem you’re having has happened before."
                 },
                 {
                     "id": "intermine-registry",
                     "title": "InterMine Registry",
                     "href": "http://registry.intermine.org/",
                     "isExternalLink": true,
-                    "iconId": "intermine-logo-block"
+                    "iconId": "intermine-logo-block",
+                    "description": "Need a list of InterMines programmatically? Our Registry Swagger API gives you interactive API documentation, or you can browse a list of InterMines if you prefer."
                 }
             ]
         },
