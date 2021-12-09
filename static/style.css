@@ -495,8 +495,12 @@
 }
 .im-footer-link-li .im-link {
   color: #aaa;
+  fill: #aaa;
   line-height: 1.5;
   font-size: 0.875rem;
+}
+.im-footer-link-li .im-link svg {
+  transform: translateY(2px) scale(0.7);
 }
 .im-footer-funding-logo-container {
   display: flex;

@@ -19,9 +19,17 @@
                         <li class="im-footer-link-li-header">{{ .title }}</li>
                         {{ range .children }}
                         <li class="im-footer-link-li">
+                            {{ if .isExternalLink }}
+                            <a target="_blank" class="im-link" href="{{.href}}">
+                                {{ .title }} <svg class="im-icon">
+                                    <use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#external-link"></use>
+                                </svg>
+                            </a>
+                            {{ else }}
                             <a class="im-link" href="{{.href}}">
                                 {{ .title }}
                             </a>
+                            {{ end }}
                         </li>
                         {{ end }}
                     </ul>
