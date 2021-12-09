@@ -756,6 +756,12 @@
 .im-developer-section .im-card-container {
   background: #f0f0f0;
 }
+.im-developer-dc-ul {
+  margin: 2rem;
+}
+.im-developer-dc-ul li {
+  padding-bottom: 0.5rem;
+}
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
