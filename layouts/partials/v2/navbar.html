@@ -1,4 +1,5 @@
-<nav class="im-container-outer im-container-pl im-light-10-bg" id="im-navbar">
+<nav class="im-container-outer im-container-pl {{ if .IsHome }} im-light-10-bg {{ else }} im-light-bg {{ end }}"
+    id="im-navbar">
     <div class="im-container-inner im-navbar-wrapper">
         <div class="im-logo-container">
             <a href="/">
