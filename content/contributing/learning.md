@@ -3,8 +3,9 @@
 "weight":1,
 "link" : "/contributing/learning"}
 
+<p class="im-post-intro">
 Welcome! We're excited to have you join the community. InterMine integrates biological data, but you don't have to be a biologist to contribute to InterMine. Some of our entry-level issues only require knowledge of the relevant programming language, but others may require more in-depth understanding.
-
+</p>
 If you'd like to learn a bit more about InterMine, we have a nice 5 minute video for you to sum things up:
 
 <iframe width="430" height="315" src="https://www.youtube-nocookie.com/embed/je4mYL0ER3Y" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
