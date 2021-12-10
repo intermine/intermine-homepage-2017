@@ -1,0 +1,65 @@
+{{ $citations := getJSON "https://api.zotero.org/groups/2117194/collections/WE489M9J/items?itemType=-attachment&sort=date" }}
+
+<h3 class="im-post-section-h3">Publications by the InterMine Team and Community</h3>
+<ul class="im-post-ul im-post-section-para">
+    {{ $baseurl := .Site.BaseURL }}
+    {{range $publication:= $citations}}
+    <li>
+        <div>
+            <a class="im-link" href="http://doi.org/{{$publication.data.DOI}}">
+                {{$publication.data.title}}</a>
+            {{(index $publication.data.creators 0).firstName}}
+            {{(index $publication.data.creators 0).lastName}} et al. {{$publication.data.date}}
+
+        </div>
+    </li>
+    {{end}}
+
+</ul>
+
+
+<div class="publication-list">
+
+    {{ $citations := getJSON "https://api.zotero.org/groups/2117194/collections/DWCKUHXT/items?itemType=-attachment&sort=date" }}
+
+    <h3 class="im-post-section-h3">Citations and Publications about Community-run InterMines</h3>
+    <ul class="im-post-ul im-post-section-para">
+        {{ $baseurl := .Site.BaseURL }}
+        {{range $publication:= $citations}}
+        <li>
+            <div>
+                <a class="im-link" href="http://doi.org/{{$publication.data.DOI}}">
+                    {{$publication.data.title}}</a>
+                {{(index $publication.data.creators 0).firstName}}
+                {{(index $publication.data.creators 0).lastName}} et al. {{$publication.data.date}}
+
+            </div>
+        </li>
+        {{end}}
+
+    </ul>
+</div>
+
+<script>
+    // Check for the doi query parameter, and if present, copy the publication
+    // using the same doi URL into a highlighted element near the top.
+    (function () {
+        try {
+            if (!window.location.search.length) return;
+            var urlParams = new URLSearchParams(window.location.search);
+            var doiParam = urlParams.get("doi");
+            if (!doiParam.length) return;
+            var doiUrl = "http://doi.org/" + doiParam;
+            var anchorElem = document.querySelector("a[href='" + doiUrl + "']");
+            var citeElem = anchorElem.parentNode.cloneNode(true);
+            citeElem.classList.add("highlight-publication");
+            var paragraphElem = document.createElement("p");
+            paragraphElem.appendChild(document.createTextNode("We recommend you cite the following publication: "));
+            var headingElem = document.querySelector("body main h2");
+            headingElem.after(citeElem);
+            headingElem.after(paragraphElem);
+        } catch (error) {
+            console.error("Error occured when trying to acquire publication linked with doi parameter", error);
+        }
+    })();
+</script>
