@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{/* <!DOCTYPE html>
 <html>
 
 {{partial "head.html" . }}
@@ -19,15 +19,15 @@
       <ul class="publication-section">
         {{ $baseurl := .Site.BaseURL }}
         {{range $publication:= $citations}}
-          <li>
-            <div>
-              <a href="http://doi.org/{{$publication.data.DOI}}">
-                  {{$publication.data.title}}</a>
-               {{(index $publication.data.creators 0).firstName}}
-              {{(index $publication.data.creators 0).lastName}} et al.  {{$publication.data.date}}
+        <li>
+          <div>
+            <a href="http://doi.org/{{$publication.data.DOI}}">
+              {{$publication.data.title}}</a>
+            {{(index $publication.data.creators 0).firstName}}
+            {{(index $publication.data.creators 0).lastName}} et al. {{$publication.data.date}}
 
-            </div>
-          </li>
+          </div>
+        </li>
         {{end}}
 
       </ul>
@@ -41,15 +41,15 @@
       <ul class="publication-section">
         {{ $baseurl := .Site.BaseURL }}
         {{range $publication:= $citations}}
-          <li>
-            <div>
-              <a href="http://doi.org/{{$publication.data.DOI}}">
-                  {{$publication.data.title}}</a>
-               {{(index $publication.data.creators 0).firstName}}
-              {{(index $publication.data.creators 0).lastName}} et al.  {{$publication.data.date}}
+        <li>
+          <div>
+            <a href="http://doi.org/{{$publication.data.DOI}}">
+              {{$publication.data.title}}</a>
+            {{(index $publication.data.creators 0).firstName}}
+            {{(index $publication.data.creators 0).lastName}} et al. {{$publication.data.date}}
 
-            </div>
-          </li>
+          </div>
+        </li>
         {{end}}
 
       </ul>
@@ -84,4 +84,4 @@
   </script>
 </body>
 
-</html>
+</html> */}}

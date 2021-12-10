@@ -1,0 +1,28 @@
+{
+    "docs": [
+        {
+            "id": "user-help-documentation",
+            "title": "User help documentation",
+            "false": "/intermine-user-docs/",
+            "isExternalLink": false,
+            "iconId": "book",
+            "description": "Learn to use the InterMine web application to analyse your biological data."
+        },
+        {
+            "id": "server-docs",
+            "title": "Server Documentation",
+            "href": "/im-docs",
+            "isExternalLink": false,
+            "iconId": "terminal",
+            "description": "Create your own InterMine server containing your data integrated with many common biological data sources."
+        },
+        {
+            "id": "training-portal",
+            "title": "Training Portal",
+            "href": "/training-portal/",
+            "isExternalLink": false,
+            "iconId": "movie",
+            "description": "Check out our training portal for video and interactive tutorials for using InterMine."
+        }
+    ]
+}

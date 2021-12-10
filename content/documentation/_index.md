@@ -1,3 +1,6 @@
 {
-  "title" : "Documentation"
+"title" : "Documentation",
+"layout": "single"
 }
+ 
+{{<documentation>}}

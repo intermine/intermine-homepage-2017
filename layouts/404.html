@@ -1,20 +1,14 @@
-<!DOCTYPE html>
-<html>
-
-{{partial "head.html" . }}
-
-<body>
-  {{ partial "header.html" .}}
-    <main>
-      <div>
-        <h2>404 - not found</h2>
-        <p>Oh no! It looks like we forgot to make this page, or perhaps there's a typo in the link. </p>
-        <p>Try browsing the nifty links in the site footer - one of them might be what you're looking for. If not, you can try <a href="{{.Site.BaseURL}}/contact">contacting us</a> to let us know we've made an error. </p>
-      </div>
-    </main>
-
-    {{partial "footer.html" . }}
-
-</body>
-
-</html>
+{{ define "main" }}
+<div class="im-container-outer">
+  <div class="im-container-inner im-post-wrapper">
+    <h1 class="im-post-title">
+      404 - not found
+    </h1>
+    <p class="im-post-intro">
+      Oh no! It looks like we forgot to make this page, or perhaps there's a typo in the link.
+      Try browsing the nifty links in the site footer - one of them might be what you're looking for. If not, you
+      can try <a class="im-link" href="{{.Site.BaseURL}}/contact">contacting us</a> to let us know we've made an error.
+    </p>
+  </div>
+</div>
+{{ end }}

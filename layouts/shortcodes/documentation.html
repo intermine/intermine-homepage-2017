@@ -1,0 +1,19 @@
+<div style="padding: 5rem 0">
+    <div class="im-cards-container">
+        {{ range .Site.Data.documentation.docs }}
+        {{ partial "v2/card" 
+                (dict 
+                    "headerSVG_ID" .iconId 
+                    "headerFallBackImgSrc" "https://cdn.rawgit.com/intermine/design-materials/78a13db5/logos/intermine/squareish/45x45.png"
+                    "title" .title
+                    "content" (truncate 150 (safeHTML .description))
+                    "isExternalLink" .isExternalLink
+                    "href" .href
+                    "actionAnchorTitle" (print "Go to " .title )
+                    "actionTitle" "Go there now"
+                )
+            }}
+
+        {{ end }}
+    </div>
+</div>
