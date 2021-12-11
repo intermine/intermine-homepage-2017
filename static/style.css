@@ -141,11 +141,10 @@
 .im-icon-violet {
   fill: #673AB7;
 }
-.im-feature-demo-table-container {
+#demo-imtable {
   border: 3px solid #222;
   border-radius: 0.5rem;
   margin-bottom: 2rem;
-  overflow: auto;
   padding: 1rem;
 }
 @media screen and (max-width: 75em) {
@@ -165,10 +164,20 @@
     margin-right: 1rem;
     flex: 1 0 25rem;
     max-width: unset;
-    width: 25rem;
   }
   .im-feature-section .im-section-content-container {
     padding: 3rem 0;
+  }
+}
+@media screen and (max-width: 38em) {
+  #demo-imtable {
+    overflow: auto;
+  }
+  .im-feature-heading {
+    align-items: flex-start;
+  }
+  .im-feature-container {
+    flex: 1 0 100%;
   }
 }
 .im-search-section {
@@ -352,12 +361,11 @@
   width: 100%;
 }
 .im-section-title {
-  border-bottom: 5px solid #333;
-  color: #333;
+  color: #101010;
   font-weight: 800;
-  font-size: 14px;
+  font-size: 3.5rem;
+  line-height: 1;
   padding-bottom: 1.5rem;
-  text-transform: uppercase;
 }
 .im-section-content-container,
 .im-section-title-bg {
@@ -365,6 +373,12 @@
 }
 .im-section-content-container {
   padding: 3rem 1.5rem 0 3rem;
+}
+@media screen and (max-width: 40em) {
+  .im-section-title {
+    font-size: 2rem;
+    padding-bottom: 0;
+  }
 }
 .im-flex {
   display: flex;
@@ -651,9 +665,13 @@
   padding-left: 40rem;
 }
 .im-post-section {
+  display: flex;
+  padding: 3rem 0 5rem;
+}
+.im-post-special-section {
   border-radius: 1rem;
   display: flex;
-  padding: 3rem 5rem 5rem;
+  padding: 5rem;
 }
 .im-post-margin {
   margin: 2rem 0;
@@ -701,9 +719,6 @@
   }
   .im-post-intro {
     padding-left: 0;
-  }
-  .im-post-section {
-    padding: 3rem 2rem;
   }
   .im-post-section-para {
     font-size: 1.1rem;
