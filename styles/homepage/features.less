@@ -31,11 +31,10 @@
     fill: #673AB7
 }
 
-.im-feature-demo-table-container {
+#demo-imtable {
     border: 3px solid #222;
     border-radius: 0.5rem;
     margin-bottom: 2rem;
-    overflow: auto;
     padding: 1rem;
 }
 
@@ -59,11 +58,24 @@
         margin-right: 1rem;
         flex: 1 0 25rem;
         max-width: unset;
-        width: 25rem;
     }
 
     .im-feature-section .im-section-content-container {
         padding: 3rem 0;
     }
 
+}
+
+@media screen and (max-width: 38em) {
+    #demo-imtable {
+        overflow: auto;
+    }
+
+    .im-feature-heading {
+        align-items: flex-start;
+    }
+    
+    .im-feature-container {
+        flex: 1 0 100%;
+    }
 }
