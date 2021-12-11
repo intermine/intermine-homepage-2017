@@ -29,12 +29,11 @@
 }
 
 .im-section-title {
-    border-bottom: 5px solid #333;
     color: #333;
     font-weight: 800;
-    font-size: 14px;
+    font-size: 3.5rem;
+    line-height: 1;
     padding-bottom: 1.5rem;
-    text-transform: uppercase;
 }
 
 
@@ -46,4 +45,12 @@
 
 .im-section-content-container {
     padding: 3rem 1.5rem 0 3rem;
+}
+
+
+@media screen and (max-width: 40em) {
+    .im-section-title {
+        font-size: 2rem;
+        padding-bottom: 0;
+    }
 }
