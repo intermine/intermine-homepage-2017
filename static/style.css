@@ -256,7 +256,7 @@
   display: flex;
 }
 .im-navbar-logo {
-  height: 1.5rem;
+  height: 2.5rem;
 }
 .im-navbar-menu-item-container {
   display: flex;
@@ -361,7 +361,7 @@
   width: 100%;
 }
 .im-section-title {
-  color: #101010;
+  color: #333;
   font-weight: 800;
   font-size: 3.5rem;
   line-height: 1;
