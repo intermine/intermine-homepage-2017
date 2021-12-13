@@ -55,6 +55,14 @@
                     {{ .Content }}
                   </div>
                 </div>
+
+                <div style="margin-top:auto" class="im-card-action-container">
+                  <a href="{{ .URL }}" class="im-btn im-btn-icon im-ghost-btn im-info-btn">
+                    <svg class="im-icon">
+                      <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#arrow-right"></use>
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
             {{ end }}

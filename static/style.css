@@ -459,7 +459,12 @@
   background-color: #C0D848;
 }
 .im-ghost-btn {
+  background: transparent;
   padding: 0.5rem 1rem;
+}
+.im-ghost-btn.im-btn-icon {
+  padding: 0.5rem;
+  border-radius: 50%;
 }
 .im-ghost-btn.im-info-btn {
   color: #005bff;
