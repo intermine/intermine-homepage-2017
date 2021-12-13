@@ -7,7 +7,7 @@
     "generate-styles": "lessc ./styles/style.less ./static/style.css -x",
     "watch-styles": "less-watch-compiler --config less-watch-compiler.config.json",
     "dev": "concurrently \"npm run watch-styles\" \"hugo server\" ",
-    "build": "npm run generate-styles && hugo"
+    "build": "npm run generate-styles && hugo --minify"
   },
   "repository": {
     "type": "git",
