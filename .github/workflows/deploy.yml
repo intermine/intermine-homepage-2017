@@ -20,10 +20,12 @@ jobs:
           hugo-version: '0.82.0'
           extended: true
 
-      - name: Installing node dependencies 
+      - name: Setup Node 
         uses: actions/setup-node@v2
         with:
           node-version: '14'
+        
+      - name: Installing  node dependencies
         run: npm install
       
       - name: Building
