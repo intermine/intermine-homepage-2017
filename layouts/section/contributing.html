@@ -11,12 +11,13 @@
             understanding.
             <br><br>
             If you’d like to learn a bit more about InterMine, we have a nice 5 minute video for you to sum things up.
-            If you prefer textual learning resources, you could look at the <a class="im-link" href="/im-docs">InterMine
-                documentation</a> for a technical overview of
-            InterMine’s server, the <a class="im-link" href="/intermine-user-docs/">user documentation</a> a for a
-            biologist/bioinformatician oriented overview, or you could hop
-            straight into our <a class="im-link" href="/training-portal/python-tutorial">Python tutorial</a> to learn
-            more about querying our data model.
+            If you prefer textual learning resources, you could look at the
+            {{ partial "v2/external-link" (dict "href" "http://intermine.org/im-docs" "title" "InterMine documentation" ) . }}
+            for a technical overview of InterMine’s server, the
+            {{ partial "v2/external-link" (dict "href" "http://intermine.org/intermine-user-docs" "title" "user documentation" ) . }}
+            a for a biologist/bioinformatician oriented overview, or you could hop straight into our
+            {{ partial "v2/external-link" (dict "href" "http://intermine.org/training-portal/python-tutorial" "title" "Python tutorial" ) . }}
+            to learn more about querying our data model.
 
             You can also take a look at the <a class="im-link" href="/developers">Developers</a> section of this site.
         </div>
@@ -95,17 +96,17 @@
                     <li>
                         Are you a student? Watch our
                         {{ partial "v2/external-link" (dict "href" "https://intermineorg.wordpress.com/" "title" "blog" ) . }},
-                        <a class="im-link" href="http://intermine.org/im-docs/docs/support/mailing-list/">mailing
-                            list</a>, or
-                        {{ partial "v2/external-link" (dict "href" "https://twitter.com/intermineorg/" "twitter" "blog" ) . }}
+                        {{ partial "v2/external-link" (dict "href" "http://intermine.org/im-docs/docs/support/mailing-list/" "title" "mailing list" ) . }},
+                        or
+                        {{ partial "v2/external-link" (dict "href" "https://twitter.com/intermineorg/" "title" "twitter" ) . }}
                         account to find out more about working with us during
-                        {{ partial "v2/external-link" (dict "href" "https://summerofcode.withgoogle.com/" "Google Summer of Code" "blog" ) . }}
+                        {{ partial "v2/external-link" (dict "href" "https://summerofcode.withgoogle.com/" "title" "Google Summer of Code" ) . }}
                         (usually around feb/march every year).
-                        <a class="im-link" href="http://intermine.org/internships/">Visit the InterMine GSoC site.</a>
+                        {{ partial "v2/external-link" (dict "href" "http://intermine.org/internships/" "title" "Visit the InterMine GSoC site" ) . }}.
                     </li>
                     <li>
-                        If we’re hiring, we generally announce vacancies on our <a class="im-link"
-                            href="http://intermine.org/im-docs/docs/support/mailing-list/">mailing list</a>.
+                        If we’re hiring, we generally announce vacancies on our
+                        {{ partial "v2/external-link" (dict "href" "http://intermine.org/im-docs/docs/support/mailing-list/" "title" "mailing list" ) . }}.
                     </li>
                     <li>
                         If you have other ideas you’d like to discuss, feel free to <a class="im-link"
@@ -139,9 +140,10 @@
                     <li>
                         In need of help? Try visiting our <a class="im-link" href="/contact">contact
                             us</a> pages for ways to get more help. Also, feel free to pitch
-                        in if you think you know the answer to queries on the <a class="im-link"
-                            href="http://intermine.org/im-docs/docs/support/mailing-list/">mailing list</a> or
-                        {{ partial "v2/external-link" (dict "href" "http://chat.intermine.org/" "Google Summer of Code" "chat!" ) . }}
+                        in if you think you know the answer to queries on the
+                        {{ partial "v2/external-link" (dict "href" "http://intermine.org/im-docs/docs/support/mailing-list/" "title" "mailing list" ) . }}
+                        or
+                        {{ partial "v2/external-link" (dict "href" "http://chat.intermine.org/" "title" "chat!" ) . }}
                     </li>
                     <li>
                         Thank you for being awesome!
