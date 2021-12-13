@@ -29,8 +29,20 @@ To update the site's list of publications:
 
 ## Icons
 
-Many of the icons shown are from the [Smashing Magazine Ballicons 3](https://www.smashingmagazine.com/2017/03/free-sparkly-icons-ballicons-eps-svg/) free set.
+Many of the icons shown are from the [Remix Icon](https://remixicon.com/) and [Smashing Magazine Ballicons 3](https://www.smashingmagazine.com/2017/03/free-sparkly-icons-ballicons-eps-svg/) free set.
 
 ## Updating styles
 
-If you wish to edit the layout or styles, please edit `static/style.less`. There is no workflow / server task for compiling the [less](http://lesscss.org/) - you will need to do this manually and check your compiled css in to the repo.
+If you wish to edit the layout or styles, please edit `styles/style.less`.
+
+## Scripts
+### Development
+```bash
+npm run dev
+```
+After running this script visit to http://localhost:1313/
+
+### Build
+```bash
+npm run build
+```
