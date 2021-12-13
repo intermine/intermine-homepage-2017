@@ -1,51 +1,69 @@
-<!DOCTYPE html>
-<html>
+{{ define "main" }}
+<div class="im-container-outer">
+  <div class="im-container-inner im-post-wrapper">
+    <h1 class="im-post-title">
+      {{ .Title }}
+    </h1>
 
-  {{partial "head.html" . }}
+    <div class="im-post-intro">
+      InterMine was formed in 2002 at the University of Cambridge, originally as a Drosophila-dedicated resource, before
+      expanding to become organism-agnostic, enabling a large range of organisations around the world to create their
+      own
+      InterMines. The InterMine team is part of
+      {{ partial "v2/external-link" (dict 
+              "href" "http://www.micklemlab.org/"
+              "anchorTitle" "Micklem Lab" 
+              "title" "Micklem Lab" 
+          ) . }}, headed by Gos Micklem.<br><br>
 
-  <body>
-    {{/* {{ partial "header.html" .}} */}}
-    <main>
-      <h2>
-        {{.Title}}
-      </h2>
-      <div>{{.Content}}</div>
-      <div class="team-list">
+      InterMine's core team members are all based in Cambridge and are generally available during
+      {{ partial "v2/external-link" (dict 
+              "href" "https://time.is/Cambridge"
+              "anchorTitle" "UK daytime hours" 
+              "title" "UK daytime hours" 
+          ) . }}.
+    </div>
 
-        {{ range .Data.Pages }}
-        <div class="team-member">
-          {{if isset .Params "picture"}}
-          <img src="{{ .Params.picture }}" width="113" />
-          {{else}}
-            {{if isset .Params "localpicture"}}
-            <img src="{{.Site.BaseURL}}/images/{{ .Params.localpicture }}" width="113" />
-            {{else}}
-              <div class="placeholder"></div>
-              {{end}}
-              {{end}}
-              <div class="details">
-                <h3>{{ .Params.name }}</h3> {{.Content}}
-                <ul>
-                  <li><svg class="icon icon-email">
-                      <use xlink:href="{{.Site.BaseURL}}/images/symbol-defs.svg#icon-email"></use>
-                    </svg>{{.Params.email}}</li>
-                  {{ $baseurl := .Site.BaseURL }}
-                  {{range $link := .Params.links}}
-                  <li><a href="{{$link.url}}" class="{{$link.type}}"><svg class="icon icon-{{$link.type}}">
-                        <use xlink:href='{{$baseurl}}/images/symbol-defs.svg#icon-{{$link.type}}'></use>
-                      </svg>{{$link.text}}</a></li>
-                  {{end}}
+    <div class="im-post-section im-post-margin">
+      <div class="im-post-section-stack">
+        <h2 class="im-post-section-heading">
+          Meet the team
+        </h2>
+        <div class="im-post-section-para">
 
-                </ul>
+          <div class="im-team-card-container">
+            {{ range .Data.Pages }}
+            <div class="im-profile-card-container">
+              <div class="im-profile-card-content-container">
+                <div class="im-profile-card-avatar-container">
+                  <img class="im-profile-card-avatar" src="{{.Params.avatar}}" alt="">
+                </div>
+                <div class="im-profile-card-links">
+                  {{ range .Params.links }}
+                  <a href="{{.url}}" class="im-link" target="_blank" title="{{ .text }}">
+                    <svg class="im-icon" title="{{ .text }}">
+                      <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#{{ .icon_id }}"></use>
+                    </svg>
+                  </a>
+                  {{ end }}
+                </div>
+                <div class="im-profile-card-content">
+                  <div class="im-profile-card-name">
+                    {{ .Params.name }}
+                  </div>
+                  <div class="im-post-para">
+                    {{ .Content }}
+                  </div>
+                </div>
               </div>
+            </div>
+            {{ end }}
+
+          </div>
         </div>
-        {{ end }}
       </div>
+    </div>
 
-    </main>
-
-    {{/* {{partial "footer.html" . }} */}}
-
-  </body>
-
-</html>
+  </div>
+</div>
+{{ end }}
