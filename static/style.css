@@ -708,7 +708,7 @@
 }
 @media screen and (max-width: 75rem) {
   .im-post-title {
-    font-size: 4rem;
+    font-size: 3rem;
     max-width: 25rem;
   }
   .im-post-intro {
@@ -717,8 +717,8 @@
 }
 @media screen and (max-width: 50rem) {
   .im-post-title {
-    font-size: 3rem;
     max-width: 100%;
+    margin-bottom: 2rem;
   }
   .im-post-intro {
     padding-left: 0;
