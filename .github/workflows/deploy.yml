@@ -20,8 +20,14 @@ jobs:
           hugo-version: '0.82.0'
           extended: true
 
-      - name: Build
-        run: hugo --minify
+      - name: Installing node dependencies 
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+        run: npm install
+      
+      - name: Building
+        run: npm run build 
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
