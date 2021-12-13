@@ -329,6 +329,9 @@
   .im-mobile-navbar-menu-container {
     display: block;
   }
+  .im-navbar-logo {
+    height: 1.5rem;
+  }
   .im-mobile-menu-open {
     overflow: hidden;
   }
@@ -572,11 +575,11 @@
 .im-mobile-ham {
   --color: #000;
   width: 20px;
-  height: 22px;
-  padding: 0;
-  margin: 0;
+  height: 26px;
   outline: none;
   position: relative;
+  display: inline-flex;
+  margin-top: -2px;
   border: none;
   background: none;
   cursor: pointer;
@@ -782,19 +785,42 @@
   flex-wrap: wrap;
 }
 .im-profile-card-container {
+  border: 1px solid #efefef;
   background: #f7f7f7;
   border-radius: 0.5rem;
-  border: 1px solid #efefef;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   margin: 0 2rem 2rem 0;
   width: 22rem;
 }
+.im-profile-card-links {
+  align-items: center;
+  display: flex;
+  padding-left: 5rem;
+}
+.im-profile-card-links .im-link {
+  cursor: pointer;
+}
+.im-profile-card-links .im-icon {
+  fill: #444;
+  height: 1.5rem;
+  margin-left: 1rem;
+  pointer-events: none;
+  width: 1.5rem;
+  transition: 0.3s;
+}
+.im-profile-card-links .im-link:hover .im-icon {
+  fill: #005bff;
+}
 .im-profile-card-content-container {
   background: #fff;
+  display: flex;
+  flex-direction: column;
   padding: 1rem 2rem;
   position: relative;
   margin-top: 5rem;
-  height: 100%;
+  flex: 1;
 }
 .im-profile-card-avatar-container {
   position: absolute;
@@ -805,6 +831,7 @@
   border-radius: 50%;
   height: 6rem;
   width: 6rem;
+  object-fit: cover;
 }
 .im-profile-card-name {
   font-size: 1.5rem;
@@ -815,6 +842,11 @@
 .im-profile-card-link-container {
   align-items: center;
   display: flex;
+}
+@media screen and (max-width: 52rem) {
+  .im-profile-card-container {
+    width: 100%;
+  }
 }
 .im-light-bg {
   background: #fff;
@@ -874,6 +906,18 @@
 }
 .im-developer-section {
   padding-bottom: 5rem;
+}
+.im-team-card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.im-team-card-container .im-profile-card-container {
+  flex: 1 0 35rem;
+}
+@media screen and (max-width: 38em) {
+  .im-team-card-container .im-profile-card-container {
+    flex: 1 0 100%;
+  }
 }
 * {
   box-sizing: border-box;
