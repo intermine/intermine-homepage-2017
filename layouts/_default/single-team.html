@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="im-container-outer">
+    <div class="im-container-inner im-post-wrapper">
+        <h1 class="im-post-title">
+            {{ .Params.name }}
+        </h1>
+        <div class="im-post-intro">
+            {{ .Content }}
+            <br><br>
+            <div class="im-profile-card-links" style="padding: 0; justify-content: flex-end">
+                {{ range .Params.links }}
+                <a href="{{.url}}" class="im-link" target="_blank" title="{{ .text }}">
+                    <svg class="im-icon" title="{{ .text }}">
+                        <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#{{ .icon_id }}"></use>
+                    </svg>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
