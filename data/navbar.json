@@ -1,274 +1,274 @@
 {
-    "navbarItems": [
+  "navbarItems": [
+    {
+      "id": "biologists",
+      "title": "Biologists",
+      "children": [
         {
-            "id": "biologists",
-            "title": "Biologists",
-            "children": [
-                {
-                    "id": "which-intermine",
-                    "title": "Which InterMine for my organism?",
-                    "href": "http://registry.intermine.org/",
-                    "isExternalLink": true,
-                    "iconId": "help"
-                },
-                {
-                    "id": "tutorial-videos",
-                    "title": "Tutorials and Videos",
-                    "href": "/training-portal/",
-                    "isExternalLink": false,
-                    "iconId": "movie"
-                },
-                {
-                    "id": "user-help-documentation",
-                    "title": "User help documentation",
-                    "false": "/intermine-user-docs/",
-                    "isExternalLink": false,
-                    "iconId": "book"
-                },
-                {
-                    "id": "mobile-apps",
-                    "title": "Mobile Apps",
-                    "href": "/mobile-apps",
-                    "isExternalLink": false,
-                    "iconId": "mobile"
-                },
-                {
-                    "id": "api-client",
-                    "title": "API Clients",
-                    "href": "/im-docs/docs/web-services/index#api-and-client-libraries",
-                    "isExternalLink": false,
-                    "iconId": "terminal"
-                }
-            ]
+          "id": "which-intermine",
+          "title": "Which InterMine for my organism?",
+          "href": "http://registry.intermine.org/",
+          "isExternalLink": true,
+          "iconId": "help"
         },
         {
-            "id": "developers",
-            "title": "Developers",
-            "children": [
-                {
-                    "id": "overview",
-                    "title": "Overview",
-                    "href": "/developers",
-                    "isExternalLink": false,
-                    "iconId": "donut"
-                },
-                {
-                    "id": "developer-docs",
-                    "title": "Developer Docs",
-                    "href": "/im-docs/",
-                    "isExternalLink": false,
-                    "iconId": "code-doc",
-                    "description": "Documentation for new and veteran InterMine developers. Includes getting started tutorials, system requirements, configuration info, and troubleshooting tips."
-                },
-                {
-                    "id": "api-docs",
-                    "title": "API Docs",
-                    "href": "http://iodocs.apps.intermine.org/",
-                    "isExternalLink": true,
-                    "iconId": "code",
-                    "description": "Dive straight into our API with interactive live documentation."
-                },
-                {
-                    "id": "api-client-library",
-                    "title": "API Clients",
-                    "href": "/im-docs/docs/web-services/index#api-and-client-libraries",
-                    "isExternalLink": false,
-                    "iconId": "terminal",
-                    "description": "We have client libraries to make querying InterMine super-easy! There’s one for each of R, Python, Perl, JavaScript (node or browser), Ruby, and Java."
-                },
-                {
-                    "id": "developer-calls",
-                    "title": "Developer Calls",
-                    "href": "/community-calls/developer-calls",
-                    "isExternalLink": false,
-                    "iconId": "phone"
-                },
-                {
-                    "id": "contributing-guideline",
-                    "title": "Contributing Guideline",
-                    "href": "/contributing",
-                    "isExternalLink": false,
-                    "iconId": "guide",
-                    "description": "If you’d like to start contributing to InterMine, whether you’re a student interested in GSoC, a developer from a lab running InterMine, a Hacktoberfest enthusiast, or something else - here’s what you need to know!"
-                },
-                {
-                    "id": "support-chat",
-                    "title": "Support Chat",
-                    "href": "http://chat.intermine.org",
-                    "isExternalLink": true,
-                    "iconId": "discord",
-                    "description": "Chat in real time with InterMiners (UK day time) or with the rest of the community. There’s a general chit-chat channel for important stuff like cat pictures, and a support channel for technical queries."
-                },
-                {
-                    "id": "intermine-github",
-                    "title": "InterMine on GitHub",
-                    "href": "https://github.com/intermine",
-                    "isExternalLink": true,
-                    "iconId": "icon-github",
-                    "description": "This is where the code lives! Feel free to fork, star, make issues and bug reports, or even make a pull request if you have a fix or feature for us."
-                },
-                {
-                    "id": "dev-email-list",
-                    "title": "Developer Email List",
-                    "href": "https://lists.intermine.org/mailman/listinfo/dev",
-                    "isExternalLink": true,
-                    "iconId": "icon-email",
-                    "description": "Sign up, ask for help, get updates, or just browse the archives to see if a problem you’re having has happened before."
-                },
-                {
-                    "id": "intermine-registry",
-                    "title": "InterMine Registry",
-                    "href": "http://registry.intermine.org/",
-                    "isExternalLink": true,
-                    "iconId": "intermine-logo-block",
-                    "description": "Need a list of InterMines programmatically? Our Registry Swagger API gives you interactive API documentation, or you can browse a list of InterMines if you prefer."
-                }
-            ]
+          "id": "tutorial-videos",
+          "title": "Tutorials and Videos",
+          "href": "/training-portal/",
+          "isExternalLink": true,
+          "iconId": "movie"
         },
         {
-            "id": "contacts",
-            "title": "Contacts",
-            "children": [
-                {
-                    "id": "contact-overview",
-                    "title": "Overview",
-                    "href": "/contact",
-                    "isExternalLink": false,
-                    "iconId": "donut"
-                },
-                {
-                    "id": "blog",
-                    "title": "Blog",
-                    "href": "https://intermineorg.wordpress.com/",
-                    "isExternalLink": true,
-                    "iconId": "icon-site"
-                },
-                {
-                    "id": "twitter",
-                    "title": "@intermineorg",
-                    "href": "https://twitter.com/intermineorg",
-                    "isExternalLink": true,
-                    "iconId": "icon-twitter"
-                },
-                {
-                    "id": "contact-dev-email-list",
-                    "title": "Developer Email List",
-                    "href": "https://lists.intermine.org/pipermail/dev/",
-                    "isExternalLink": true,
-                    "iconId": "icon-email"
-                },
-                {
-                    "id": "contact-chat",
-                    "title": "Chat",
-                    "href": "http://chat.intermine.org",
-                    "isExternalLink": true,
-                    "iconId": "discord"
-                },
-                {
-                    "id": "contact-intermine-github",
-                    "title": "InterMine on GitHub",
-                    "href": "https://github.com/intermine",
-                    "isExternalLink": true,
-                    "iconId": "icon-github"
-                },
-                {
-                    "id": "contact-community-calls",
-                    "title": "Community Calls",
-                    "href": "/community-calls",
-                    "isExternalLink": false,
-                    "iconId": "phone"
-                },
-                {
-                    "id": "mailto",
-                    "title": "info@intermine.org",
-                    "href": "mailto:info@intermine.org",
-                    "isExternalLink": false,
-                    "iconId": "mail-send"
-                }
-            ]
+          "id": "user-help-documentation",
+          "title": "User help documentation",
+          "href": "/intermine-user-docs/",
+          "isExternalLink": true,
+          "iconId": "book"
         },
         {
-            "id": "resources",
-            "title": "Resources",
-            "children": [
-                {
-                    "id": "documentation",
-                    "title": "Documentation",
-                    "href": "/documentation",
-                    "isExternalLink": false,
-                    "iconId": "code"
-                },
-                {
-                    "id": "publication",
-                    "title": "Publication",
-                    "href": "/publications",
-                    "isExternalLink": false,
-                    "iconId": "book"
-                },
-                {
-                    "id": "about-intermine",
-                    "title": "About InterMine",
-                    "href": "/about-intermine",
-                    "isExternalLink": false,
-                    "iconId": "community"
-                },
-                {
-                    "id": "team",
-                    "title": "InterMine Team",
-                    "href": "/team",
-                    "isExternalLink": false,
-                    "iconId": "team"
-                },
-                {
-                    "id": "projects",
-                    "title": "Projects",
-                    "href": "/projects",
-                    "isExternalLink": false,
-                    "iconId": "stack"
-                },
-                {
-                    "id": "resource-contributors",
-                    "title": "Contributors",
-                    "href": "/contributors",
-                    "isExternalLink": false,
-                    "iconId": "parent"
-                },
-                {
-                    "id": "code-of-conduct",
-                    "title": "Code of Conduct",
-                    "href": "/code-of-conduct",
-                    "isExternalLink": false,
-                    "iconId": "quill-pen"
-                },
-                {
-                    "id": "privacy-policy",
-                    "title": "Privacy Policy",
-                    "href": "/privacy-policy",
-                    "isExternalLink": false,
-                    "iconId": "privacy"
-                },
-                {
-                    "id": "logo-branding",
-                    "title": "Logos and Branding",
-                    "href": "https://intermineorg.wordpress.com/logos/",
-                    "isExternalLink": true,
-                    "iconId": "intermine-logo-block"
-                },
-                {
-                    "id": "resource-intermine-github",
-                    "title": "InterMine on GitHub",
-                    "href": "https://github.com/intermine",
-                    "isExternalLink": true,
-                    "iconId": "icon-github"
-                },
-                {
-                    "id": "event-calendar",
-                    "title": "Event Calendar",
-                    "href": "https://intermineorg.wordpress.com/events/",
-                    "isExternalLink": true,
-                    "iconId": "calendar"
-                }
-            ]
+          "id": "mobile-apps",
+          "title": "Mobile Apps",
+          "href": "/mobile-apps",
+          "isExternalLink": false,
+          "iconId": "mobile"
+        },
+        {
+          "id": "api-client",
+          "title": "API Clients",
+          "href": "/im-docs/docs/web-services/index#api-and-client-libraries",
+          "isExternalLink": true,
+          "iconId": "terminal"
         }
-    ]
+      ]
+    },
+    {
+      "id": "developers",
+      "title": "Developers",
+      "children": [
+        {
+          "id": "overview",
+          "title": "Overview",
+          "href": "/developers",
+          "isExternalLink": false,
+          "iconId": "donut"
+        },
+        {
+          "id": "developer-docs",
+          "title": "Developer Docs",
+          "href": "/im-docs/",
+          "isExternalLink": true,
+          "iconId": "code-doc",
+          "description": "Documentation for new and veteran InterMine developers. Includes getting started tutorials, system requirements, configuration info, and troubleshooting tips."
+        },
+        {
+          "id": "api-docs",
+          "title": "API Docs",
+          "href": "http://iodocs.apps.intermine.org/",
+          "isExternalLink": true,
+          "iconId": "code",
+          "description": "Dive straight into our API with interactive live documentation."
+        },
+        {
+          "id": "api-client-library",
+          "title": "API Clients",
+          "href": "/im-docs/docs/web-services/index#api-and-client-libraries",
+          "isExternalLink": true,
+          "iconId": "terminal",
+          "description": "We have client libraries to make querying InterMine super-easy! There’s one for each of R, Python, Perl, JavaScript (node or browser), Ruby, and Java."
+        },
+        {
+          "id": "developer-calls",
+          "title": "Developer Calls",
+          "href": "/community-calls/developer-calls",
+          "isExternalLink": false,
+          "iconId": "phone"
+        },
+        {
+          "id": "contributing-guideline",
+          "title": "Contributing Guideline",
+          "href": "/contributing",
+          "isExternalLink": false,
+          "iconId": "guide",
+          "description": "If you’d like to start contributing to InterMine, whether you’re a student interested in GSoC, a developer from a lab running InterMine, a Hacktoberfest enthusiast, or something else - here’s what you need to know!"
+        },
+        {
+          "id": "support-chat",
+          "title": "Support Chat",
+          "href": "http://chat.intermine.org",
+          "isExternalLink": true,
+          "iconId": "discord",
+          "description": "Chat in real time with InterMiners (UK day time) or with the rest of the community. There’s a general chit-chat channel for important stuff like cat pictures, and a support channel for technical queries."
+        },
+        {
+          "id": "intermine-github",
+          "title": "InterMine on GitHub",
+          "href": "https://github.com/intermine",
+          "isExternalLink": true,
+          "iconId": "icon-github",
+          "description": "This is where the code lives! Feel free to fork, star, make issues and bug reports, or even make a pull request if you have a fix or feature for us."
+        },
+        {
+          "id": "dev-email-list",
+          "title": "Developer Email List",
+          "href": "https://lists.intermine.org/mailman/listinfo/dev",
+          "isExternalLink": true,
+          "iconId": "icon-email",
+          "description": "Sign up, ask for help, get updates, or just browse the archives to see if a problem you’re having has happened before."
+        },
+        {
+          "id": "intermine-registry",
+          "title": "InterMine Registry",
+          "href": "http://registry.intermine.org/",
+          "isExternalLink": true,
+          "iconId": "intermine-logo-block",
+          "description": "Need a list of InterMines programmatically? Our Registry Swagger API gives you interactive API documentation, or you can browse a list of InterMines if you prefer."
+        }
+      ]
+    },
+    {
+      "id": "contacts",
+      "title": "Contacts",
+      "children": [
+        {
+          "id": "contact-overview",
+          "title": "Overview",
+          "href": "/contact",
+          "isExternalLink": false,
+          "iconId": "donut"
+        },
+        {
+          "id": "blog",
+          "title": "Blog",
+          "href": "https://intermineorg.wordpress.com/",
+          "isExternalLink": true,
+          "iconId": "icon-site"
+        },
+        {
+          "id": "twitter",
+          "title": "@intermineorg",
+          "href": "https://twitter.com/intermineorg",
+          "isExternalLink": true,
+          "iconId": "icon-twitter"
+        },
+        {
+          "id": "contact-dev-email-list",
+          "title": "Developer Email List",
+          "href": "https://lists.intermine.org/pipermail/dev/",
+          "isExternalLink": true,
+          "iconId": "icon-email"
+        },
+        {
+          "id": "contact-chat",
+          "title": "Chat",
+          "href": "http://chat.intermine.org",
+          "isExternalLink": true,
+          "iconId": "discord"
+        },
+        {
+          "id": "contact-intermine-github",
+          "title": "InterMine on GitHub",
+          "href": "https://github.com/intermine",
+          "isExternalLink": true,
+          "iconId": "icon-github"
+        },
+        {
+          "id": "contact-community-calls",
+          "title": "Community Calls",
+          "href": "/community-calls",
+          "isExternalLink": false,
+          "iconId": "phone"
+        },
+        {
+          "id": "mailto",
+          "title": "info@intermine.org",
+          "href": "mailto:info@intermine.org",
+          "isExternalLink": false,
+          "iconId": "mail-send"
+        }
+      ]
+    },
+    {
+      "id": "resources",
+      "title": "Resources",
+      "children": [
+        {
+          "id": "documentation",
+          "title": "Documentation",
+          "href": "/documentation",
+          "isExternalLink": false,
+          "iconId": "code"
+        },
+        {
+          "id": "publication",
+          "title": "Publication",
+          "href": "/publications",
+          "isExternalLink": false,
+          "iconId": "book"
+        },
+        {
+          "id": "about-intermine",
+          "title": "About InterMine",
+          "href": "/about-intermine",
+          "isExternalLink": false,
+          "iconId": "community"
+        },
+        {
+          "id": "team",
+          "title": "InterMine Team",
+          "href": "/team",
+          "isExternalLink": false,
+          "iconId": "team"
+        },
+        {
+          "id": "projects",
+          "title": "Projects",
+          "href": "/projects",
+          "isExternalLink": false,
+          "iconId": "stack"
+        },
+        {
+          "id": "resource-contributors",
+          "title": "Contributors",
+          "href": "/contributors",
+          "isExternalLink": false,
+          "iconId": "parent"
+        },
+        {
+          "id": "code-of-conduct",
+          "title": "Code of Conduct",
+          "href": "/code-of-conduct",
+          "isExternalLink": false,
+          "iconId": "quill-pen"
+        },
+        {
+          "id": "privacy-policy",
+          "title": "Privacy Policy",
+          "href": "/privacy-policy",
+          "isExternalLink": false,
+          "iconId": "privacy"
+        },
+        {
+          "id": "logo-branding",
+          "title": "Logos and Branding",
+          "href": "https://intermineorg.wordpress.com/logos/",
+          "isExternalLink": true,
+          "iconId": "intermine-logo-block"
+        },
+        {
+          "id": "resource-intermine-github",
+          "title": "InterMine on GitHub",
+          "href": "https://github.com/intermine",
+          "isExternalLink": true,
+          "iconId": "icon-github"
+        },
+        {
+          "id": "event-calendar",
+          "title": "Event Calendar",
+          "href": "https://intermineorg.wordpress.com/events/",
+          "isExternalLink": true,
+          "iconId": "calendar"
+        }
+      ]
+    }
+  ]
 }
