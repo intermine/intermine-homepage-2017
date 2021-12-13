@@ -1,0 +1,56 @@
+<div class="im-post-intro">
+    If you'd like to contribute to InterMine, check out our <a class="im-link" href="/contributing">contributing</a>
+    guidelines. InterMine's contributors come from all around the world and are a key part of our success. Here's a
+    partial list of people who've helped us out. We couldn't do it without you!! ❤️
+</div>
+
+{{ range .Site.Data.contributors.contributors }}
+<div class="im-post-section im-post-margin">
+    <div class="im-post-section-stack">
+        <h2 class="im-post-section-heading">
+            {{ .title }}
+        </h2>
+        <div class="im-profile-cards-container">
+            {{ range .members }}
+            <div class="im-profile-card-container">
+                <div class="im-profile-card-content-container">
+                    <div class="im-profile-card-avatar-container">
+                        <img class="im-profile-card-avatar" src="{{.picture}}" alt="">
+                    </div>
+                    <div class="im-profile-card-content">
+                        <div class="im-profile-card-name">
+                            {{ .name }}
+                        </div>
+                        <div class="im-post-para">
+                            {{ if .link }}
+                            <div class="im-profile-card-link-container">
+                                {{ if eq (index .link "type") "github" }}
+                                <svg class="im-icon">
+                                    <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#icon-github"></use>
+                                </svg>&nbsp;
+                                {{ partial "v2/external-link" (dict 
+                                    "href" (index .link "url") 
+                                    "anchorTitle" (print .name " - GitHub") 
+                                    "title" "GitHub" 
+                                ) . }}
+                                {{ else if eq (index .link "type") "website"}}
+                                <svg class="im-icon">
+                                    <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#icon-site"></use>
+                                </svg>&nbsp;
+                                {{ partial "v2/external-link" (dict 
+                                        "href" (index .link "url") 
+                                        "anchorTitle" (print .name " - Website") 
+                                        "title" "Website" 
+                                    ) . }}
+                                {{ end }}
+                            </div>
+                            {{end}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end}}
