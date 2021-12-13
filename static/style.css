@@ -414,9 +414,6 @@
   align-items: center;
   display: inline-flex;
 }
-.im-link svg {
-  margin-left: 0.25rem;
-}
 .im-link:hover {
   color: #007bff;
   text-decoration: underline;
@@ -435,6 +432,7 @@
   border-radius: 0.25rem;
   cursor: pointer;
   display: inline-flex;
+  font-size: 1rem;
   font-weight: bold;
   justify-content: center;
   line-height: 1.5;
@@ -923,6 +921,23 @@
   .im-team-card-container .im-profile-card-container {
     flex: 1 0 100%;
   }
+}
+.im-project-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.im-project-cards-container .im-card-container:hover {
+  box-shadow: none;
+}
+.im-project-card-img-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 1rem 4rem;
+}
+.im-project-card-img-container img {
+  height: 3rem;
+  width: 100%;
+  object-fit: contain;
 }
 * {
   box-sizing: border-box;

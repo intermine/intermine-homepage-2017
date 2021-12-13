@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="im-container-outer">
+    <div class="im-container-inner im-post-wrapper">
+        <h1 class="im-post-title">
+            {{ .Params.title }}
+        </h1>
+        <div class="im-post-intro">
+            {{ .Content }}
+            <br><br>
+            <div class="im-profile-card-links" style="padding: 0; justify-content: flex-end">
+                {{ partial "v2/external-link" (dict 
+                    "href" (index .Params.action "url") 
+                    "class" "im-btn im-ghost-btn im-info-btn" 
+                    "anchorTitle" (index .Params.action "url")
+                    "title" "Read More"
+                ) . }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
