@@ -1,6 +1,20 @@
 {"title" : "Publications & Citing InterMine"}
 
 
+
+<!-- This div tag will be displayed if doi query parameter is present.
+    JS Script which is responsible to toggle its display state is present
+    in /layouts/shortcodes/publications.js (at bottom)
+-->
+<div id="publication-recommendation" style='display: none'>
+    <h3 class="im-post-section-h3" id='recommendation'>
+        We recommend you cite the following publication:
+    </h3>
+    <ul class="im-post-ul im-post-section-para" id='citation-container'>
+    </ul>
+</div>
+
+
 <div class="im-post-section">
     <div class="im-post-section-stack">
         <h2 class="im-post-section-heading">

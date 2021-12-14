@@ -1,0 +1,18 @@
+{{ $response := getJSON .publicationGetURL }}
+
+<h3 class="im-post-section-h3">{{.title}}</h3>
+<ul class="im-post-ul im-post-section-para">
+    {{range $publication:= $response}}
+    <li>
+        <div>
+            {{ partial "v2/external-link" (dict 
+                    "href" (print "http://doi.org/" $publication.data.DOI) 
+                    "anchorTitle" $publication.data.title
+                    "title" $publication.data.title
+                ) . }}
+            {{(index $publication.data.creators 0).firstName}}
+            {{(index $publication.data.creators 0).lastName}} et al. {{$publication.data.date}}
+        </div>
+    </li>
+    {{end}}
+</ul>

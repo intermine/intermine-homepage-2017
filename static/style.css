@@ -861,7 +861,8 @@
 .im-light-info-bg {
   background: #EBF4FF;
 }
-.im-light-yellow-bg {
+.im-light-yellow-bg,
+.im-publication-highlight {
   background: #F7E6A1;
 }
 .im-mobile-app-apps-section {
@@ -939,6 +940,9 @@
   height: 3rem;
   width: 100%;
   object-fit: contain;
+}
+.im-publication-highlight {
+  padding: 0.25rem 1rem;
 }
 * {
   box-sizing: border-box;

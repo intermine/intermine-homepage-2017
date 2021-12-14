@@ -1,44 +1,19 @@
 {{ $citations := getJSON "https://api.zotero.org/groups/2117194/collections/WE489M9J/items?itemType=-attachment&sort=date" }}
 
-<h3 class="im-post-section-h3">Publications by the InterMine Team and Community</h3>
-<ul class="im-post-ul im-post-section-para">
-    {{ $baseurl := .Site.BaseURL }}
-    {{range $publication:= $citations}}
-    <li>
-        <div>
-            <a class="im-link" href="http://doi.org/{{$publication.data.DOI}}">
-                {{$publication.data.title}}</a>
-            {{(index $publication.data.creators 0).firstName}}
-            {{(index $publication.data.creators 0).lastName}} et al. {{$publication.data.date}}
-
-        </div>
-    </li>
-    {{end}}
-
-</ul>
+{{ $publicationByInterMineTeamURL := "https://api.zotero.org/groups/2117194/collections/WE489M9J/items?itemType=-attachment&sort=date"}}
+{{ $citationANdPublicationAboutInterMineURL := "https://api.zotero.org/groups/2117194/collections/DWCKUHXT/items?itemType=-attachment&sort=date" }}
 
 
-<div class="publication-list">
+{{ partial "v2/publication-list" (dict 
+    "publicationGetURL" $publicationByInterMineTeamURL 
+    "title" "Publications by the InterMine Team and Community"
+) . }}
 
-    {{ $citations := getJSON "https://api.zotero.org/groups/2117194/collections/DWCKUHXT/items?itemType=-attachment&sort=date" }}
+{{ partial "v2/publication-list" (dict 
+    "publicationGetURL" $citationANdPublicationAboutInterMineURL
+    "title" "Citations and Publications about Community-run InterMines"
+) . }}
 
-    <h3 class="im-post-section-h3">Citations and Publications about Community-run InterMines</h3>
-    <ul class="im-post-ul im-post-section-para">
-        {{ $baseurl := .Site.BaseURL }}
-        {{range $publication:= $citations}}
-        <li>
-            <div>
-                <a class="im-link" href="http://doi.org/{{$publication.data.DOI}}">
-                    {{$publication.data.title}}</a>
-                {{(index $publication.data.creators 0).firstName}}
-                {{(index $publication.data.creators 0).lastName}} et al. {{$publication.data.date}}
-
-            </div>
-        </li>
-        {{end}}
-
-    </ul>
-</div>
 
 <script>
     // Check for the doi query parameter, and if present, copy the publication
@@ -46,20 +21,34 @@
     (function () {
         try {
             if (!window.location.search.length) return;
+
             var urlParams = new URLSearchParams(window.location.search);
             var doiParam = urlParams.get("doi");
+
             if (!doiParam.length) return;
+
             var doiUrl = "http://doi.org/" + doiParam;
             var anchorElem = document.querySelector("a[href='" + doiUrl + "']");
-            var citeElem = anchorElem.parentNode.cloneNode(true);
-            citeElem.classList.add("highlight-publication");
-            var paragraphElem = document.createElement("p");
-            paragraphElem.appendChild(document.createTextNode("We recommend you cite the following publication: "));
-            var headingElem = document.querySelector("body main h2");
-            headingElem.after(citeElem);
-            headingElem.after(paragraphElem);
+
+            // Currently if anchor element is not found then we are returning.
+            // In future we can add some warning/error message at the top.
+            if (!anchorElem) return;
+
+
+            // These elements are present in /content/publication/index.html. (at top)
+            var ulElem = document.querySelector('#citation-container')
+            var divElem = document.querySelector('#publication-recommendation')
+
+            var liElem = document.createElement("li");
+            liElem.classList.add('im-publication-highlight')
+            liElem.appendChild(anchorElem.parentNode.cloneNode(true))
+
+            anchorElem.classList.add('im-light-yellow-bg')
+            ulElem.appendChild(liElem)
+            divElem.style.display = 'block'
+
         } catch (error) {
-            console.error("Error occured when trying to acquire publication linked with doi parameter", error);
+            console.error("Error occurred when trying to acquire publication linked with doi parameter", error);
         }
     })();
 </script>
