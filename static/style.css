@@ -318,6 +318,7 @@
   display: none;
   margin-left: auto;
   padding: 1rem;
+  z-index: 100;
 }
 .im-navbar-menu-item.im-menu-item-children-hidden:hover .im-menu-item-children-container {
   display: block;
