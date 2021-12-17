@@ -1,31 +1,13 @@
 {
-    "mines": {
-        "first": [
-            "YeastMine",
-            "WormMine",
-            "FlyMine",
-            "ZebrafishMine",
-            "HumanMine",
-            "RatMine",
-            "MouseMine"
-        ],
-        "last": [
-            "PlanMine",
-            "PhytoMine",
-            "HymenopteraMine",
-            "modMine",
-            "ChickpeaMine"
-        ]
-    },
-    "allMines": [
-        "FlyMine",
-        "HumanMine",
-        "CovidMine",
-        "WormMine",
-        "TargetMine",
-        "YeastMine",
-        "AllianceMine",
-        "ThaleMine",
-        "RatMine"
-    ]
+  "allMines": [
+    "AllianceMine",
+    "HumanMine",
+    "TargetMine",
+    "YeastMine",
+    "ThaleMine",
+    "FlyMine",
+    "WormMine",
+    "MouseMine",
+    "LegumeMine"
+  ]
 }
