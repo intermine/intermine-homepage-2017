@@ -8,21 +8,21 @@
           "id": "which-intermine",
           "title": "Which InterMine for my organism?",
           "href": "http://registry.intermine.org/",
-          "isExternalLink": true,
+          "isExternalLink": false,
           "iconId": "help"
         },
         {
           "id": "tutorial-videos",
           "title": "Tutorials and Videos",
           "href": "/training-portal/",
-          "isExternalLink": true,
+          "isExternalLink": false,
           "iconId": "movie"
         },
         {
           "id": "user-help-documentation",
           "title": "User help documentation",
           "href": "/intermine-user-docs/",
-          "isExternalLink": true,
+          "isExternalLink": false,
           "iconId": "book"
         },
         {
@@ -36,7 +36,7 @@
           "id": "api-client",
           "title": "API Clients",
           "href": "/im-docs/docs/web-services/index#api-and-client-libraries",
-          "isExternalLink": true,
+          "isExternalLink": false,
           "iconId": "terminal"
         }
       ]
@@ -56,7 +56,7 @@
           "id": "developer-docs",
           "title": "Developer Docs",
           "href": "/im-docs/",
-          "isExternalLink": true,
+          "isExternalLink": false,
           "iconId": "code-doc",
           "description": "Documentation for new and veteran InterMine developers. Includes getting started tutorials, system requirements, configuration info, and troubleshooting tips."
         },
@@ -64,7 +64,7 @@
           "id": "api-docs",
           "title": "API Docs",
           "href": "http://iodocs.apps.intermine.org/",
-          "isExternalLink": true,
+          "isExternalLink": false,
           "iconId": "code",
           "description": "Dive straight into our API with interactive live documentation."
         },
@@ -72,7 +72,7 @@
           "id": "api-client-library",
           "title": "API Clients",
           "href": "/im-docs/docs/web-services/index#api-and-client-libraries",
-          "isExternalLink": true,
+          "isExternalLink": false,
           "iconId": "terminal",
           "description": "We have client libraries to make querying InterMine super-easy! There’s one for each of R, Python, Perl, JavaScript (node or browser), Ruby, and Java."
         },
@@ -111,7 +111,7 @@
           "id": "dev-email-list",
           "title": "Developer Email List",
           "href": "https://lists.intermine.org/mailman/listinfo/dev",
-          "isExternalLink": true,
+          "isExternalLink": false,
           "iconId": "icon-email",
           "description": "Sign up, ask for help, get updates, or just browse the archives to see if a problem you’re having has happened before."
         },
@@ -119,7 +119,7 @@
           "id": "intermine-registry",
           "title": "InterMine Registry",
           "href": "http://registry.intermine.org/",
-          "isExternalLink": true,
+          "isExternalLink": false,
           "iconId": "intermine-logo-block",
           "description": "Need a list of InterMines programmatically? Our Registry Swagger API gives you interactive API documentation, or you can browse a list of InterMines if you prefer."
         }
@@ -140,7 +140,7 @@
           "id": "blog",
           "title": "Blog",
           "href": "https://intermineorg.wordpress.com/",
-          "isExternalLink": true,
+          "isExternalLink": false,
           "iconId": "icon-site"
         },
         {
@@ -154,7 +154,7 @@
           "id": "contact-dev-email-list",
           "title": "Developer Email List",
           "href": "https://lists.intermine.org/pipermail/dev/",
-          "isExternalLink": true,
+          "isExternalLink": false,
           "iconId": "icon-email"
         },
         {
@@ -251,7 +251,7 @@
           "id": "logo-branding",
           "title": "Logos and Branding",
           "href": "https://intermineorg.wordpress.com/logos/",
-          "isExternalLink": true,
+          "isExternalLink": false,
           "iconId": "intermine-logo-block"
         },
         {
@@ -265,7 +265,7 @@
           "id": "event-calendar",
           "title": "Event Calendar",
           "href": "https://intermineorg.wordpress.com/events/",
-          "isExternalLink": true,
+          "isExternalLink": false,
           "iconId": "calendar"
         }
       ]
