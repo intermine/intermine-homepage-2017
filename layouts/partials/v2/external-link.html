@@ -1,6 +1,8 @@
 <a target="_blank" href="{{ .href }}" title="{{ .anchorTitle }}" class="im-link {{ .class }}">
     {{.title}}
+    {{ if ne .isInline "true"}}
     <svg class="im-icon {{ .svgClass }}">
         <use xlink:href="{{$.Site.BaseURL}}/images/symbol-defs.svg#external-link"></use>
     </svg>
+    {{ end }}
 </a>

@@ -9,6 +9,7 @@
                     "href" (print "http://doi.org/" $publication.data.DOI) 
                     "anchorTitle" $publication.data.title
                     "title" $publication.data.title
+                    "isInline" "true"
                 ) . }}
             {{(index $publication.data.creators 0).firstName}}
             {{(index $publication.data.creators 0).lastName}} et al. {{$publication.data.date}}

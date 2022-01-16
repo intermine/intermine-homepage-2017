@@ -1,2 +1,6 @@
-{{ partial "v2/external-link" (dict "href" (.Get "href") "title" (.Get "title") "class" (.Get "class")  ) . }}
-{{.Get "link"}}
+{{ partial "v2/external-link" (dict 
+    "href" (.Get "href") 
+    "title" (.Get "title") 
+    "class" (.Get "class") 
+    "isInline" "true"  ) . 
+}}
