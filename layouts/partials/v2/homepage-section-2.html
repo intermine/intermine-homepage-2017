@@ -11,6 +11,14 @@
                     With InterMine you can explore organism and other research data provided by many different
                     organizations, moving between databases using criteria such as homology.
                 </p>
+                <div class="im-registry-action-container">
+                    {{ partial "v2/external-link" (dict 
+                        "href" "http://registry.intermine.org/" 
+                        "class" "im-btn im-ghost-btn im-info-btn" 
+                        "anchorTitle" "View all InterMine Registry" 
+                        "title" "View All Mines" 
+                    ) . }}
+                </div>
             </div>
             <div class="im-section-content-container">
                 {{ partial "v2/registry" . }}

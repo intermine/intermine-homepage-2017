@@ -75,7 +75,10 @@
 .im-registry-action-container {
   display: flex;
   justify-content: center;
-  padding: 2rem;
+  padding: 2rem 0;
+}
+.im-registry-action-container a {
+  width: 100%;
 }
 @media screen and (max-width: 75em) {
   .im-section-2 {
