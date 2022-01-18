@@ -1,4 +1,4 @@
-<div class="im-card-container">
+<a href="{{ .href }}" title="{{ .actionAnchorTitle }}" class="im-card-container">
     <div class="im-card-header-container">
         {{ if .headerSVG_ID }}
         <svg class="im-card-avatar-svg">
@@ -15,19 +15,4 @@
     <div class="im-card-content">
         {{ .content }}
     </div>
-    <div class="im-card-action-container">
-        {{ if .isExternalLink }}
-        {{ partial "v2/external-link" (dict 
-            "href" .href 
-            "class" "im-btn im-ghost-btn im-info-btn" 
-            "anchorTitle" .actionAnchorTitle 
-            "title" .actionTitle 
-        ) . }}
-
-        {{ else }}
-        <a href="{{ .href}}" title="{{ .actionAnchorTitle }}" class="im-btn im-ghost-btn im-info-btn">
-            {{ .actionTitle }}
-        </a>
-        {{ end }}
-    </div>
-</div>
+</a>
